@@ -1,0 +1,224 @@
+* {
+    /*border: transparent solid 1px;*/
+    /*border: black solid 1px;*/
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+p {
+    font-family: Ubuntu;
+    color: gray;
+    font-size: 15px;
+    font-style: regular;
+}
+
+h1 {
+    font-family: Viga;
+    color: #5b2581;
+}
+
+#background {
+    background-image: url(https://hullopallosa.files.wordpress.com/2017/05/start.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    /*overflow: hidden;*/
+}
+
+#holder {
+    height: calc(100% - 45px);
+    /*height: -moz-calc(100% - 45px);*/
+
+}
+
+#quadrado {
+    background: #831f82;
+    background: -moz-linear-gradient(top, rgba(91,37,129,0.9) 0%, rgba(131,31,130,0.9) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(91,37,129,0.9) 0%,rgba(131,31,130,0.9) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(91,37,129,0.9) 0%,rgba(131,31,130,0.9) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    text-align: center;    
+    padding: 30px 20px 30px 20px;
+
+    height: 370px;
+    min-width: 300px;
+    max-width: 400px;
+
+    top:10%;
+    left:5%;
+    position: relative;
+
+    /* BLEND MODE */
+    background-blend-mode: multiply;
+}
+
+#cover {
+    font-family: Viga;
+    font-style: regular;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+#menu {
+    background: -moz-linear-gradient(top, #5b2581 0%, #831f82 100%);
+    background: linear-gradient(to bottom, #5b2581 0%,#831f82 100%);
+
+    padding-bottom: 5px;
+    padding-top: 5px;
+
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+
+    min-height: 45px;
+    z-index: 2;
+
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-style: medium;
+    color: white;
+}
+
+#menu li, a:hover {
+    color: plum;
+    cursor: pointer;
+}
+
+#texto_menu ul {
+    list-style-type: none;
+}
+
+#texto_menu li {
+    text-align: left;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/*VERIFY*/
+#idioma {
+    float: right;
+    padding-right: 30px;
+}
+
+.dropdown {
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-style: medium;
+    color: white;
+    background-color: transparent;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #831f82;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/*END VERIFY*/
+
+#BuenosAires {
+    background-image: url(https://hullopallosa.files.wordpress.com/2017/06/back_left.png);
+    background-repeat: no-repeat;
+    /*overflow: hidden;*/
+    background-size: cover; 
+}
+
+#imagem_BA {
+    float: left;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+#imagem_BA img {
+    width: 100%;
+    height: auto;
+    min-width: 300px;
+}
+
+#texto_BA {
+    float: left;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-bottom: 50px;
+    padding-right: 100px;
+}
+
+#paseos_back {
+    background: -moz-linear-gradient(top, #5b2581 0%, #831f82 100%);
+    background: linear-gradient(to bottom, #5b2581 0%,#831f82 100%);
+    display: block;
+}
+
+#paseos_back h1 {
+    color: white;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+#paseos {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 1030px;
+}
+
+#paseos img {
+    padding: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.img_grande {
+    max-width: 510px;
+    min-width: 250px;
+}
+
+.img_pequena {
+    max-width: 250px;
+    min-width: 150px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+#paseos img:hover {
+    background-color: plum;
+    cursor: pointer;
+}
+
+.left ~ div > .img_pequena {
+    margin-left: 8px;
+}
+
+.right ~ div > .img_pequena {
+    margin-right: 8px;
+}
