@@ -117,33 +117,31 @@ h1 {
 .dropdown {
     font-family: Ubuntu;
     font-size: 18px;
-    font-style: medium;
+    top: -8px;
     background-color: transparent;
 }
 
 .dropdown-content{
     position: absolute;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
     padding: 5px 0;
     left: -20px;
 }
 
-.dropdown-content a{
+.dropdown-content .lang{
     margin-left: -15px; 
     color: #831f82;
     display: none;
 }
 
-.dropdown-content a.selected{
+.lang.selected {
+    margin-bottom: 10px;
     color: white;
     display: inherit;
 }
 
-li.dropdown {
-    display: inline-block;
-}
-
-.dropdown:hover .dropdown-content {
+.dropdown-content .lang.selected:hover ~ .lang,
+.dropdown:hover .lang {
     display: block;
 }
 /*END VERIFY*/
