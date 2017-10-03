@@ -151,7 +151,7 @@ h1 {
     background-repeat: no-repeat;
     /*overflow: hidden;*/
     background-size: cover;
-    min-height: 100vh;
+    min-height: 50vh;
 }
 
 #imagem_BA {
@@ -232,7 +232,7 @@ h1 {
     /*overflow: hidden;*/
     background-size: cover;
     /*background-position: right;*/
-    min-height: 100vh;
+    min-height: 50vh;
 }
 
 #imagem_Sev {
@@ -261,9 +261,8 @@ h1 {
 #contato {
     background-image: url(https://hullopallosa.files.wordpress.com/2017/06/contacto.png);
     background-repeat: no-repeat;
-    /*overflow: hidden;*/
     background-size: cover;
-    min-height: 100vh;
+    min-height: 50vh;
 }
 
 #fundo_contato {
@@ -277,8 +276,8 @@ h1 {
 
     padding: 20px;
     min-width: 50%;
-    margin-bottom: 50px;
-    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-top: 200px;
 
     /* BLEND MODE */
     background-blend-mode: multiply;
@@ -290,15 +289,14 @@ h1 {
     font-size: 16px;
     font-weight: 500;
     color: white;
-  /*  margin-right: 100px;
-    margin-left: 20px;
-    margin-top: 15px;*/
+}
+
+#texto_contato > div {
+    max-width: 305px;
 }
 
 #texto_contato ul {
     list-style-type: none;
-    /*max-width: 300px;
-    margin-left: 35px;*/
 }
 
 #texto_contato li {
