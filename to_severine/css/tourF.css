@@ -1,0 +1,399 @@
+* {
+    /*border: transparent solid 1px;*/
+    /*border: black solid 1px;*/
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+p {
+    font-family: Ubuntu;
+    color: gray;
+    font-size: 15px;
+    font-style: regular;
+}
+
+h1 {
+    font-family: Viga;
+    color: #5b2581;
+}
+
+#background {
+    background-image: url(https://hullopallosa.files.wordpress.com/2017/05/start.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    /*overflow: hidden;*/
+}
+
+#holder {
+    height: calc(100% - 45px);
+    /*height: -moz-calc(100% - 45px);*/
+
+}
+
+#quadrado {
+    background: #831f82;
+    background: -moz-linear-gradient(top, rgba(91,37,129,0.9) 0%, rgba(131,31,130,0.9) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(91,37,129,0.9) 0%,rgba(131,31,130,0.9) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(91,37,129,0.9) 0%,rgba(131,31,130,0.9) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    text-align: center;    
+    padding: 30px 20px 30px 20px;
+
+    height: 370px;
+    min-width: 300px;
+    max-width: 400px;
+
+    top:10%;
+    left:5%;
+    position: relative;
+
+    /* BLEND MODE */
+    background-blend-mode: multiply;
+}
+
+#cover {
+    font-family: Viga;
+    font-style: regular;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+#menu {
+    background: -moz-linear-gradient(top, #5b2581 0%, #831f82 100%);
+    background: linear-gradient(to bottom, #5b2581 0%,#831f82 100%);
+
+    padding-bottom: 5px;
+    padding-top: 5px;
+
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+
+    min-height: 45px;
+    z-index: 2;
+
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-style: medium;
+    color: white;
+}
+
+#menu li, a:hover {
+    color: plum;
+    cursor: pointer;
+}
+
+#texto_menu {
+    margin: 5px 0;
+}
+
+#texto_menu ul {
+    list-style-type: none;
+}
+
+#texto_menu li {
+    text-align: left;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/*VERIFY*/
+#idioma {
+    float: right;
+    padding-right: 30px;
+}
+
+.dropdown {
+    font-family: Ubuntu;
+    font-size: 18px;
+    top: -8px;
+    background-color: transparent;
+}
+
+.dropdown-content{
+    position: absolute;
+    /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+    padding: 5px 0;
+    left: -20px;
+}
+
+.dropdown-content .lang{
+    margin-left: -15px; 
+    color: #831f82;
+    display: none;
+}
+
+.lang.selected {
+    margin-bottom: 10px;
+    color: white;
+    display: inherit;
+}
+
+.dropdown-content .lang.selected:hover ~ .lang,
+.dropdown:hover .lang {
+    display: block;
+}
+/*END VERIFY*/
+
+#buenosAires {
+    background-image: url(https://hullopallosa.files.wordpress.com/2017/06/back_left.png);
+    background-repeat: no-repeat;
+    /*overflow: hidden;*/
+    background-size: cover;
+    min-height: 50vh;
+}
+
+#imagem_BA {
+    float: left;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+#imagem_BA img {
+    width: 100%;
+    height: auto;
+    min-width: 300px;
+}
+
+#texto_BA {
+    float: left;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-bottom: 50px;
+    padding-right: 100px;
+}
+
+#paseosMain {
+    background: -moz-linear-gradient(top, #5b2581 0%, #831f82 100%);
+    background: linear-gradient(to bottom, #5b2581 0%,#831f82 100%);
+    display: block;
+}
+
+#paseosMain h1 {
+    color: white;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+#paseos {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 1030px;
+    display: block;
+}
+
+#paseos img {
+    padding: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.img_grande {
+    max-width: 510px;
+    min-width: 250px;
+}
+
+.img_pequena {
+    max-width: 250px;
+    min-width: 150px;
+}
+
+#paseos img:hover {
+    background-color: plum;
+    cursor: pointer;
+}
+
+.left ~ div > .img_pequena {
+    margin-left: 8px;
+}
+
+.right ~ div > .img_pequena {
+    margin-right: 8px;
+}
+
+#viajeros {
+    background-image: url(https://hullopallosa.files.wordpress.com/2017/06/back_right.png);
+    background-repeat: no-repeat;
+    /*overflow: hidden;*/
+    background-size: cover;
+    /*background-position: right;*/
+    min-height: 50vh;
+}
+
+#imagem_Sev {
+    float: left;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+#imagem_Sev img {
+    width: 100%;
+    height: auto;
+    min-width: 300px;
+}
+
+#texto_Sev {
+    float: left;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-bottom: 50px;
+    padding-right: 100px;
+    color: gray;
+}
+
+#contato {
+    background-image: url(https://hullopallosa.files.wordpress.com/2017/06/contacto.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 50vh;
+}
+
+#fundo_contato {
+    background: #831f82;
+    background: -moz-linear-gradient(top, rgba(91,37,129,0.8) 0%, rgba(131,31,130,0.8) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(91,37,129,0.8) 0%,rgba(131,31,130,0.8) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(91,37,129,0.8) 0%,rgba(131,31,130,0.8) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background-blend-mode: multiply;
+    background-blend-mode: -moz-multiply;
+    text-align: center;
+
+    padding: 20px;
+    min-width: 50%;
+    margin-bottom: 100px;
+    margin-top: 200px;
+
+    /* BLEND MODE */
+    background-blend-mode: multiply;
+}
+
+#texto_contato {
+    float: left;
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+}
+
+#texto_contato > div {
+    max-width: 305px;
+}
+
+#texto_contato ul {
+    list-style-type: none;
+}
+
+#texto_contato li {
+    text-align: left;
+    margin-bottom: 10px;
+    float: left;
+}
+
+#formulario > p {
+    color: white;
+    text-align: left;
+}
+
+#formulario > h1 {
+    color: white;
+    text-align: left;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 7px;
+    float: left;
+    margin-bottom: 12px;
+    background-color: RGBa(255,255,255,0.4);
+    border-style: none;
+    font-family: Ubuntu, sans-serif;
+}
+
+textarea {
+    height: 150px;
+    width: 100%;
+    padding: 5px;
+    background-color: RGBa(255,255,255,0.4);
+    margin-bottom: 10px;
+    border-style: none;
+    font-family: Ubuntu, sans-serif;
+}
+
+textarea::placeholder {
+    color: black;
+}
+
+input::placeholder {
+    color: black;
+}
+
+input[type=submit] {
+    float: right;
+    width: 70px;
+    background-color: #5b2581;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    border-style: none;
+    margin-bottom: 0;
+}
+
+input[type=submit]:hover {
+    background-color: plum;
+}
+
+#jojo {
+    background-color: #3C3C3B;
+    width: 100%;
+    padding: 0 50px;
+}
+
+#jojo h6 {
+    color: #fffefe;
+    font-family: Lato, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 100;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#jojo h6 a {
+    color: #706F6F;
+}
+
+#jojo h6 a:hover {
+    color: plum;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.center {
+    text-align: center;
+}
