@@ -1,0 +1,115 @@
+body {
+    background: url(https://hullopallosa.files.wordpress.com/2017/06/back_left.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#top_row {
+    top: 0;
+}
+
+#menu {
+    z-index: 0;
+}
+
+#category_title_wapper {
+    text-align: center;
+    vertical-align: middle;
+    margin: 40px 0px;
+}
+
+#media {
+    margin-bottom: 40px;
+}
+
+#carouselBox{
+        /*width: 70%;*/
+    padding: 0;
+    display: block;
+}
+
+.carousel-indicators li{
+    margin: 2px; 
+}
+
+.carousel-indicators .active{
+    margin: 1px; 
+}
+
+.carousel-inner img {
+    /*height: 100%;*/
+    height: 450px !important;
+    width: 100%;
+    object-fit: cover;
+}
+
+.tour-panel {
+    position:relative;
+    background-color: transparent;
+}
+
+.tour-panel .tour-heading {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    cursor: pointer;
+    background-color: #5b2581;
+    color: white;
+}
+
+.tour-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: inherit;
+    font-family: Viga;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.tour-panel .panel-body {
+    display: none;
+    position: relative;
+    overflow: hidden;
+}
+
+.tour-left {
+    position: absolute;
+    top: 0; 
+    bottom: 0; 
+    left: 0;
+    width: 250px;
+    margin: 15px 0;
+    border-right: 3px solid #5b2581;
+}
+
+.tour-right { 
+    margin: 0 0 0 250px;
+    width: auto;
+}
+
+.duration-left {
+    font-family: Ubuntu;
+    text-align: center;
+}
+
+.tour-inner {
+    margin: 10px 20px 15px;
+    color: grey;
+}
+
+.title {
+}
+
+.title strong{
+    font-family: Ubuntu;
+    font-weight: 500;
+    margin-left: 5px;
+}
+
+.description {
+    margin: 5px 10px;
+
+}
+

@@ -358,13 +358,19 @@ input[type=submit]:hover {
     background-color: plum;
 }
 
-#jojo {
+#footer {
     background-color: #3C3C3B;
     width: 100%;
     padding: 0 50px;
 }
 
-#jojo h6 {
+#footer.negative,
+#footer.negative h6 {
+    background-color: transparent;
+    color: #000000;
+}
+
+#footer h6 {
     color: #fffefe;
     font-family: Lato, sans-serif;
     font-size: 13px;
@@ -374,11 +380,11 @@ input[type=submit]:hover {
     margin-bottom: 10px;
 }
 
-#jojo h6 a {
+#footer h6 a {
     color: #706F6F;
 }
 
-#jojo h6 a:hover {
+#footer h6 a:hover {
     color: plum;
 }
 

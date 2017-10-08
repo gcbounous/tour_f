@@ -1,6 +1,4 @@
 * {
-    /*border: transparent solid 1px;*/
-    /*border: black solid 1px;*/
     box-sizing: border-box;
 }
 
@@ -21,7 +19,7 @@ p {
     font-style: regular;
 }
 
-h1 {
+h1, h3 {
     font-family: Viga;
     color: #5b2581;
 }
@@ -108,7 +106,6 @@ h1 {
     margin-right: 20px;
 }
 
-/*VERIFY*/
 #idioma {
     float: right;
     padding-right: 30px;
@@ -144,7 +141,6 @@ h1 {
 .dropdown:hover .lang {
     display: block;
 }
-/*END VERIFY*/
 
 #buenosAires {
     background-image: url(https://hullopallosa.files.wordpress.com/2017/06/back_left.png);
