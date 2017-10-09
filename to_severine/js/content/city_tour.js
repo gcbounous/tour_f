@@ -4,7 +4,6 @@ PASEO['city_tour'] = {
         'images'        : [
             '../imagens/paseos/city_tour/casa-rosada.jpg',
             '../imagens/paseos/city_tour/DSC00894.jpg',
-            '../imagens/paseos/city_tour/KpIbsh.jpg',
             '../imagens/paseos/city_tour/la-boca.jpg'
             ],
         'videos'        : [],

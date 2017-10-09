@@ -1,18 +1,36 @@
-setUpTour();
+setUp();
 
 function setUp(){
-    setUpTour();    
+    setUpTour();
+
+    $('#texto_menu > li > a').click(function(){
+        setLangParamURL($(this));
+    });
+
+    $('.lang').click(function(){
+        var lang = $(this).data('lang');
+
+        if(lang != $('body').data('lang')){
+            setLanguage(lang);            
+        }
+    })
 }
 
 function setUpTour(){
-    var tour = getURLParameter('paseo');
+    var tour = getURLParameter('tour');
     var lang = getURLParameter('lang');
 
     var dic_main = PASEO['main'][lang];
-    if(dic_main == null || $.isEmptyObject(dic_main)) dic_main = PASEO['main']['es'];
-
     var dic_paseo = PASEO[tour][lang];
-    if(dic_paseo == null || $.isEmptyObject(dic_paseo)) dic_paseo = PASEO[tour]['es'];
+
+    if(dic_main == null || $.isEmptyObject(dic_main) 
+        || dic_paseo == null || $.isEmptyObject(dic_paseo)){ 
+        
+        lang = 'es';
+        dic_main = PASEO['main'][lang];
+        dic_paseo = PASEO[tour][lang];
+    }
+    $('body').data('lang',lang)
 
     $.each(dic_main['menu'], function(id, val) {
         $('#' + id).html(val);
@@ -28,7 +46,7 @@ function setUpTour(){
 
     createEmptyTourPanels(dic_paseo['tours'].length);
     setTourPanelLanguage(lang);
-    fillTourPanels(dic_paseo['tours'])
+    fillTourPanels(dic_paseo['tours'])   
 }
 
 function fillImageCarousel(images){
@@ -146,7 +164,7 @@ function createEmptyTourPanels(panel_quantity){
 
 function tourPanelSetUp(){
     $('.tour-heading').click(function(){
-        $(this).siblings('.panel-body').toggle();
+        $(this).siblings('.panel-body').slideToggle();
     });
 }
 
@@ -178,9 +196,23 @@ function fillTourPanels(tours){
     });  
 }
 
+function setLanguage(lang){
+    $('body').data('lang',lang);
+    changeSelectedFlag(lang);
+    changeTourPanelLanguage(lang);
+}
+
 function changeTourPanelLanguage(){
     // [...]
     // fillTourPanels
+}
+
+function changeSelectedFlag(lang){
+    $('.lang.selected').attr('href', '#').removeClass('selected');
+    $('.dropdown').find('a[data-lang="'+lang+'"]').attr('href', 'javascript:;').addClass('selected');
+    
+    var new_lang = $('.lang.selected').detach();
+    $('.dropdown-content').prepend(new_lang);
 }
 
 function getURLParameter(sParam){
@@ -196,4 +228,11 @@ function getURLParameter(sParam){
             }
         }
     }
+}
+
+function setLangParamURL(tag, first=true){
+    var href = tag.attr('href');
+    href += (first?'?':'&');
+    href +='lang='+$('body').data('lang');
+    tag.attr('href',href);
 }

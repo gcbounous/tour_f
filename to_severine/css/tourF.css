@@ -358,27 +358,33 @@ input[type=submit]:hover {
     background-color: plum;
 }
 
-#jojo {
+#footer {
     background-color: #3C3C3B;
     width: 100%;
     padding: 0 50px;
 }
 
-#jojo h6 {
-    color: #fffefe;
-    font-family: Lato, sans-serif;
-    font-size: 13px;
+#footer.negative,
+#footer.negative h6 {
+    background-color: transparent;
+    color: #706F6F;
+}
+
+#footer h6 {
+    color: #d2cbcb;
+    font-family: Ubuntu, Lato, sans-serif;
+    font-size: 11px;
     font-style: normal;
     font-weight: 100;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-#jojo h6 a {
+#footer h6 a {
     color: #706F6F;
 }
 
-#jojo h6 a:hover {
+#footer h6 a:hover {
     color: plum;
 }
 

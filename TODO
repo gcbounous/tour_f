@@ -1,7 +1,5 @@
 store language in session so we can pass it to tour
 
-button to get up (position: fixed)
-
-ideia: divs com id com nome do tour, clicar me link paseos.html#nome-do-tour e ai preenche
+button to get up/ ver tours (position: fixed)
 
 testar language

@@ -39,21 +39,21 @@ PASEO['main'] = {
     },
 
     'fr' : {
-        'menu':{
-            'menu_buenos_aires'  : '' ,
-            'menu_tours'         : '' ,
-            'menu_presentation'  : '' ,
-            'menu_contact'       : ''
-        },
-        'tour-panel':{
-            'tour-frequency'    : '',
-            'tour-schedule'     : '',
-            'tour-meeting-spot' : '',
-            'tour-duration'     : '',
-            'tour-prices'       : '',
-            'tour-languages'    : '',
-            'tour-include'      : '',
-            'tour-not-include'  : ''
-        }            
-    }
+    //     'menu':{
+    //         'menu_buenos_aires'  : '' ,
+    //         'menu_tours'         : '' ,
+    //         'menu_presentation'  : '' ,
+    //         'menu_contact'       : ''
+    //     },
+    //     'tour-panel':{
+    //         'tour-frequency'    : '',
+    //         'tour-schedule'     : '',
+    //         'tour-meeting-spot' : '',
+    //         'tour-duration'     : '',
+    //         'tour-prices'       : '',
+    //         'tour-languages'    : '',
+    //         'tour-include'      : '',
+    //         'tour-not-include'  : ''
+    //     }            
+    // }
 }

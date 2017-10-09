@@ -17,15 +17,15 @@ function setUp(){
     });
 
     $('#paseos a').click(function(){
-        setPasseoParamURL($(this));
+        setTourParamURL($(this));
         setLangParamURL($(this), false);
     });
 }
 
-function setPasseoParamURL(tag, first=true){
+function setTourParamURL(tag, first=true){
     var href = tag.attr('href');
     href += (first?'?':'&');
-    href +='paseo='+tag.attr('id');
+    href +='tour='+tag.data('tour');
     tag.attr('href',href);
 }
 

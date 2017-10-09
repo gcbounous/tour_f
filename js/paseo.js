@@ -17,7 +17,7 @@ function setUp(){
 }
 
 function setUpTour(){
-    var tour = getURLParameter('paseo');
+    var tour = getURLParameter('tour');
     var lang = getURLParameter('lang');
 
     var dic_main = PASEO['main'][lang];
@@ -164,7 +164,7 @@ function createEmptyTourPanels(panel_quantity){
 
 function tourPanelSetUp(){
     $('.tour-heading').click(function(){
-        $(this).siblings('.panel-body').toggle();
+        $(this).siblings('.panel-body').slideToggle();
     });
 }
 
