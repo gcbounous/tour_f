@@ -362,6 +362,8 @@ input[type=submit]:hover {
     background-color: #3C3C3B;
     width: 100%;
     padding: 0 50px;
+    position: relative;
+    bottom: 0;
 }
 
 #footer.negative,

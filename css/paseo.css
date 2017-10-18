@@ -6,6 +6,26 @@ body {
     background-size: cover;
 }
 
+#tour_info {
+    display: none;
+}
+
+#tour_info > *{
+    opacity: 1;
+}
+
+
+.overlay{
+    opacity:0.8;
+    background-color:#ccc;
+    position:fixed;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    z-index:1000;
+}
+
 #top_row {
     top: 0;
 }
@@ -18,6 +38,73 @@ body {
     text-align: center;
     vertical-align: middle;
     margin: 40px 0px;
+}
+
+.tour-card{
+    height: 250px;
+    border-radius: 25px;
+    margin-bottom: 30px;
+}
+
+.tour-card:hover{
+    cursor: pointer;
+}
+
+.tour-card > img {
+    height: 100%;
+    width: 100%;
+    border-radius: 15px 50px;
+}
+
+.tour-card:hover > img{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.tour-card > .brief-info{
+    display: none;
+    position: absolute;
+    background-color: #5b2581;
+    bottom :0;
+    left: 0;
+    right: 0;
+    color: white;
+    border-radius: 0px 0px 15px 50px;
+    min-height: 43px;
+    opacity: 0.9;
+    margin: 0 15px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.tour-card > .brief-info > span{
+    cursor: pointer;
+}
+
+.tour-card > .brief-info:hover{
+    cursor: pointer;
+}
+
+.tour-panel {
+    position:relative;
+    background-color: transparent;
+}
+
+.tour-panel .tour-heading {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    cursor: pointer;
+    background-color: #5b2581;
+    color: white;
+}
+
+.tour-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: inherit;
+    font-family: Viga;
+    font-size: 24px;
+    font-weight: 500;
 }
 
 #media {
@@ -43,29 +130,6 @@ body {
     height: 450px !important;
     width: 100%;
     object-fit: cover;
-}
-
-.tour-panel {
-    position:relative;
-    background-color: transparent;
-}
-
-.tour-panel .tour-heading {
-    position: sticky;
-    top: 0;
-    z-index: 2;
-    cursor: pointer;
-    background-color: #5b2581;
-    color: white;
-}
-
-.tour-title {
-    margin-top: 0;
-    margin-bottom: 0;
-    color: inherit;
-    font-family: Viga;
-    font-size: 24px;
-    font-weight: 500;
 }
 
 .tour-panel .panel-body {

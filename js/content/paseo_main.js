@@ -55,5 +55,5 @@ PASEO['main'] = {
     //         'tour-include'      : '',
     //         'tour-not-include'  : ''
     //     }            
-    // }
+    }
 }

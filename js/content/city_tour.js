@@ -1,16 +1,11 @@
 PASEO['city_tour'] = {
     'es': {
         'category_title': 'City Tour',
-        'images'        : [
-            '../imagens/paseos/city_tour/casa-rosada.jpg',
-            '../imagens/paseos/city_tour/DSC00894.jpg',
-            '../imagens/paseos/city_tour/la-boca.jpg'
-            ],
-        'videos'        : [],
         'tours': [
             {
                 'tour-title'        : 'Tour Privado a pie',
-                'duration-left'     : '3 horas',
+                'tour-card-duration': '3 horas',
+                'tour-card-image'   : '../imagens/paseos/city_tour/la-boca.jpg',
                 'tour-description'  : '<p>Recomendado para personas que ya han visto una parte de la ciudad y quieren un itinerario personalizado incluyendo \
                                         explicaciones sobre la historia de Argentina, descubierta de lugares desconocido, anécdotas y tips para comer y salir. \
                                         Recomendado también para personas que no hablan inglés o español.</p>\
@@ -26,11 +21,20 @@ PASEO['city_tour'] = {
                 'tour-prices'       : '440 pesos por 2pax min o 550 pesos por 1pax ',
                 'tour-languages'    : 'francés, español, inglés o portugués',
                 'tour-include'      : 'Guía en el idioma elegido',
-                'tour-not-include'  : 'Pick up, bebida, comida'
+                'tour-not-include'  : 'Pick up, bebida, comida',
+                'cover-image'       :'',
+                'images'            : [
+                                        '../imagens/paseos/city_tour/casa-rosada.jpg',
+                                        '../imagens/paseos/city_tour/DSC00894.jpg',
+                                        '../imagens/paseos/city_tour/la-boca.jpg'
+                                    ],
+                'videos'            : []
             },
             {
                 'tour-title'        : 'Tours en bicicleta',
-                'duration-left'     : '4 Horas - 1 Dia',
+                'tour-card-duration': '4 horas - 1 dia',
+                //TODO: change photo
+                'tour-card-image'   : '../imagens/paseos/city_tour/DSC00894.jpg',
                 'tour-description'  : '<p>Esta es la manera más completa de recorrer y conocer Buenos Aires, combinando el paseo \
                                         en bicicleta con nuestros amistosos y profesionales guías, que revelarán las historias detrás \
                                         de las paredes a través de los lugares más emblemáticos de nuestra ciudad.</p>\
@@ -49,11 +53,16 @@ PASEO['city_tour'] = {
                 'tour-languages'    : 'francés, español, inglés o portugués',
                 'tour-include'      : 'servicio de guía bilingüe, bicicleta, casco, agua, mate y dulces durante la charla previa a la salida<br>\
                                         BA in a Day Tour : almuerzo en una parilla (con opción vegetariana)',
-                'tour-not-include'  : 'Pick up'
+                'tour-not-include'  : 'Pick up',
+                'cover-image'       :'',
+                'images'            : [],
+                'videos'            : []
             },
             {
                 'tour-title'        : 'Tour fotográfico en auto',
-                'duration-left'     : '4 Horas',
+                'tour-card-duration': '4 horas',
+                //TODO: change photo
+                'tour-card-image'   : '../imagens/paseos/city_tour/casa-rosada.jpg',
                 'tour-description'  : '<p>Recomendado para las personas que no tienen mucho tiempo para visitar la ciudad o que no quieren \
                                         caminar mucho. Acompañados de un guía y fotógrafo profesional recorrerán los principales puntos \
                                         turísticos de la ciudad en auto.</p>\
@@ -68,7 +77,10 @@ PASEO['city_tour'] = {
                 'tour-prices'       : '600 pesos/personas',
                 'tour-languages'    : 'francés, español, inglés o portugués',
                 'tour-include'      : 'servicio de guía bilingüe, y fotos mandadas por correo al final de los tours',
-                'tour-not-include'  : 'Bebida'
+                'tour-not-include'  : 'Bebida',
+                'cover-image'       :'',
+                'images'            : [],
+                'videos'            : []
             }
         ]        
     },
@@ -80,7 +92,8 @@ PASEO['city_tour'] = {
         // 'tours': [
         //     {
         //         'tour-title'        : '',
-        //         'duration-left'     : '',
+        //         'tour-card-duration': '',
+        //             'tour-card-image'   : '',
         //         'tour-description'  : '',
         //         'tour-frequency'    : '',
         //         'tour-schedule'     : '',
@@ -89,11 +102,15 @@ PASEO['city_tour'] = {
         //         'tour-prices'       : '',
         //         'tour-languages'    : '',
         //         'tour-include'      : '',
-        //         'tour-not-include'  : ''
+        //         'tour-not-include'  : '',
+        //         'cover-image'       : '',
+        //         'images'            : [],
+        //         'videos'            : []
         //     },
         //     {
         //         'tour-title'        : '',
-        //         'duration-left'     : '',
+        //         'tour-card-duration': '',
+        //             'tour-card-image'   : '',
         //         'tour-description'  : '',
         //         'tour-frequency'    : '',
         //         'tour-schedule'     : '',
@@ -102,7 +119,10 @@ PASEO['city_tour'] = {
         //         'tour-prices'       : '',
         //         'tour-languages'    : '',
         //         'tour-include'      : '',
-        //         'tour-not-include'  : ''
+        //         'tour-not-include'  : '',
+        //         'cover-image'       : '',
+        //         'images'            : [],
+        //         'videos'            : []
         //     },
         // ]
     },
@@ -114,7 +134,8 @@ PASEO['city_tour'] = {
     //     'tours': [
     //         {
     //             'tour-title'        : '',
-    //             'duration-left'     : '',
+    //             'tour-card-duration': '',
+    //             'tour-card-image'   : '',
     //             'tour-description'  : '',
     //             'tour-frequency'    : '',
     //             'tour-schedule'     : '',
@@ -123,11 +144,15 @@ PASEO['city_tour'] = {
     //             'tour-prices'       : '',
     //             'tour-languages'    : '',
     //             'tour-include'      : '',
-    //             'tour-not-include'  : ''
+    //             'tour-not-include'  : '',
+        //         'cover-image'       : '',
+        //         'images'            : [],
+        //         'videos'            : []
     //         },
     //         {
     //             'tour-title'        : '',
-    //             'duration-left'     : '',
+    //             'tour-card-duration': '',
+    //             'tour-card-image'   : '',
     //             'tour-description'  : '',
     //             'tour-frequency'    : '',
     //             'tour-schedule'     : '',
@@ -136,7 +161,10 @@ PASEO['city_tour'] = {
     //             'tour-prices'       : '',
     //             'tour-languages'    : '',
     //             'tour-include'      : '',
-    //             'tour-not-include'  : ''
+    //             'tour-not-include'  : '',
+        //         'cover-image'       : '',
+        //         'images'            : [],
+        //         'videos'            : []
     //         },
     //     ]        
     }

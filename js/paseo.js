@@ -1,7 +1,7 @@
 setUp();
 
 function setUp(){
-    setUpTour();
+    setUpCategory();
 
     $('#texto_menu > li > a').click(function(){
         setLangParamURL($(this));
@@ -16,7 +16,7 @@ function setUp(){
     })
 }
 
-function setUpTour(){
+function setUpCategory(){
     var tour = getURLParameter('tour');
     var lang = getURLParameter('lang');
 
@@ -30,13 +30,47 @@ function setUpTour(){
         dic_main = PASEO['main'][lang];
         dic_paseo = PASEO[tour][lang];
     }
-    $('body').data('lang',lang)
+    $('body').data('lang',lang);
 
     $.each(dic_main['menu'], function(id, val) {
         $('#' + id).html(val);
     });
 
     $('#category_title').html(dic_paseo['category_title']);
+
+    createTourCards(dic_paseo['tours'], tour);
+    setUpTourCards();
+}
+
+function createTourCards(tours, tour_name){
+    for (var i=0; i<tours.length; i++){
+        var tour_card = '';
+        tour_card += '<div data-tour-name="'+ tour_name +'" class="col-sm-6 col-md-4 tour-card">';
+        tour_card += '        <img class="tour-card-image" src="'+ tours[i]['tour-card-image'] +'">';
+        tour_card += '        <div class="brief-info">';
+        tour_card += '            <span class="col-md-7 tour-title"><h4>'+ tours[i]['tour-title'] +'</h4></span>';
+        tour_card += '            <span class="col-md-5 tour-card-duration"><h4>'+ tours[i]['tour-card-duration'] +'</h4></span>';
+        tour_card += '        </div>';
+        tour_card += '</div>';
+        $('#tours').append(tour_card);
+    }
+};
+
+function setUpTourCards(){
+    $('.tour-card').hover(function(){
+        $(this).find('.brief-info').toggle();
+    });
+
+    $('.tour-card').click(function(){
+        openTourInfo($(this).data('tour-name'));
+    });
+}
+
+function openTourInfo(tour){
+    $('#tour_info').slideToggle();
+};
+
+function createTour(){    
 
     if(dic_paseo['images'].length > 0){
         fillImageCarousel(dic_paseo['images']);
