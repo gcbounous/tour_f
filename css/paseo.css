@@ -4,26 +4,11 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    overflow-x: hidden;
 }
 
-#tour_info {
-    display: none;
-}
-
-#tour_info > *{
-    opacity: 1;
-}
-
-
-.overlay{
-    opacity:0.8;
-    background-color:#ccc;
-    position:fixed;
-    width:100%;
-    height:100%;
-    top:0px;
-    left:0px;
-    z-index:1000;
+#main_tour_div {
+    min-height: 100vh;
 }
 
 #top_row {
@@ -42,7 +27,6 @@ body {
 
 .tour-card{
     height: 250px;
-    border-radius: 25px;
     margin-bottom: 30px;
 }
 
@@ -84,16 +68,47 @@ body {
     cursor: pointer;
 }
 
+
+#tour_info {
+    display: none;
+}
+
+#tour_info > *{
+    opacity: 1;
+}
+
+.overlay{
+    background-color: rgba(204, 204, 204, 0.95);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index:1000;
+    float: right;
+    overflow-y: auto;
+}
+
+#return_btn{
+    position: fixed;
+    top: 50px;
+    left: 50px;
+    font-size: 25px;
+    color:  #5b2581;
+    cursor: pointer;
+
+}
+
 .tour-panel {
-    position:relative;
-    background-color: transparent;
+    position: relative;
+    background-color: white;
+    margin-top: 50px;
 }
 
 .tour-panel .tour-heading {
     position: sticky;
     top: 0;
     z-index: 2;
-    cursor: pointer;
     background-color: #5b2581;
     color: white;
 }
@@ -112,7 +127,6 @@ body {
 }
 
 #carouselBox{
-        /*width: 70%;*/
     padding: 0;
     display: block;
 }
@@ -126,19 +140,17 @@ body {
 }
 
 .carousel-inner img {
-    /*height: 100%;*/
     height: 450px !important;
     width: 100%;
     object-fit: cover;
 }
 
 .tour-panel .panel-body {
-    display: none;
     position: relative;
     overflow: hidden;
 }
 
-.tour-left {
+/*.tour-left {
     position: absolute;
     top: 0; 
     bottom: 0; 
@@ -156,14 +168,15 @@ body {
 .duration-left {
     font-family: Ubuntu;
     text-align: center;
-}
+}*/
 
 .tour-inner {
-    margin: 10px 20px 15px;
+    margin: 20px 20px 15px;
     color: grey;
 }
 
 .title {
+    margin-left: -5%;
 }
 
 .title strong{
@@ -175,5 +188,9 @@ body {
 .description {
     margin: 5px 10px;
 
+}
+
+.no-scroll {
+    overflow: hidden;
 }
 

@@ -14,6 +14,11 @@ function setUp(){
             setLanguage(lang);            
         }
     })
+
+    $('#return_btn').click(function(){
+        $('body').removeClass('no-scroll');
+        $("#tour_info").animate({width:'hide'}, 400);
+    });
 }
 
 function setUpCategory(){
@@ -31,10 +36,16 @@ function setUpCategory(){
         dic_paseo = PASEO[tour][lang];
     }
     $('body').data('lang',lang);
+    $('body').data('category',tour);
 
-    $.each(dic_main['menu'], function(id, val) {
-        $('#' + id).html(val);
-    });
+    // set static information in chosen language
+    if( lang != 'es'){
+        $.each(dic_main['menu'], function(id, val) {
+            $('#' + id).html(val);
+        });
+
+        setTourPanelLanguage(lang);
+    }
 
     $('#category_title').html(dic_paseo['category_title']);
 
@@ -42,10 +53,10 @@ function setUpCategory(){
     setUpTourCards();
 }
 
-function createTourCards(tours, tour_name){
+function createTourCards(tours, category){
     for (var i=0; i<tours.length; i++){
         var tour_card = '';
-        tour_card += '<div data-tour-name="'+ tour_name +'" class="col-sm-6 col-md-4 tour-card">';
+        tour_card += '<div data-tour-title="'+ tours[i]['tour-title'] +'" class="col-sm-6 col-md-4 tour-card">';
         tour_card += '        <img class="tour-card-image" src="'+ tours[i]['tour-card-image'] +'">';
         tour_card += '        <div class="brief-info">';
         tour_card += '            <span class="col-md-7 tour-title"><h4>'+ tours[i]['tour-title'] +'</h4></span>';
@@ -54,7 +65,7 @@ function createTourCards(tours, tour_name){
         tour_card += '</div>';
         $('#tours').append(tour_card);
     }
-};
+}
 
 function setUpTourCards(){
     $('.tour-card').hover(function(){
@@ -62,172 +73,63 @@ function setUpTourCards(){
     });
 
     $('.tour-card').click(function(){
-        openTourInfo($(this).data('tour-name'));
+        openTourInfo($(this).data('tour-title'));
     });
 }
 
-function openTourInfo(tour){
-    $('#tour_info').slideToggle();
-};
+function openTourInfo(tour_title){
+    var lang = $('body').data('lang');
+    var category = $('body').data('category');
 
-function createTour(){    
+    //get right tour jason
+    var dic_paseo = PASEO[category][lang]['tours'];
+    for (var i=0; i<dic_paseo.length; i++){
+        if(tour_title == dic_paseo[i]['tour-title']){
+            dic_paseo = dic_paseo[i];
+            break;
+        }
+    }
 
     if(dic_paseo['images'].length > 0){
         fillImageCarousel(dic_paseo['images']);
     }else{
         $('#myCarousel').hide();
     }
+    
+    fillTourPanel(dic_paseo)
 
-    createEmptyTourPanels(dic_paseo['tours'].length);
-    setTourPanelLanguage(lang);
-    fillTourPanels(dic_paseo['tours'])   
+    $('body').addClass('no-scroll');
+    $('#tour_info').slideToggle();
 }
 
 function fillImageCarousel(images){
     var indicators = '';
     var items = '';
 
-    for(var i=0; i<images.length; i++){
+    for(var i=0; i<images.length; i++){       
         indicators += '<li data-target="#myCarousel" data-slide-to="'+i+'"></li>';
 
         items += ' <div class="item">';
         items += '    <img src="'+images[i]+'">';
         items += ' </div>';
     }
-    $('#myCarousel').find('.carousel-indicators').append(indicators);
-    $('#myCarousel').find('.carousel-inner').append(items);
+
+    $('#myCarousel').find('.carousel-indicators').html(indicators);
+    $('#myCarousel').find('.carousel-inner').html(items);
 
     $('#myCarousel').find('.carousel-indicators li:first-child').addClass('active'); 
     $('#myCarousel').find('.carousel-inner .item:first-child').addClass('active');
 }
 
-function createEmptyTourPanels(panel_quantity){
-    for (var i=0; i<panel_quantity; i++) {
-        var tour_panel = '';
-        tour_panel += ' <div class="panel panel-default tour-panel">';
-        tour_panel += '     <div class="panel-heading tour-heading">';
-        tour_panel += '         <div class="tour-title"></div>';
-        tour_panel += '     </div>';
-        tour_panel += '     <div class="panel-body">';
-        tour_panel += '         <div class="tour-left">';
-        tour_panel += '                 <h1 class="duration-left"></h1>';
-        tour_panel += '         </div>';
+function fillTourPanel(tour){
+    var panel = $('.tour-panel');
 
-        tour_panel += '         <div class="tour-right">';
-        tour_panel += '             <div class="tour-inner tour-description">';                  
-        tour_panel += '             </div>';
+    panel.find('.tour-title').html(tour['tour-title']);
+    panel.find('.tour-description').html(tour['tour-info']['tour-description']);
 
-        tour_panel += '             <div class="tour-inner tour-frequency">';
-        tour_panel += '                 <span class="title">';
-        tour_panel += '                     <i class="fa fa-calendar-check-o fa-lg"><strong></strong></i>';
-        tour_panel += '                 </span>';
-        tour_panel += '                 <div class="description">';
-        tour_panel += '                     <p></p>';
-        tour_panel += '                 </div>';
-        tour_panel += '             </div>';
-
-        tour_panel += '             <div class="tour-inner tour-schedule">';
-        tour_panel += '                 <span class="title">';
-        tour_panel += '                     <i class="fa fa-clock-o fa-lg"><strong></strong></i>';
-        tour_panel += '                 </span>';
-        tour_panel += '                 <div class="description">';
-        tour_panel += '                     <p></p>';
-        tour_panel += '                 </div>';
-        tour_panel += '             </div>';
-
-        tour_panel += '             <div class="tour-inner tour-meeting-spot">';
-        tour_panel += '                 <span class="title">';
-        tour_panel += '                     <i class="fa fa-map-marker fa-lg"><strong></strong></i>';
-        tour_panel += '                 </span>';
-        tour_panel += '                 <div class="description">';
-        tour_panel += '                     <p></p>';
-        tour_panel += '                 </div>';
-        tour_panel += '             </div>';
-
-        tour_panel += '             <div class="tour-inner tour-duration">';
-        tour_panel += '                 <span class="title">';
-        tour_panel += '                     <i class="fa fa-hourglass-half  fa-lg"><strong></strong></i>';
-        tour_panel += '                 </span>';
-        tour_panel += '                 <div class="description">';
-        tour_panel += '                     <p></p>';
-        tour_panel += '                 </div>';
-        tour_panel += '             </div>';
-
-        tour_panel += '             <div class="tour-inner tour-prices">';
-        tour_panel += '                 <span class="title">';
-        tour_panel += '                     <i class="fa fa-money fa-lg"><strong></strong></i>';
-        tour_panel += '                 </span>';
-        tour_panel += '                 <div class="description">';
-        tour_panel += '                     <p></p>';
-        tour_panel += '                 </div>';
-        tour_panel += '             </div>';
-
-        tour_panel += '             <div class="tour-inner tour-languages">';
-        tour_panel += '                 <span class="title">';
-        tour_panel += '                     <i class="fa fa-globe fa-lg"><strong></strong></i>';
-        tour_panel += '                 </span>';
-        tour_panel += '                 <div class="description">';
-        tour_panel += '                     <p></p>';
-        tour_panel += '                 </div>';
-        tour_panel += '             </div>';
-
-        tour_panel += '             <div class="tour-inner tour-include">';
-        tour_panel += '                 <span class="title">';
-        tour_panel += '                     <i class="fa fa-plus-square fa-lg"><strong></strong></i>';
-        tour_panel += '                 </span>';
-        tour_panel += '                 <div class="description">';
-        tour_panel += '                     <p></p>';
-        tour_panel += '                 </div>';
-        tour_panel += '             </div>';
-
-        tour_panel += '             <div class="tour-inner tour-not-include">';
-        tour_panel += '                 <span class="title">';
-        tour_panel += '                     <i class="fa fa-minus-square fa-lg"><strong></strong></i>';
-        tour_panel += '                 </span>';
-        tour_panel += '                 <div class="description">';
-        tour_panel += '                     <p></p>';
-        tour_panel += '                 </div>';
-        tour_panel += '             </div>';
-        tour_panel += '         </div>';
-        tour_panel += '     </div>';
-        tour_panel += ' </div>';
-        $('#tours').append(tour_panel);        
-    }
-        tourPanelSetUp();
-}
-
-function tourPanelSetUp(){
-    $('.tour-heading').click(function(){
-        $(this).siblings('.panel-body').slideToggle();
+    $.each(tour['tour-info'], function(id, val) {        
+        panel.find('.' + id).find('.description p').html(val);
     });
-}
-
-function setTourPanelLanguage(lang){
-    var dic_main = PASEO['main'][lang];
-
-    $('.tour-panel').each(function(i){
-        var panel = $(this);
-        $.each(dic_main['tour-panel'], function(id, val) {
-            panel.find('.' + id).find('.title strong').html(val);
-        });
-    });
-}
-
-function fillTourPanels(tours){
-    $('.tour-panel').each(function(i){
-        var panel = $(this);
-        var this_tour = tours[i];
-        var j=0;
-        $.each(this_tour, function(id, val) {
-            if(j<3){
-                panel.find('.' + id).html(val);
-            }else{
-                panel.find('.' + id).find('.description p').html(val);
-            }
-            j++;
-        });
-
-    });  
 }
 
 function setLanguage(lang){
@@ -236,9 +138,13 @@ function setLanguage(lang){
     changeTourPanelLanguage(lang);
 }
 
-function changeTourPanelLanguage(){
-    // [...]
-    // fillTourPanels
+function setTourPanelLanguage(lang){
+    var dic_main = PASEO['main'][lang];
+
+    var panel = $('.tour-panel');
+    $.each(dic_main['tour-panel'], function(id, val) {
+        panel.find('.' + id).find('.title strong').html(val);
+    });
 }
 
 function changeSelectedFlag(lang){

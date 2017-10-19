@@ -364,6 +364,11 @@ input[type=submit]:hover {
     padding: 0 50px;
     position: relative;
     bottom: 0;
+    height: 32px;
+}
+
+#footer.negative{
+    margin-top: -32px;
 }
 
 #footer.negative,
