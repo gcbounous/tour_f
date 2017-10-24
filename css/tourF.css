@@ -44,16 +44,18 @@ input::placeholder {
 }
 
 #background {
-    background-image: url(https://hullopallosa.files.wordpress.com/2017/05/start.png);
+    /*background-image: url(https://hullopallosa.files.wordpress.com/2017/05/start.png);*/
+    background-image: url(../imagens/start.png);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    /*overflow: hidden;*/
+    /*height: calc(100vh - 45px)*/
+    overflow: hidden;
 }
 
 #holder {
-    height: calc(100% - 45px);
+    /*height: calc(100% - 45px);*/
     /*height: -moz-calc(100% - 45px);*/
 
 }
@@ -164,9 +166,9 @@ input::placeholder {
 }
 
 #buenosAires {
-    background-image: url(https://hullopallosa.files.wordpress.com/2017/06/back_left.png);
+    /*background-image: url(https://hullopallosa.files.wordpress.com/2017/06/back_left.png);*/
+    background-image: url(../imagens/back_left.png);
     background-repeat: no-repeat;
-    /*overflow: hidden;*/
     background-size: cover;
     min-height: 50vh;
 }
@@ -244,11 +246,10 @@ input::placeholder {
 }
 
 #viajeros {
-    background-image: url(https://hullopallosa.files.wordpress.com/2017/06/back_right.png);
+    /*background-image: url(https://hullopallosa.files.wordpress.com/2017/06/back_right.png);*/
+    background-image: url(../imagens/back_right.png);
     background-repeat: no-repeat;
-    /*overflow: hidden;*/
     background-size: cover;
-    /*background-position: right;*/
     min-height: 50vh;
 }
 
@@ -276,7 +277,8 @@ input::placeholder {
 }
 
 #contato {
-    background-image: url(https://hullopallosa.files.wordpress.com/2017/06/contacto.png);
+    /*background-image: url(https://hullopallosa.files.wordpress.com/2017/06/contacto.png);*/
+    background-image: url(../imagens/contacto.png);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 50vh;

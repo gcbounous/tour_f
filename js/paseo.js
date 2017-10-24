@@ -67,12 +67,15 @@ function createTourCards(tours){
         var tour_card = '';
         tour_card += '<div data-tour-title="'+ tours[i]['tour-title'] +'" class="col-sm-6 col-md-4 tour-card">';
 
+        tour_card += '<div class="tour-card-background">';
+
         if(tours[i]['tour-card-image'] == null || tours[i]['tour-card-image'] == ''){
             tour_card += '        <img class="tour-card-image" src="'+ PASEO['main']['default_image']+'">';
         }else{
             tour_card += '        <img class="tour-card-image" src="'+ tours[i]['tour-card-image'] +'">';
         }
         
+        tour_card += '</div>';
         tour_card += '        <div class="brief-info">';
         tour_card += '            <span class="col-md-7 tour-title"><h4>'+ tours[i]['tour-title'] +'</h4></span>';
         tour_card += '            <span class="col-md-5 tour-card-duration"><h4>'+ tours[i]['tour-card-duration'] +'</h4></span>';

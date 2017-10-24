@@ -1,5 +1,6 @@
 body {
-    background: url(https://hullopallosa.files.wordpress.com/2017/06/back_left.png) no-repeat center center fixed; 
+    /*background: url(https://hullopallosa.files.wordpress.com/2017/06/back_left.png) no-repeat center center fixed; */
+    background: url(../imagens/back_left.png) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -27,21 +28,32 @@ body {
 
 .tour-card{
     height: 250px;
-    margin-bottom: 30px;
+    margin-bottom: 30px;    
 }
 
 .tour-card:hover{
     cursor: pointer;
 }
 
-.tour-card > img {
-    background-color: #dedcdc;
+.tour-card-background{
+    position: relative;
     height: 100%;
-    width: 100%;
     border-radius: 15px 50px;
+    background: #dedcdc url(../imagens/back_left.png) no-repeat;
+    background-size: cover;
+    text-align: center; 
+    overflow: hidden;   
 }
 
-.tour-card:hover > img{
+.tour-card  img {
+    /*height: 100%;*/
+    max-width: 100%;
+    position: relative;
+    left: 100%; 
+    margin-left: -200%;
+}
+
+.tour-card:hover  img{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
 }
 

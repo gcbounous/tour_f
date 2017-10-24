@@ -1,28 +1,48 @@
-MENU:
-    -(X) logo no menu (magin left- margin right+)
-
-FORM INDEX:
-    - mudar input submit para button
-    - tirar br e colocar col-md
-    - placeholder cinza
-    - arrumar css, juntar regras
-
+------- TODO -----------
 INDEX:
-    -(X) arrumar quieren ->; quieres
-    - arrumr fotos paseos
+     arrumr fotos paseos
     - arrumar titulos passeos (classes: upper-right/ upper-left/ lower-r/ lower-l)
-    - arrumar js para verificar se vem # no final e tirar ao filtrar parametro lang
     - enviar formulario por ajax
-
-TOURS:
-    - arrumar imagens centralizadas sem max height
-    - colocar background-image par defaut
-    - border-round no card não nas imagens
-    - colocar # no final da url para ir para a seção certa
 
 TOUR-INFO:
     - criar botão reserva + seção de form em baixo (toggle) (collocar form em row atrás)
-    - mandar form por ajax
-    - arrumar corrossel colocando imagem vazia no começo para nao dar erro
     - ao clicar em abrir form focalizar no form
+    - mandar form por ajax
     - arrumar icones no firefox
+
+
+
+
+
+
+
+
+
+
+
+
+
+-------- DONE ---------
+MENU:
+    (X) logo no menu (magin left- margin right+)
+
+FORM INDEX:
+    (X) mudar input submit para button
+    (X) tirar br e colocar col-md
+    (X) placeholder cinza
+    (X) arrumar css, juntar regras
+
+INDEX:
+    (X) arrumar quieren ->; quieres
+    (X) arrumar js para verificar se vem # no final e tirar ao filtrar parametro lang
+    (X) change image paths
+
+TOURS:
+    (X) change image paths
+    (X) arrumar imagens centralizadas sem max height
+    (X) colocar background-image par defaut
+    (X) border-round no card não nas imagens
+    (X) colocar # no final da url para ir para a seção certa
+
+TOUR-INFO:
+    (X) arrumar corrossel colocando imagem vazia no começo para nao dar erro
