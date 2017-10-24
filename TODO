@@ -1,5 +1,28 @@
-store language in session so we can pass it to tour
+MENU:
+    - logo no menu (magin left- margin right+)
 
-button to get up/ ver tours (position: fixed)
+FORM INDEX:
+    - mudar input submit para button
+    - tirar br e colocar col-md
+    - placeholder cinza
+    - arrumar css, juntar regras
 
-testar language
+INDEX:
+    - arrumar quieren ->; quieres
+    - arrumr fotos paseos
+    - arrumar titulos passeos (classes: upper-right/ upper-left/ lower-r/ lower-l)
+    - arrumar js para verificar se vem # no final e tirar ao filtrar parametro lang
+    - enviar formulario por ajax
+
+TOURS:
+    - arrumar imagens centralizadas sem max height
+    - colocar background-image par defaut
+    - border-round no card não nas imagens
+    - colocar # no final da url para ir para a seção certa
+
+TOUR-INFO:
+    - criar botão reserva + seção de form em baixo (toggle) (collocar form em row atrás)
+    - mandar form por ajax
+    - arrumar corrossel colocando imagem vazia no começo para nao dar erro
+    - ao clicar em abrir form focalizar no form
+    - arrumar icones no firefox
