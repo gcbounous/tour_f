@@ -1,24 +1,14 @@
 ------- TODO -----------
-INDEX:
-    - arrumr fotos paseos
-    - arrumar titulos passeos (classes: upper-right/ upper-left/ lower-r/ lower-l)
-    - enviar formulario por ajax
-
 TOUR-INFO:
-    - mandar form por ajax
     - arrumar icones no firefox
-    - change language
+    - change exemple.js
 
+CONTENT
+    - copy tours
+    - photos
+    - videos
 
-
-
-
-
-
-
-
-
-
+    
 
 
 -------- DONE ---------
@@ -32,11 +22,15 @@ FORM INDEX:
     (X) arrumar css, juntar regras
 
 INDEX:
+    (X) arrumr fotos paseos
+    (X) arrumar titulos passeos (classes: upper-right/ upper-left/ lower-r/ lower-l)
     (X) arrumar quieren ->; quieres
     (X) arrumar js para verificar se vem # no final e tirar ao filtrar parametro lang
     (X) change image paths
+    (X) enviar formulario por ajax
 
 TOURS:
+    (X) mandar form por ajax
     (X) change image paths
     (X) arrumar imagens centralizadas sem max height
     (X) colocar background-image par defaut
@@ -47,3 +41,4 @@ TOUR-INFO:
     (X) arrumar corrossel colocando imagem vazia no começo para nao dar erro
     (X) criar botão reserva + seção de form em baixo (toggle) (collocar form em row atrás)
     (X) ao clicar em abrir form focalizar no form
+    (X) change language

@@ -1,4 +1,4 @@
-PASEO['exemple'] = {
+PASEO['exemple_tour'] = {
     'es' : {
         'category_title': '',
         'images'        : [],
@@ -117,7 +117,19 @@ PASEO['exemple_main'] = {
             'tour-languages'    : '',
             'tour-include'      : '',
             'tour-not-include'  : ''
-        }            
+        },
+         'reservation-form': {
+             'reservation_name'      : '',
+             'reservation_surname'   : '',
+             'reservation_email'     : '',
+             'reservation_phone'     : '',
+             'reservation_tour'      : '',
+             'reservation_message'   : '',
+         },
+         'buttons':{
+             'reserve_btn'       : '',
+             'reservation_send'  : '',
+         }             
     },
     'en' : {
         'menu':{
@@ -135,7 +147,19 @@ PASEO['exemple_main'] = {
             'tour-languages'    : '',
             'tour-include'      : '',
             'tour-not-include'  : ''
-        }            
+        },
+         'reservation-form': {
+             'reservation_name'      : '',
+             'reservation_surname'   : '',
+             'reservation_email'     : '',
+             'reservation_phone'     : '',
+             'reservation_tour'      : '',
+             'reservation_message'   : '',
+         },
+         'buttons':{
+             'reserve_btn'       : '',
+             'reservation_send'  : '',
+         }             
     },
     'fr' : {
         'menu':{
@@ -153,6 +177,18 @@ PASEO['exemple_main'] = {
             'tour-languages'    : '',
             'tour-include'      : '',
             'tour-not-include'  : ''
-        }            
+        },
+         'reservation-form': {
+             'reservation_name'      : '',
+             'reservation_surname'   : '',
+             'reservation_email'     : '',
+             'reservation_phone'     : '',
+             'reservation_tour'      : '',
+             'reservation_message'   : '',
+         },
+         'buttons':{
+             'reserve_btn'       : '',
+             'reservation_send'  : '',
+         }             
     }
 }

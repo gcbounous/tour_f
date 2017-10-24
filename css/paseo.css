@@ -116,7 +116,7 @@ body {
 .tour-panel .tour-heading {
     position: sticky;
     top: 0;
-    z-index: 2;
+    z-index: 20;
     background-color: #5b2581;
     color: white;
 }
@@ -207,6 +207,12 @@ body {
     margin-bottom: 25px;
     color: white;
     background-color: #5b2581;
+    padding: 10px 30px;
+    border-radius: 0;
+}
+
+#reserve_btn span{
+    margin-right: 10px;
 }
 
 #reserve_btn:hover, 

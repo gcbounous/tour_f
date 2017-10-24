@@ -93,44 +93,45 @@ PASEO['city_tour'] = {
     },
 
     'en': {
-        // 'category_title': '',
-        // 'tours': [
-        //     {
-        //         'tour-title'        : '',
-        //         'tour-card-duration': '',
-        //         'tour-card-image'   : '',
-        //         'images'            : [],
-        //         'videos'            : [],
-        //         'tour-info'   : {
-        //             'tour-description'  : '',
-        //             'tour-frequency'    : '',
-        //             'tour-schedule'     : '',
-        //             'tour-meeting-spot' : '',
-        //             'tour-duration'     : '',
-        //             'tour-prices'       : '',
-        //             'tour-languages'    : '',
-        //             'tour-include'      : '',
-        //             'tour-not-include'  : '',
-        //         }
-        //     },
-        //     {
-        //         'tour-title'        : '',
-        //         'tour-card-duration': '',
-        //         'tour-card-image'   : '',
-        //         'images'            : [],
-        //         'videos'            : [],
-        //         'tour-info'   : {
-        //             'tour-description'  : '',
-        //             'tour-frequency'    : '',
-        //             'tour-schedule'     : '',
-        //             'tour-meeting-spot' : '',
-        //             'tour-duration'     : '',
-        //             'tour-prices'       : '',
-        //             'tour-languages'    : '',
-        //             'tour-include'      : '',
-        //             'tour-not-include'  : '',
-        //         }
-        //     },
+        'category_title': '',
+        'tours': [
+            {
+                'tour-title'        : '',
+                'tour-card-duration': '',
+                'tour-card-image'   : '',
+                'images'            : [],
+                'videos'            : [],
+                'tour-info'   : {
+                    'tour-description'  : '',
+                    'tour-frequency'    : '',
+                    'tour-schedule'     : '',
+                    'tour-meeting-spot' : '',
+                    'tour-duration'     : '',
+                    'tour-prices'       : '',
+                    'tour-languages'    : '',
+                    'tour-include'      : '',
+                    'tour-not-include'  : '',
+                }
+            },
+            {
+                'tour-title'        : '',
+                'tour-card-duration': '',
+                'tour-card-image'   : '',
+                'images'            : [],
+                'videos'            : [],
+                'tour-info'   : {
+                    'tour-description'  : '',
+                    'tour-frequency'    : '',
+                    'tour-schedule'     : '',
+                    'tour-meeting-spot' : '',
+                    'tour-duration'     : '',
+                    'tour-prices'       : '',
+                    'tour-languages'    : '',
+                    'tour-include'      : '',
+                    'tour-not-include'  : '',
+                }
+            },
+        ]
     },
 
     'fr' : {
@@ -172,5 +173,6 @@ PASEO['city_tour'] = {
         //             'tour-not-include'  : '',
         //         }
         //     },
+        // ]
     }       
 }

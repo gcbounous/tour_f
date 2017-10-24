@@ -20,7 +20,17 @@ var INDEX = {
                                     <p>Buenos Aires te encantará.</p>'
 		},
         'tours': {
-            'tours_title': 'Nuestros tours y paseos'
+            'tours_title'       : 'Nuestros tours y paseos',
+            'city_tour'         : 'City Tour',
+            'country'           : 'Día de Campo',
+            'delta_del_tigre'   : 'Delta del Tigre',
+            'cocina'            : 'Cocina',
+            'tango_class'       : 'Classes de Tango',
+            'tango_show'        : 'Tango Show',
+            'uruguay'           : 'Uruguay',
+            'esteros_ibera'     : 'Esteros del Iberá',
+            'soccer'            : 'Partido de Fútbol',
+            'beer_wine'         : 'Vino y Cerveza',
         },
         'presentation': {
             'presentation_title'    : 'Somos viajeros',
@@ -67,7 +77,17 @@ var INDEX = {
                                         <p>Grow, learn, discover, delight!</p>'
         },
         'tours': {
-            'tours_title': 'Tours'
+            'tours_title'       : 'Tours',
+            'city_tour'         : 'City Tour',
+            'country'           : 'Field Day',
+            'delta_del_tigre'   : 'Delta del Tigre',
+            'cocina'            : 'Cooking',
+            'tango_class'       : 'Tango Classes',
+            'tango_show'        : 'Tango Show',
+            'uruguay'           : 'Uruguay',
+            'esteros_ibera'     : 'Esteros del Iberá',
+            'soccer'            : 'Soccer Match',
+            'beer_wine'         : 'Wine and Beer',
         },
         'presentation': {
             'presentation_title'    : 'We are travelers',

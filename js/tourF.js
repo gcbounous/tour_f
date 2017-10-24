@@ -1,13 +1,14 @@
 setUp();
 
 function setUp(){
-
+    //set initial language
     if(getURLParameter('lang') != null){
         setLanguage(getURLParameter('lang'));
     }else{
         $('body').data('lang', 'es');
     }
 
+    //change language
     $('.lang').click(function(e){
          e.preventDefault();
         var lang = $(this).data('lang');
@@ -17,11 +18,13 @@ function setUp(){
         }
     });
 
-    $('#paseos a').click(function(){
-        setTourParamURL($(this));
-        setLangParamURL($(this), false);
+    //chose a tour
+    $('.tour-img-wrapper').click(function(){
+        setTourParamURL($(this).find('a'));
+        setLangParamURL($(this).find('a'), false);
     });
 
+    //send contact e-mail
     $('#contact_send').click(function(e){
          e.preventDefault();
         sendContactEmail();
@@ -69,8 +72,12 @@ function changeIndexLanguage(lang){
         $('#' + id).html(val);
     });
     
+    var i = 0;
+    console.log(dic['tours'])
     $.each(dic['tours'], function(id, val) {
-        $('#' + id).html(val);
+        if(i==0) $('#' + id).html(val);
+        else $('#paseos').find('a[data-tour="'+id+'"]').next('span').html(val);
+        i++;
     });
 
     $.each(dic['presentation'], function(id, val) {
@@ -110,8 +117,8 @@ function sendContactEmail(){
     var message = $('#contact_message').val();
                 
     if(name == null || $.isEmptyObject(name)    ||
-     email == null  || $.isEmptyObject(email)   ||
-     message == null || $.isEmptyObject(message)){
+        email == null  || $.isEmptyObject(email)   ||
+        message == null || $.isEmptyObject(message)){
         $('#contact_form').find('input').addClass('invalid');
         $('#contact_form').find('textarea').addClass('invalid');
         alert('All fields with * are needed!');

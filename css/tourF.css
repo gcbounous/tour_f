@@ -40,7 +40,7 @@ textarea {
 
 textarea::placeholder,
 input::placeholder {
-    color: #333;
+    color: rgb(51, 51, 51);
 }
 
 input:-moz-read-only { /* For Firefox */ 
@@ -59,12 +59,12 @@ input:read-only {
     background-size: cover;
     height: 100vh;
     /*height: calc(100vh - 45px)*/
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 
 #holder {
-    /*height: calc(100% - 45px);*/
-    /*height: -moz-calc(100% - 45px);*/
+    height: calc(100% - 45px);
+    height: -moz-calc(100% - 45px);
 
 }
 
@@ -219,39 +219,96 @@ input:read-only {
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
-    margin-bottom: 50px;
-    width: 1030px;
+    margin-bottom: 70px;
+    width: 990px;
     display: block;
 }
 
-#paseos img {
+.tour-img-wrapper {
+    position: relative;
+}
+
+#paseos .img_grande img,
+#paseos .img_grande{
+    width: 500px;
+    height: 450px;
+}
+
+#paseos .img_pequena img,
+#paseos .img_pequena {
+    width: 250px;
+    height: 225px;
+}
+
+#paseos .img_pequena img,
+#paseos .img_grande img{
     padding: 10px;
-    width: 100%;
+}
+
+#paseos span{
+    position: absolute;
     height: auto;
 }
 
-.img_grande {
-    max-width: 510px;
-    min-width: 250px;
+.img_pequena span{
+    max-width: 200px;
 }
 
-.img_pequena {
-    max-width: 250px;
-    min-width: 150px;
+.img_grande span{
+    max-width: 350px;
 }
 
-#paseos img:hover {
+.tour-img-text{
+    color: white;
+    font-family: Viga;
+    font-weight: 700;
+}
+
+.tour-img-wrapper.img_pequena .tour-img-text{
+    margin: -10px; 
+}
+
+.tour-img-wrapper.img_pequena{
+    font-size: 35px;
+}
+
+.tour-img-wrapper.img_grande{
+    font-size: 75px;
+}
+
+.tour-img-wrapper:hover img{
     background-color: plum;
     cursor: pointer;
 }
 
-.left ~ div > .img_pequena {
-    margin-left: 8px;
+.tour-img-wrapper:hover .tour-img-text{
+    text-shadow:5px 5px 10px black;
 }
 
-.right ~ div > .img_pequena {
-    margin-right: 8px;
+.tour-img-text:hover{
+    cursor: pointer;
 }
+
+.upper-left{
+    top: 30px;
+    left: 30px;
+}
+
+.upper-right{
+    top: 30px;
+    right: 35px;
+}
+
+.lower-left{
+    bottom: 30px;
+    left: 35px;
+}
+
+.lower-right{
+    bottom: 30px;
+    right: 35px;
+} 
+
 
 #viajeros {
     /*background-image: url(https://hullopallosa.files.wordpress.com/2017/06/back_right.png);*/

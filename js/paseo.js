@@ -1,35 +1,42 @@
 setUp();
 
 function setUp(){
+    //set up initial tour page
     setUpCategory();
 
+    //click on menu item
     $('#texto_menu > li > a').click(function(){
         setLangParamURL($(this));
     });
 
+    //change language
     $('.lang').click(function(){
         var lang = $(this).data('lang');
 
         if(lang != $('body').data('lang')){
             setLanguage(lang);            
         }
-    })
+    });
 
+    //click on return from tour info
     $('#return_btn').click(function(){
         $('body').removeClass('no-scroll');
         closeTourInfo();
     });
 
+    //press esc while on tour info
     $(document).keyup(function(e) {
          if (e.keyCode == 27) { 
             closeTourInfo();
         }
     });
 
+    //click on reserve button
     $('#reserve_btn').click(function(){
         toggleReservationForm();
     });
 
+    //click on send reservation
     $('#reservation_send').click(function(e){
         e.preventDefault();
         sendReservationEmail();
@@ -37,41 +44,51 @@ function setUp(){
 }
 
 function closeTourInfo(){
+    $('#reservation_form').show();
+    toggleReservationForm();
     $("#tour_info").animate({width:'hide'}, 400);
 }
 
-function setUpCategory(){
-    var tour = getURLParameter('tour');
-    var lang = getURLParameter('lang');
+function setUpCategory(change_lang = false){
+    var lang = '';
+    var tour = '';
+    var dic_main = {};
+    var dic_paseo = {};
 
-    if(lang == null || lang == '') 
-        lang = 'es';
+    if(change_lang){
+        lang = $('body').data('lang');
+        tour = $('body').data('category');
+    }else{
+        tour = getURLParameter('tour');
+        lang = getURLParameter('lang');
+        
+        if(lang == null || lang == '') 
+            lang = 'es';
 
-    try {
-        var dic_main = PASEO['main'][lang];
-        var dic_paseo = PASEO[tour][lang];
-    } catch (e) {
-        window.location.replace("../templates/index.html");
+        try {
+            var dic_main = PASEO['main'][lang];
+            var dic_paseo = PASEO[tour][lang];
+
+            if(dic_main == null || $.isEmptyObject(dic_main) || dic_paseo == null || $.isEmptyObject(dic_paseo)){        
+                lang = 'es';
+            }
+        } catch (e) {
+            // window.location.replace("../templates/index.html");
+            console.log(e)
+        }
+
+        $('body').data('lang',lang);
+        $('body').data('category',tour);
     }
     
-    if(dic_main == null || $.isEmptyObject(dic_main) 
-        || dic_paseo == null || $.isEmptyObject(dic_paseo)){ 
-        
-        lang = 'es';
-        dic_main = PASEO['main'][lang];
-        dic_paseo = PASEO[tour][lang];
-    }
-    $('body').data('lang',lang);
-    $('body').data('category',tour);
+
+    dic_main = PASEO['main'][lang];
+    dic_paseo = PASEO[tour][lang];
 
     // set static information in chosen language
-    if( lang != 'es'){
-        $.each(dic_main['menu'], function(id, val) {
-            $('#' + id).html(val);
-        });
+    changeSelectedFlag(lang);
+    setTourMainLanguage(lang);
 
-        setTourPanelLanguage(lang);
-    }
     $('#category_title').html(dic_paseo['category_title']);
 
     createTourCards(dic_paseo['tours'], tour);
@@ -79,18 +96,17 @@ function setUpCategory(){
 }
 
 function createTourCards(tours){
+    $('#tours').empty();
     for (var i=0; i<tours.length; i++){
         var tour_card = '';
         tour_card += '<div data-tour-title="'+ tours[i]['tour-title'] +'" class="col-sm-6 col-md-4 tour-card">';
 
         tour_card += '<div class="tour-card-background">';
 
-        if(tours[i]['tour-card-image'] == null || tours[i]['tour-card-image'] == ''){
-            tour_card += '        <img class="tour-card-image" src="'+ PASEO['main']['default_image']+'">';
-        }else{
+        if(tours[i]['tour-card-image'] != null && tours[i]['tour-card-image'] != ''){
             tour_card += '        <img class="tour-card-image" src="'+ tours[i]['tour-card-image'] +'">';
         }
-        
+
         tour_card += '</div>';
         tour_card += '        <div class="brief-info">';
         tour_card += '            <span class="col-md-7 tour-title"><h4>'+ tours[i]['tour-title'] +'</h4></span>';
@@ -176,17 +192,32 @@ function fillTourPanel(tour){
 
 function setLanguage(lang){
     $('body').data('lang',lang);
-    changeSelectedFlag(lang);
-    changeTourPanelLanguage(lang);
+    setUpCategory(true);
 }
 
-function setTourPanelLanguage(lang){
+function setTourMainLanguage(lang){
     var dic_main = PASEO['main'][lang];
 
+    //set menu
+    $.each(dic_main['menu'], function(id, val) {
+            $('#' + id).html(val);
+        });
+
+    //set panel
     var panel = $('.tour-panel');
     $.each(dic_main['tour-panel'], function(id, val) {
         panel.find('.' + id).find('.title strong').html(val);
     });
+
+    //set form
+    var form = $('#reservation_form').find('form');
+    $.each(dic_main['reservation-form'], function(id, val) {
+        form.find('#' + id).attr('placeholder', val);
+    });
+
+    //set buttons
+    panel.find('#reserve_btn').find('span').text(dic_main['buttons']['reserve_btn']);
+    panel.find('#reservation_send').text(dic_main['buttons']['reservation_send']);
 }
 
 function changeSelectedFlag(lang){
@@ -244,7 +275,7 @@ function toggleReservationForm(){
     $('#reservation_form').slideToggle()
 }
 
-function sendReservationEmail(){        
+function sendReservationEmail(){
     var name = $('#reservation_name').val();
     var surname = $('#reservation_surname').val();
     var phone = $('#reservation_phone').val();
