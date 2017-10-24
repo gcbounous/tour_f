@@ -8,7 +8,9 @@ function setUp(){
         $('body').data('lang', 'es');
     }
 
-    $('.lang').click(function(){
+    $('.lang').click(function(e){
+         e.preventDefault();
+
         var lang = $(this).data('lang');
 
         if(lang != $('body').data('lang')){
@@ -82,12 +84,15 @@ function changeIndexLanguage(lang){
 
 function getURLParameter(sParam){
     var sPageURL = window.location.href.split('?')[1];
-    if(sPageURL != null){ 
+    if(sPageURL != null){
+        if(sPageURL.includes('#')){
+            sPageURL = sPageURL.split('#')[0];
+        }
+
         var sURLVariables = sPageURL.split('&');
-
         for (var i = 0; i < sURLVariables.length; i++){
-            var sParameterName = sURLVariables[i].split('=');
 
+            var sParameterName = sURLVariables[i].split('=');
             if (sParameterName[0] == sParam){
                 return sParameterName[1];
             }

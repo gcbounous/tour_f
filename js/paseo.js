@@ -17,8 +17,18 @@ function setUp(){
 
     $('#return_btn').click(function(){
         $('body').removeClass('no-scroll');
-        $("#tour_info").animate({width:'hide'}, 400);
+        closeTourInfo();
     });
+
+    $(document).keyup(function(e) {
+         if (e.keyCode == 27) { 
+            closeTourInfo();
+        }
+    });
+}
+
+function closeTourInfo(){
+    $("#tour_info").animate({width:'hide'}, 400);
 }
 
 function setUpCategory(){
@@ -46,18 +56,23 @@ function setUpCategory(){
 
         setTourPanelLanguage(lang);
     }
-
     $('#category_title').html(dic_paseo['category_title']);
 
     createTourCards(dic_paseo['tours'], tour);
     setUpTourCards();
 }
 
-function createTourCards(tours, category){
+function createTourCards(tours){
     for (var i=0; i<tours.length; i++){
         var tour_card = '';
         tour_card += '<div data-tour-title="'+ tours[i]['tour-title'] +'" class="col-sm-6 col-md-4 tour-card">';
-        tour_card += '        <img class="tour-card-image" src="'+ tours[i]['tour-card-image'] +'">';
+
+        if(tours[i]['tour-card-image'] == null || tours[i]['tour-card-image'] == ''){
+            tour_card += '        <img class="tour-card-image" src="'+ PASEO['main']['default_image']+'">';
+        }else{
+            tour_card += '        <img class="tour-card-image" src="'+ tours[i]['tour-card-image'] +'">';
+        }
+        
         tour_card += '        <div class="brief-info">';
         tour_card += '            <span class="col-md-7 tour-title"><h4>'+ tours[i]['tour-title'] +'</h4></span>';
         tour_card += '            <span class="col-md-5 tour-card-duration"><h4>'+ tours[i]['tour-card-duration'] +'</h4></span>';
@@ -172,7 +187,19 @@ function getURLParameter(sParam){
 
 function setLangParamURL(tag, first=true){
     var href = tag.attr('href');
+    var section = '';
+
+    if(href.includes('#')){
+        var href_split = href.split('#');
+        if(href_split[1] != null){
+            section ='#'+href_split[1];            
+        }
+        href = href_split[0];
+    }
+
     href += (first?'?':'&');
     href +='lang='+$('body').data('lang');
+    href += section;
+    
     tag.attr('href',href);
 }

@@ -1,5 +1,7 @@
 var PASEO = {};
 PASEO['main'] = {
+    'default_image' : '../imagens/back_left.png',
+    
     'es': { 
         'menu':{
             'menu_buenos_aires'  : 'Vení a Buenos Aires' ,

@@ -30,6 +30,7 @@
 
     <div class="col-md-12" id="menu">
         <ul id="texto_menu">
+            <li><a id="logo_home" href="#"><img src="../imagens/logo_small.png"></a></li>
             <li><a id="menu_buenos_aires" href="#buenosAires">Vení a Buenos Aires</a></li>
             <li><a id="menu_tours" href="#paseosMain">Tours y Paseos</a></li>
             <li><a id="menu_presentation" href="#viajeros">Quién Somos</a></li>
@@ -37,8 +38,8 @@
             <li id="idioma" class="dropdown">
                 <div class="dropdown-content">
                     <a href="#" data-lang="es" class="selected lang"><img src="../imagens/ES.png"> ES</a>
-                    <a href="#" data-lang="fr" class="lang" style="display: none;"><img src="../imagens/FR.png"> FR</a>
                     <a href="#" data-lang="en" class="lang"><img src="../imagens/EN.png"> EN</a>
+                    <!-- <a href="#" data-lang="fr" class="lang"><img src="../imagens/FR.png"> FR</a> -->
                 </div>
             </li>
         </ul>
@@ -65,25 +66,25 @@
                     <a data-tour="city_tour" href="./paseo.html"><img class="img_grande" src="../imagens/city_tour.png"></a>
                 </div>
                 <div>
-                    <img class="img_pequena" src="../imagens/dia_campo.png">
-                    <img class="img_pequena" src="../imagens/delta_tigre.png">
+                    <a data-tour="country" href="./paseo.html"><img class="img_pequena" src="../imagens/dia_campo.png"></a>
+                    <img data-tour="delta_del_tigre" class="img_pequena" src="../imagens/delta_tigre.png">
                 </div>
                 <div>
-                    <img class="img_pequena" src="../imagens/vino.png">
-                    <img class="img_pequena" src="../imagens/tango_class.png">
+                    <img data-tour="vino"  class="img_pequena" src="../imagens/vino.png">
+                    <img data-tour="tango_class" class="img_pequena" src="../imagens/tango_class.png">
                 </div>
             </div>
             <div>
                 <div class="right">
-                    <img class="img_grande" src="../imagens/tango_show.png">
+                    <img data-tour="tango_show" class="img_grande" src="../imagens/tango_show.png">
                 </div>
                 <div>
-                    <img class="img_pequena" src="../imagens/uruguay.png">
-                    <img class="img_pequena" src="../imagens/esteros_ibera.png">
+                    <img data-tour="uruguay" class="img_pequena" src="../imagens/uruguay.png">
+                    <img data-tour="esteros_ibera" class="img_pequena" src="../imagens/esteros_ibera.png">
                 </div>
                 <div>
-                    <img class="img_pequena"  src="../imagens/futebol.png">
-                    <img class="img_pequena"  src="../imagens/cerveza.png">
+                    <img data-tour="soccer" class="img_pequena"  src="../imagens/futebol.png">
+                    <img data-tour="beer" class="img_pequena"  src="../imagens/cerveza.png">
                 </div>
             </div>
         </div>
@@ -116,15 +117,15 @@
                 </ul>
             	</div>
             </div>
-            <div class="col-md-8" id="formulario">
+            <div class="col-md-8" id="contact_form">
                 <h1 id="contact_us">¡Contactenos!</h1>
                 <p id="contact_sub">Y vení a disfrutar de esta bella cuidad.</p>
                 <form action="">
                     <!-- APRENDER ACTIONS !-->
-                    <input id="contact_name" placeholder="Nombre" type="text"><br>
-                    <input id="contact_email" placeholder="E-mail" type="email"><br>
-                    <textarea id="contact_message" placeholder="Mensaje"></textarea><br>
-                    <input id="contact_send" value="ENVIAR" type="submit"><br>
+                    <input class="col-md-12" id="contact_name" placeholder="Nombre" type="text">
+                    <input class="col-md-12" id="contact_email" placeholder="E-mail" type="email">
+                    <textarea class="col-md-12" id="contact_message" placeholder="Mensaje"></textarea>
+                    <button class="submit" id="contact_send" value="ENVIAR">ENVIAR</button>
                 </form>
             </div>
         </div>

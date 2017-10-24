@@ -1,5 +1,5 @@
 MENU:
-    - logo no menu (magin left- margin right+)
+    -(X) logo no menu (magin left- margin right+)
 
 FORM INDEX:
     - mudar input submit para button
@@ -8,7 +8,7 @@ FORM INDEX:
     - arrumar css, juntar regras
 
 INDEX:
-    - arrumar quieren ->; quieres
+    -(X) arrumar quieren ->; quieres
     - arrumr fotos paseos
     - arrumar titulos passeos (classes: upper-right/ upper-left/ lower-r/ lower-l)
     - arrumar js para verificar se vem # no final e tirar ao filtrar parametro lang

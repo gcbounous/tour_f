@@ -1,16 +1,15 @@
 PASEO['city_tour'] = {
-    'category-cover-image'       :'',
     'es': {
         'category_title': 'City Tour',
         'tours': [
             {
                 'tour-title'        : 'Tour Privado a pie',
                 'tour-card-duration': '3 horas',
-                'tour-card-image'   : '../imagens/paseos/city_tour/la-boca.jpg',
+                'tour-card-image'   : '../imagens/paseos/city_tour/foot/la-boca.jpg',
                 'images'            : [
-                                        '../imagens/paseos/city_tour/casa-rosada.jpg',
-                                        '../imagens/paseos/city_tour/DSC00894.jpg',
-                                        '../imagens/paseos/city_tour/la-boca.jpg'
+                                        '../imagens/paseos/city_tour/foot/casa-rosada.jpg',
+                                        '../imagens/paseos/city_tour/foot/DSC00894.jpg',
+                                        '../imagens/paseos/city_tour/foot/la-boca.jpg'
                                     ],
                 'videos'            : [],
                 'tour-info'   : {
@@ -35,9 +34,14 @@ PASEO['city_tour'] = {
             {
                 'tour-title'        : 'Tours en bicicleta',
                 'tour-card-duration': '4 horas - 1 dia',
-                //TODO: change photo
-                'tour-card-image'   : '../imagens/paseos/city_tour/DSC00894.jpg',
-                'images'            : [],
+                'tour-card-image'   : '../imagens/paseos/city_tour/bike/DSC_0047.JPG',
+                'images'            : [
+                                        '../imagens/paseos/city_tour/bike/DSC_0047.JPG',
+                                        '../imagens/paseos/city_tour/bike/DSC_0184.JPG',
+                                        '../imagens/paseos/city_tour/bike/DSC_0188.JPG',
+                                        '../imagens/paseos/city_tour/bike/IMG_20160409_123657511.jpg',
+                                        '../imagens/paseos/city_tour/bike/Puenta de la mujer 2.jpg',
+                                    ],
                 'videos'            : [],
                 'tour-info'   : {
                     'tour-description'  : '<p>Esta es la manera más completa de recorrer y conocer Buenos Aires, combinando el paseo \
@@ -64,8 +68,7 @@ PASEO['city_tour'] = {
             {
                 'tour-title'        : 'Tour fotográfico en auto',
                 'tour-card-duration': '4 horas',
-                //TODO: change photo
-                'tour-card-image'   : '../imagens/paseos/city_tour/casa-rosada.jpg',
+                'tour-card-image'   : '../imagens/paseos/city_tour/car/car.png',
                 'images'            : [],
                 'videos'            : [],
                 'tour-info'   : {

@@ -9,7 +9,7 @@ var INDEX = {
 		},
 		'buenos_aires': {
             'buenos_aires_title'    : 'Una ciudad, mil encantos', 
-            'buenos_aires_content'  : '<p>Si quieren descubrir las orígenes del tango durante una cena-show en un lugar histórico, sentir la pasión \
+            'buenos_aires_content'  : '<p>Si quieres descubrir las orígenes del tango durante una cena-show en un lugar histórico, sentir la pasión \
                                     que conquista a los hinchas las noches de partido en la Bombonera, descubrir los bares secretos de Buenos Aires, \
                                     aprender a cocinar empanadas, alquilar un bote a pedal al atardecer en el bosque de Palermo, probar una de las numerosas \
                                     cervezas artesanales argentinas, saborear un fernet con coca en un bar de Palermo antes de salir a un boliche a bailar, \

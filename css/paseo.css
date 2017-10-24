@@ -35,6 +35,7 @@ body {
 }
 
 .tour-card > img {
+    background-color: #dedcdc;
     height: 100%;
     width: 100%;
     border-radius: 15px 50px;
