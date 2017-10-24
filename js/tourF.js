@@ -10,7 +10,6 @@ function setUp(){
 
     $('.lang').click(function(e){
          e.preventDefault();
-
         var lang = $(this).data('lang');
 
         if(lang != $('body').data('lang')){
@@ -21,6 +20,11 @@ function setUp(){
     $('#paseos a').click(function(){
         setTourParamURL($(this));
         setLangParamURL($(this), false);
+    });
+
+    $('#contact_send').click(function(e){
+         e.preventDefault();
+        sendContactEmail();
     });
 }
 
@@ -79,7 +83,7 @@ function changeIndexLanguage(lang){
     $('#contact_name').attr('placeholder', contact['contact_name']);
     $('#contact_email').attr('placeholder', contact['contact_email']);
     $('#contact_message').attr('placeholder', contact['contact_message']);
-    $('#contact_send').attr('value', contact['contact_send']);
+    $('#contact_send').html(contact['contact_send']);
 }
 
 function getURLParameter(sParam){
@@ -98,6 +102,42 @@ function getURLParameter(sParam){
             }
         }
     }
+}
+
+function sendContactEmail(){        
+    var name = $('#contact_name').val();
+    var email = $('#contact_email').val();
+    var message = $('#contact_message').val();
+                
+    if(name == null || $.isEmptyObject(name)    ||
+     email == null  || $.isEmptyObject(email)   ||
+     message == null || $.isEmptyObject(message)){
+        $('#contact_form').find('input').addClass('invalid');
+        $('#contact_form').find('textarea').addClass('invalid');
+        alert('All fields with * are needed!');
+        return;
+    }
+    
+    //send to formspree
+    $.ajax({
+        url:'https://formspree.io/gccbounous@gmail.com',
+        method:'POST',
+        data:{
+            name:name,
+            _replyto:email,
+             email:email,
+            message:message,
+            _subject:'[CONTACTO]',
+        },
+        dataType:"json",
+        success:function() {
+            console.log('success'); 
+        },
+        error: function(e){
+            console.log(e);
+            alert('Sorry, we had an error, your e-mail was not sent. Please, try again later');
+        }
+    });     
 }
 
 

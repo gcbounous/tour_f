@@ -37,9 +37,9 @@ var INDEX = {
         'contact': {
             'contact_us'        : '¡Contactenos!',
             'contact_sub'       : 'Y vení a disfrutar de esta bella cuidad.',
-            'contact_name'      : 'Nombre',
-            'contact_email'     : 'E-mail',
-            'contact_message'   : 'Mensaje',
+            'contact_name'      : 'Nombre *',
+            'contact_email'     : 'E-mail *',
+            'contact_message'   : 'Mensaje *',
             'contact_send'      : 'ENVIAR'
         }
 	},
@@ -86,9 +86,9 @@ var INDEX = {
         'contact': {
             'contact_us'        : 'Contact us!',
             'contact_sub'       : 'Comme to this beautiful city.',
-            'contact_name'      : 'Name',
-            'contact_email'     : 'E-mail',
-            'contact_message'   : 'Message',
+            'contact_name'      : 'Name *',
+            'contact_email'     : 'E-mail *',
+            'contact_message'   : 'Message *',
             'contact_send'      : 'SEND'
         }
 

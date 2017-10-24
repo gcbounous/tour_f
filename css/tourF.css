@@ -43,6 +43,14 @@ input::placeholder {
     color: #333;
 }
 
+input:-moz-read-only { /* For Firefox */ 
+    cursor: not-allowed;
+}
+
+input:read-only { 
+    cursor: not-allowed;
+}
+
 #background {
     /*background-image: url(https://hullopallosa.files.wordpress.com/2017/05/start.png);*/
     background-image: url(../imagens/start.png);
@@ -344,6 +352,14 @@ button.submit {
     border-style: none;
     margin-bottom: 0;
     padding: 8px;
+    -webkit-box-shadow: unset;
+    box-shadow: unset;
+}
+
+#reserve_btn:focus,
+#reserve_btn:hover, 
+#reserve_btn:active{
+    outline: unset;
 }
 
 button.submit:hover {
@@ -397,4 +413,10 @@ button.submit:hover {
 
 .center {
     text-align: center;
+}
+
+.invalid,
+input:invalid,
+textarea:invalid {
+    box-shadow: inset 0 0 8px #FF0000, 0 0 8px #FF0000;
 }

@@ -29,6 +29,11 @@ function setUp(){
     $('#reserve_btn').click(function(){
         toggleReservationForm();
     });
+
+    $('#reservation_send').click(function(e){
+        e.preventDefault();
+        sendReservationEmail();
+    });
 }
 
 function closeTourInfo(){
@@ -39,9 +44,16 @@ function setUpCategory(){
     var tour = getURLParameter('tour');
     var lang = getURLParameter('lang');
 
-    var dic_main = PASEO['main'][lang];
-    var dic_paseo = PASEO[tour][lang];
+    if(lang == null || lang == '') 
+        lang = 'es';
 
+    try {
+        var dic_main = PASEO['main'][lang];
+        var dic_paseo = PASEO[tour][lang];
+    } catch (e) {
+        window.location.replace("../templates/index.html");
+    }
+    
     if(dic_main == null || $.isEmptyObject(dic_main) 
         || dic_paseo == null || $.isEmptyObject(dic_paseo)){ 
         
@@ -95,8 +107,14 @@ function setUpTourCards(){
     });
 
     $('.tour-card').click(function(){
+        cleanForm();
         openTourInfo($(this).data('tour-title'));
     });
+}
+
+function cleanForm(){
+    $('#reservation_form').find('input').val('');
+    $('#reservation_form').find('textarea').val('');
 }
 
 function openTourInfo(tour_title){
@@ -152,6 +170,8 @@ function fillTourPanel(tour){
     $.each(tour['tour-info'], function(id, val) {        
         panel.find('.' + id).find('.description p').html(val);
     });
+
+    panel.find('#reservation_tour').val(tour['tour-title']);
 }
 
 function setLanguage(lang){
@@ -222,4 +242,48 @@ function toggleReservationForm(){
         $('#reserve_btn').find('i').removeClass('fa-chevron-down');
     }
     $('#reservation_form').slideToggle()
+}
+
+function sendReservationEmail(){        
+    var name = $('#reservation_name').val();
+    var surname = $('#reservation_surname').val();
+    var phone = $('#reservation_phone').val();
+    var email = $('#reservation_email').val();
+    var tour = $('#reservation_tour').val();
+    var message = $('#reservation_message').val();
+                
+    if(name == null || $.isEmptyObject(name)    ||
+        surname == null || $.isEmptyObject(name)    ||
+        phone == null || $.isEmptyObject(phone)    ||
+        email == null  || $.isEmptyObject(email)){
+        $('#contact_form').find('input').addClass('invalid');
+        $('#contact_form').find('#reservation_tour').removeClass('invalid');
+        alert('All fields with * are needed!');
+        return;
+    }
+    
+    //send to formspree
+    $.ajax({
+        url:'https://formspree.io/gccbounous@gmail.com',
+        method:'POST',
+        data:{
+            tour:tour,
+            name:name,
+            surname:surname,
+            phone:phone,
+            email:email,
+            message:message,
+            _replyto:email,
+            _subject:'[RESERVA] - '+tour,
+        },
+        dataType:"json",
+        success:function() {
+            console.log('success');
+            closeTourInfo();
+        },
+        error: function(e){
+            console.log(e);
+            alert('Sorry, we had an error, your e-mail was not sent. Please, try again later');
+        }
+    });     
 }

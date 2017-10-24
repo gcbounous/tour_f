@@ -81,11 +81,6 @@ body {
     cursor: pointer;
 }
 
-
-#tour_info {
-    /*display: none;*/
-}
-
 #tour_info > *{
     opacity: 1;
 }
@@ -209,6 +204,7 @@ body {
 
 #reserve_btn {
     margin-right: 16%;
+    margin-bottom: 25px;
     color: white;
     background-color: #5b2581;
 }
@@ -229,7 +225,7 @@ body {
 }
 
 #reservation_form{
-    margin-top: 40px;
+    margin-top: 20px;
     background-color: rgba(204, 204, 204, 0.95);
 }
 
@@ -244,6 +240,11 @@ body {
 .reservation-form-left{
     margin-left: -15px;
     padding-left: 15px;
+}
+
+#reservation_tour{
+    background-color: rgba(0, 0, 0, 0.26);
+    color: white;
 }
 
 #reservation_send{

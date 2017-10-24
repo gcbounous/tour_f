@@ -19,7 +19,7 @@
 
 <body>
 
-    <div id="tour_info" class="overlay">
+    <div id="tour_info" class="overlay" style="display: none;">
         <span id="return_btn">
             <i class="fa fa-arrow-circle-left fa-lg"></i>
         </span>
@@ -137,16 +137,19 @@
                         <div id="reservation_form" class="col-md-offset-2 col-md-8 col-sm-12" style="display: none;">
                             <form>
                             <div class="col-md-6 col-sm-6">
-                                <input class="reservation-form-left" id="reservation_name" placeholder="Nombre" type="text">
+                                <input class="reservation-form-left" id="reservation_name" placeholder="Nombre *" type="text">
                             </div>
                             <div class="col-md-6 col-sm-6">
-                                <input id="reservation_surname" placeholder="Apellido" type="text">
+                                <input id="reservation_surname" placeholder="Apellido *" type="text">
                             </div>
                             <div class="col-md-6 col-sm-6">
-                                <input class="reservation-form-left" id="reservation_phone" placeholder="Móvil / Whatsapp" type="text">
+                                <input class="reservation-form-left" id="reservation_phone" placeholder="Móvil / Whatsapp *" type="text">
                             </div>
                             <div class="col-md-6 col-sm-6">
-                                <input id="reservation_email" placeholder="E-mail" type="text">
+                                <input id="reservation_email" placeholder="E-mail *" type="email">
+                            </div>
+                            <div class="col-md-126 col-sm-6">
+                                <input class="reservation-form-left" id="reservation_tour" placeholder="Paseo" type="text" readonly>
                             </div>
                             <textarea class="col-md-9 col-sm-9" id="reservation_message" placeholder="Mensaje"></textarea>
                             <button class="submit" id="reservation_send">ENVIAR</button>
