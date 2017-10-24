@@ -83,7 +83,7 @@ body {
 
 
 #tour_info {
-    display: none;
+    /*display: none;*/
 }
 
 #tour_info > *{
@@ -207,3 +207,46 @@ body {
     overflow: hidden;
 }
 
+#reserve_btn {
+    margin-right: 16%;
+    color: white;
+    background-color: #5b2581;
+}
+
+#reserve_btn:hover, 
+#reserve_btn.active {
+    background-color: plum;
+    color: white;
+    -webkit-box-shadow: unset;
+    box-shadow: unset;
+}
+
+#reserve_btn:focus,
+#reserve_btn:hover, 
+#reserve_btn:active, 
+#reserve_btn.active{
+    outline: unset;
+}
+
+#reservation_form{
+    margin-top: 40px;
+    background-color: rgba(204, 204, 204, 0.95);
+}
+
+#reservation_form input{
+    width: 100%;
+}
+
+#reservation_form textarea{
+    height: 100px;
+}
+
+.reservation-form-left{
+    margin-left: -15px;
+    padding-left: 15px;
+}
+
+#reservation_send{
+    margin-top: 60px;
+    margin-right: 22px;
+}

@@ -25,6 +25,10 @@ function setUp(){
             closeTourInfo();
         }
     });
+
+    $('#reserve_btn').click(function(){
+        toggleReservationForm();
+    });
 }
 
 function closeTourInfo(){
@@ -205,4 +209,17 @@ function setLangParamURL(tag, first=true){
     href += section;
     
     tag.attr('href',href);
+}
+
+function toggleReservationForm(){
+    if($('#reservation_form').is(':visible')){
+        $('#reserve_btn').removeClass('active');
+        $('#reserve_btn').find('i').removeClass('fa-chevron-up');
+        $('#reserve_btn').find('i').addClass('fa-chevron-down');
+    }else{
+        $('#reserve_btn').addClass('active');
+        $('#reserve_btn').find('i').addClass('fa-chevron-up');
+        $('#reserve_btn').find('i').removeClass('fa-chevron-down');
+    }
+    $('#reservation_form').slideToggle()
 }
