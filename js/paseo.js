@@ -183,11 +183,62 @@ function fillTourPanel(tour){
     panel.find('.tour-title').html(tour['tour-title']);
     panel.find('.tour-description').html(tour['tour-info']['tour-description']);
 
-    $.each(tour['tour-info'], function(id, val) {        
-        panel.find('.' + id).find('.description p').html(val);
+    $.each(tour['tour-info'], function(id, val) {
+        //fill price table
+        if(id == 'tour-prices'){
+            if(val['options'] != null){
+                var description = createPiceTable(val['options']);
+                panel.find('.' + id).find('.description').html(description);
+            }else{
+                panel.find('.' + id).find('.description').html('<p></p>');
+                panel.find('.' + id).find('.description p').html(val);
+            }
+        }else{
+            panel.find('.' + id).find('.description p').html(val);
+        }
     });
 
     panel.find('#reservation_tour').val(tour['tour-title']);
+}
+
+function createPiceTable(price_table){
+    var table = '';
+    for(var i = 0; i< price_table.length; i++){ 
+        if(price_table[i]['description'] == null){
+            table += '';
+        } else{
+            table += price_table[i]['description'];
+        }
+        table +=' <table class="price-table table table-bordered table-hover .table-condensed">'; 
+        table +='   <thead> ';
+        table +='       <tr>';
+
+        for(var j =0; j<price_table[i]['price_table']['header'].length; j++){
+            var h = price_table[i]['price_table']['header'][j];
+            table +='<th>'+ h +'</th>';
+        }
+        table +='       </tr>'; 
+        table +='   </thead>';
+
+        table +='   <tbody> ';
+        var rows = price_table[i]['price_table']['rows'];
+        for(var j =0; j<rows.length; j++){
+            table +='       <tr>';
+
+            var h = rows[j]['title'];
+            table +='<th>'+ h +'</th>';
+
+            for(var k=0; k<rows[j]['values'].length; k++){
+                var d = rows[j]['values'][k];
+                table +='<td>'+ d +'</td>';
+            }
+            table +='       </tr>';
+        }
+
+        table +='   </tbody> ';
+        table +=' </table>';
+    }
+    return table;
 }
 
 function setLanguage(lang){

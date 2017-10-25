@@ -1,3 +1,8 @@
+/*@font-face { 
+    font-family: 'FontAwesome'; 
+    src: local(''FontAwesome'); 
+}*/
+
 body {
     /*background: url(https://hullopallosa.files.wordpress.com/2017/06/back_left.png) no-repeat center center fixed; */
     background: url(../imagens/back_left.png) no-repeat center center fixed; 
@@ -196,6 +201,10 @@ body {
 .description {
     margin: 5px 10px;
 
+}
+
+.price-table{
+    width: 50%;
 }
 
 .no-scroll {

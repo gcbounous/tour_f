@@ -45,7 +45,26 @@ PASEO['exemple_tour'] = {
                 'tour-schedule'     : '',
                 'tour-meeting-spot' : '',
                 'tour-duration'     : '',
-                'tour-prices'       : '',
+                'tour-prices'       : 
+                        'options' : [
+                                {
+                                    'description': '',
+                                    'price_table':  {
+                                            'header'  : [],
+                                            'rows'    : [
+                                                    {
+                                                        'title' : '',
+                                                        'values': []
+                                                    },
+                                                    {
+                                                        'title' : '',
+                                                        'values': []
+                                                    }
+                                                ]
+                                        }
+                                }
+                        ]
+                    },
                 'tour-languages'    : '',
                 'tour-include'      : '',
                 'tour-not-include'  : ''
