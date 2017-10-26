@@ -19,9 +19,13 @@ function setUp(){
     });
 
     //chose a tour
-    $('.tour-img-wrapper').click(function(){
-        setTourParamURL($(this).find('a'));
-        setLangParamURL($(this).find('a'), false);
+    $('.tour-img-wrapper').click(function(e){
+        e.preventDefault();
+        var a_link = $(this).find('a');
+        setTourParamURL(a_link);
+        setLangParamURL(a_link, false);
+        var href = a_link.attr('href');
+        window.location.replace(href);
     });
 
     //send contact e-mail
@@ -29,6 +33,12 @@ function setUp(){
          e.preventDefault();
         sendContactEmail();
     });
+
+    //disable .disabled
+    $('.disabled, .tour-img-wrapper.disabled .tour-img-text').click(function(e){
+        e.preventDefault()
+    });
+
 }
 
 function setTourParamURL(tag, first=true){
@@ -73,7 +83,6 @@ function changeIndexLanguage(lang){
     });
     
     var i = 0;
-    console.log(dic['tours'])
     $.each(dic['tours'], function(id, val) {
         if(i==0) $('#' + id).html(val);
         else $('#paseos').find('a[data-tour="'+id+'"]').next('span').html(val);

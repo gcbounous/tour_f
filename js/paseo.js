@@ -58,24 +58,17 @@ function setUpCategory(change_lang = false){
     if(change_lang){
         lang = $('body').data('lang');
         tour = $('body').data('category');
+
+        check_json = checkJsonExists(lang,tour)
+        tour = check_json['tour'];
+        lang = check_json['lang'];
     }else{
         tour = getURLParameter('tour');
         lang = getURLParameter('lang');
         
-        if(lang == null || lang == '') 
-            lang = 'es';
-
-        try {
-            var dic_main = PASEO['main'][lang];
-            var dic_paseo = PASEO[tour][lang];
-
-            if(dic_main == null || $.isEmptyObject(dic_main) || dic_paseo == null || $.isEmptyObject(dic_paseo)){        
-                lang = 'es';
-            }
-        } catch (e) {
-            // window.location.replace("../templates/index.html");
-            console.log(e)
-        }
+        check_json = checkJsonExists(lang,tour)
+        tour = check_json['tour'];
+        lang = check_json['lang'];
 
         $('body').data('lang',lang);
         $('body').data('category',tour);
@@ -90,6 +83,7 @@ function setUpCategory(change_lang = false){
     setTourMainLanguage(lang);
 
     $('#category_title').html(dic_paseo['category_title']);
+    $('#category_description').html(dic_paseo['category_description']);
 
     createTourCards(dic_paseo['tours'], tour);
     setUpTourCards();
@@ -246,6 +240,55 @@ function setLanguage(lang){
     setUpCategory(true);
 }
 
+function changeSelectedFlag(lang){
+    $('.lang.selected').attr('href', '#').removeClass('selected');
+    $('.dropdown').find('a[data-lang="'+lang+'"]').attr('href', 'javascript:;').addClass('selected');
+    
+    var new_lang = $('.lang.selected').detach();
+    $('.dropdown-content').prepend(new_lang);
+}
+
+function checkJsonExists(lang, tour){
+    try {
+            dic_paseo = PASEO[tour];
+            if(dic_paseo == null || $.isEmptyObject(dic_paseo)){ 
+                // window.location.replace("../templates/index.html");
+                console.log("[ERROR] jsonCheck: Tour doesn't exist!");
+            }
+    } catch (e) {
+        // window.location.replace("../templates/index.html");
+        console.log("[ERROR] jsonCheck: Tour doesn't exist!");
+        console.log(e);
+    }
+
+    try {
+            dic_paseo = PASEO[tour][lang];
+            if(dic_paseo == null || $.isEmptyObject(dic_paseo)){ 
+                if(lang == 'es'){
+                    // window.location.replace("../templates/index.html");
+                    console.log("[ERROR] jsonCheck: No tour in spanish!");
+                }else{
+                    lang = 'es';
+                    return checkJsonExists(lang, tour);
+                }
+            } else if(dic_paseo['category_title'] == null || dic_paseo['category_title'] == ''){
+                if(lang == 'es'){
+                    // window.location.replace("../templates/index.html");
+                    console.log("[ERROR] jsonCheck: No tour in spanish!");
+                }else{
+                    lang = 'es';
+                    return checkJsonExists(lang, tour);
+                }
+            }
+    } catch (e) {
+        // window.location.replace("../templates/index.html");
+        console.log("[ERROR] jsonCheck: Tour-lang!");
+        console.log(e);
+    }
+
+    return {'lang': lang, 'tour': tour};
+}
+
 function setTourMainLanguage(lang){
     var dic_main = PASEO['main'][lang];
 
@@ -269,14 +312,6 @@ function setTourMainLanguage(lang){
     //set buttons
     panel.find('#reserve_btn').find('span').text(dic_main['buttons']['reserve_btn']);
     panel.find('#reservation_send').text(dic_main['buttons']['reservation_send']);
-}
-
-function changeSelectedFlag(lang){
-    $('.lang.selected').attr('href', '#').removeClass('selected');
-    $('.dropdown').find('a[data-lang="'+lang+'"]').attr('href', 'javascript:;').addClass('selected');
-    
-    var new_lang = $('.lang.selected').detach();
-    $('.dropdown-content').prepend(new_lang);
 }
 
 function getURLParameter(sParam){

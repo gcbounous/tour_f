@@ -1,7 +1,9 @@
 PASEO['city_tour'] = {
     'es': {
         'category_title': 'City Tour',
+        'category_description'  : '',
         'tours': [
+            // ----------- TOUR PRIVADO A PIE -----------
             {
                 'tour-title'        : 'Tour Privado a pie',
                 'tour-card-duration': '3 horas',
@@ -31,6 +33,7 @@ PASEO['city_tour'] = {
                     'tour-not-include'  : 'Pick up, bebida, comida',
                 }
             },
+            // ----------- TOURS EN BICICLETA -----------
             {
                 'tour-title'        : 'Tours en bicicleta',
                 'tour-card-duration': '4 horas - 1 dia',
@@ -65,6 +68,7 @@ PASEO['city_tour'] = {
                     'tour-not-include'  : 'Pick up',                    
                 }
             },
+            // ----------- TOURS FOTOGRAFICOS EN AUTO -----------
             {
                 'tour-title'        : 'Tour fotográfico en auto',
                 'tour-card-duration': '4 horas',

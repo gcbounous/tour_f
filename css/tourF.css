@@ -51,6 +51,15 @@ input:read-only {
     cursor: not-allowed;
 }
 
+.disabled {
+   opacity:0.5;
+}
+
+.disabled:hover {
+   cursor: not-allowed;
+}
+
+
 #background {
     /*background-image: url(https://hullopallosa.files.wordpress.com/2017/05/start.png);*/
     background-image: url(../imagens/start.png);
@@ -287,6 +296,11 @@ input:read-only {
 
 .tour-img-text:hover{
     cursor: pointer;
+}
+
+.tour-img-wrapper.disabled:hover img,
+.tour-img-wrapper.disabled .tour-img-text:hover{
+   cursor: not-allowed;
 }
 
 .upper-left{

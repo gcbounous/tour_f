@@ -2,6 +2,7 @@ PASEO['country'] = {
     'es' : { 
         'category_title': 'Día de campo',
         'tours': [
+            // ----------- LA PORTENA DE ARCO -----------
             {
                 'tour-title'        : 'La porteña de Areco',
                 'tour-card-duration': '1 día',
@@ -30,6 +31,7 @@ PASEO['country'] = {
                                             3200 pesos hasta 3 personas',
                 }
             },
+            // ----------- CABALGATAS -----------
             {
                 'tour-title'        : 'Cabalgatas',
                 'tour-card-duration': '1 Día',
@@ -119,6 +121,27 @@ PASEO['country'] = {
                                             <p>Posibilidad de ir por su propria cuenta :<br>\
                                             Bus hasta San Antonio de Areco (~250pesos/pers/ida y vuelta)\
                                             Taxi-Remis entre La Segunda-San A Areco (~400 pesos ida)</p>',
+                }
+            },
+            // ----------- JAVIER CABALGATA EN MENDOZA -----------
+            {
+                'tour-title'        : 'Javier cabalgata en Mendoza',
+                'tour-card-duration': '1 Día',
+                'tour-card-image'   : '',
+                'images'            : [],
+                'videos'            : [],
+                'tour-info'   : {
+                    'tour-description'  : '<p>Día de campo en un rancho precordillerano, con cabalgata de 2 horas en el pedemonte. \
+                                            Terminan el día compartiendo un típico asado.</p>',
+                    'tour-frequency'    : '<p>Regular : Martes, Jueves y domingos</p>\
+                                            <p>Grupos  : Todos los dias</p>',
+                    'tour-schedule'     : '15h',
+                    'tour-meeting-spot' : 'Pick up en el hotel',
+                    'tour-duration'     : '15h-21h',
+                    'tour-prices'       : '1090 pesos',
+                    'tour-languages'    : 'Guía traductor francés/ingles',
+                    'tour-include'      : 'Transporte, cabalgata guiada, asado con carne y verduras a la parilla, vino.',
+                    'tour-not-include'  : '---',
                 }
             },
         ]

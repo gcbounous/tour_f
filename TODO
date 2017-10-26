@@ -1,14 +1,57 @@
 ------- TODO -----------
-TOUR-INFO:
-    - arrumar icones no firefox
-    - change exemple.js
+Severine:
+    - separer les tours d'uruguay?
+    - photos pour chaque tour
+    - check las e-mails pour changement des prix
 
-CONTENT
-    - copy tours
-    - photos
+TOUR-INFO:
+    - check language bug (going back and forth/ flags)
+
+CITY TOUR
+    - photos car tour
+    - video?
+
+COUNTRY
+    - photo
     - videos
 
-    -> stopped at campo (cabalgadas)
+DELTA DEL TIGRE
+    - photo
+    - videos (paseo en gomon: https://www.youtube.com/watch?v=e7Y9SXLSD4M&t=119s)
+
+TANGO CLASSES
+    - photo
+    - videos
+    - voir tableau des prix
+
+SOCCER
+    - photo
+    - videos
+
+EMPANADAS
+    - photo
+    - videos (https://www.youtube.com/watch?v=1phmONaAxyw)
+
+WINE/BEER
+    - photo
+    - videos (wine/cheese: https://www.youtube.com/watch?v=QYEhNwZOZL4)
+
+URUGUAY
+    - photo
+    - videos
+    - 4 distinct tours?
+
+ESTEROS DE IBERÁ
+    - photo
+    - videos
+    - Preços (em anexo)!!!
+
+TANGO SHOW (planifica tu show de tango con nosotros)
+    - photo
+    - videos
+    - content
+
+
 
     
 
@@ -22,6 +65,7 @@ FORM INDEX:
     (X) tirar br e colocar col-md
     (X) placeholder cinza
     (X) arrumar css, juntar regras
+    (X) arrumar exemple.js
 
 INDEX:
     (X) arrumr fotos paseos
