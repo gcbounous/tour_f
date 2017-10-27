@@ -11,8 +11,21 @@ PASEO['uruguay'] = {
             {
                 'tour-title'        : 'Uruguay',
                 'tour-card-duration': '1 día',
-                'tour-card-image'   : '',
-                'images'            : [],
+                'tour-card-image'   : '../imagens/paseos/Uruguay/DSC01023.JPG',
+                'images'            : [
+                                        '../imagens/paseos/Uruguay/1476088_1023219097691837_1250121327011744660_n.jpg',
+                                        '../imagens/paseos/Uruguay/1690625_1023219141025166_4021250175896365722_n.jpg',
+                                        '../imagens/paseos/Uruguay/15940989_1747045668955699_7870470614024578517_n.jpg',
+                                        '../imagens/paseos/Uruguay/18698119_681552438719847_3234670985676516836_n.jpg',
+                                        '../imagens/paseos/Uruguay/21077414_724512734423817_1222828940299500560_n.jpg',
+                                        '../imagens/paseos/Uruguay/21767995_1989055464441524_192663418904275086_n.jpg',
+                                        '../imagens/paseos/Uruguay/Carmelo_Golf_Resort_005.jpg',
+                                        '../imagens/paseos/Uruguay/colonia-del-sacramento-2541858_1920.jpg',
+                                        '../imagens/paseos/Uruguay/DSC01023.JPG',
+                                        '../imagens/paseos/Uruguay/DSC01024.JPG',
+                                        '../imagens/paseos/Uruguay/DSC01028.JPG',
+                                        '../imagens/paseos/Uruguay/Four_Seasons_Carmelo_Golf_Resort_001.jpg',
+                ],
                 'video'             : '',
                 'tour-info'   : {
                     'tour-description'  : '<p><strong>Wine road Colonia : 7 horas</strong><br>\
@@ -34,8 +47,8 @@ PASEO['uruguay'] = {
                                             7 horas para los de más',
                     'tour-prices'       : 'Wine road Colonia : 169 USD<br>\
                                             Colonia y Carmelo : 169 USD<br>\
-                                            Colonia                 : 99 USD<br>\
-                                            Montevideo           : 179 USD',
+                                            Colonia : 99 USD<br>\
+                                            Montevideo : 179 USD',
                     'tour-languages'    : 'Español/inglés',
                     'tour-include'      : 'Degustación de vino y tapas en cada bodega. Guía bilingüe, visita guiada de Colonia (excepto tour en Montevideo), \
                                             transporte ida y vuelta desde el ferry o hotel en Uruguay.<br>\

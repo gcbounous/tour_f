@@ -52,7 +52,7 @@ body {
 }
 
 .tour-card  img {
-    /*height: 100%;*/
+    min-height: 100%;
     max-width: 100%;
     position: relative;
     left: 100%; 
@@ -117,6 +117,7 @@ body {
     position: relative;
     background-color: white;
     margin-top: 50px;
+    overflow: auto;
 }
 
 .tour-panel a{
@@ -157,10 +158,16 @@ body {
     margin: 1px; 
 }
 
+.carousel-control.right,
+.carousel-control.left{
+    background-image: none;
+    color: #fff;
+}
+
 .carousel-inner img {
     height: 450px !important;
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .tour-panel .panel-body {

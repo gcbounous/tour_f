@@ -7,8 +7,21 @@ PASEO['esteros_ibera'] = {
             {
                 'tour-title'        : 'Esteros del Iberà',
                 'tour-card-duration': '3 - 4 días',
-                'tour-card-image'   : '',
-                'images'            : [],
+                'tour-card-image'   : '../imagens/paseos/Esteros del Ibera/DSC00810.JPG',
+                'images'            : [
+                                        '../imagens/paseos/Esteros del Ibera/DSC00714.JPG',
+                                        '../imagens/paseos/Esteros del Ibera/DSC00730.JPG',
+                                        '../imagens/paseos/Esteros del Ibera/DSC00738.JPG',
+                                        '../imagens/paseos/Esteros del Ibera/DSC00739.JPG',
+                                        '../imagens/paseos/Esteros del Ibera/DSC00759.JPG',
+                                        '../imagens/paseos/Esteros del Ibera/DSC00768.JPG',
+                                        '../imagens/paseos/Esteros del Ibera/DSC00778.JPG',
+                                        '../imagens/paseos/Esteros del Ibera/DSC00801.JPG',
+                                        '../imagens/paseos/Esteros del Ibera/DSC00810.JPG',
+                                        '../imagens/paseos/Esteros del Ibera/DSC00811.JPG',
+                                        '../imagens/paseos/Esteros del Ibera/DSC00813.JPG',
+                                        '../imagens/paseos/Esteros del Ibera/DSC00839.JPG'
+                ],
                 'video'             : '',
                 'tour-info'   : {
                     'tour-description'  : '<p>Imagina 1300000 hectáreas de zona con pantanos, tierra e islas flotantes donde viven yacarés, carpinchos, monos, \

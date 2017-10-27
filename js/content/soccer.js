@@ -7,8 +7,13 @@ PASEO['soccer'] = {
             {
                 'tour-title'        : 'Partido de fútbol',
                 'tour-card-duration': '1 Noche',
-                'tour-card-image'   : '',
-                'images'            : [],
+                'tour-card-image'   : '../imagens/paseos/partido de futbol/boca-juniors-1712628_1920.jpg',
+                'images'            : [
+                                        '../imagens/paseos/partido de futbol/boca-juniors-775838_1920.jpg',
+                                        '../imagens/paseos/partido de futbol/boca-juniors-1286662_1920.jpg',
+                                        '../imagens/paseos/partido de futbol/boca-juniors-1712628_1920.jpg',
+                                        '../imagens/paseos/partido de futbol/los-borrachos-del-tablon-river-plate-122-114939-barrabrava-net.jpg',
+                ],
                 'video'             : '',
                 'tour-info'   : {
                     'tour-description'  : '<p>Si quieres sentir la pasión de los hinchas del futbol argentino en un estadio, tenemos 2 opciones para ver partidos \

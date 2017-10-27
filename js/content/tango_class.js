@@ -8,8 +8,10 @@ PASEO['tango_class'] = {
             {
                 'tour-title'        : 'Classe de Tango',
                 'tour-card-duration': '1 hora',
-                'tour-card-image'   : '',
-                'images'            : [],
+                'tour-card-image'   : '../imagens/paseos/Tango class/Tango class/IMG_20170806_002624.png',
+                'images'            : [
+                                        '../imagens/paseos/Tango class/Tango class/IMG_20170806_002624.png',
+                ],
                 'video'             : '',
                 'tour-info'   : {
                     'tour-description'  : 'Buenos Aires es la ciudad del tango, hay más de 150 lugares de milonga (= que puede ser un bar, un teatro, \
@@ -32,8 +34,12 @@ PASEO['tango_class'] = {
             {
                 'tour-title'        : 'Tango y hipódromo',
                 'tour-card-duration': '3 horas',
-                'tour-card-image'   : '',
-                'images'            : [],
+                'tour-card-image'   : '../imagens/paseos/Tango class/Tango & Hippodromo & asado/DSC01007.JPG',
+                'images'            : [
+                                        '../imagens/paseos/Tango class/Tango & Hippodromo & asado/IMG_20170806_002624.png',
+                                        '../imagens/paseos/Tango class/Tango & Hippodromo & asado/DSC01005.JPG',
+                                        '../imagens/paseos/Tango class/Tango & Hippodromo & asado/DSC01007.JPG',
+                ],
                 'video'             : '',
                 'tour-info'   : {
                     'tour-description'  : 'Para aquellas personas que quieran aprender o practicar tango en un lugar precioso: en un estudio en el hipódromo \
@@ -52,12 +58,19 @@ PASEO['tango_class'] = {
                     'tour-not-include'  : 'Transporte',
                 }
             },
-            // ---------- TANG, ASSADO Y MILONGA ----------
+            // ---------- TANGO, ASSADO Y MILONGA ----------
             {
                 'tour-title'        : 'Tango, asado y milonga',
                 'tour-card-duration': '',
-                'tour-card-image'   : '',
-                'images'            : [],
+                'tour-card-image'   : '../imagens/paseos/Tango class/Tango & Hippodromo & asado/drinks-2616778_960_720.jpg',
+                'images'            : [
+                                        '../imagens/paseos/Tango class/Tango & Hippodromo & asado/barbecue-area-2491088_960_720.jpg',
+                                        '../imagens/paseos/Tango class/Tango & Hippodromo & asado/IMG_20170806_002624.png',
+                                        '../imagens/paseos/Tango class/Tango & Hippodromo & asado/drinks-2616778_960_720.jpg',
+                                        '../imagens/paseos/Tango class/Tango & Hippodromo & asado/DSC01005.JPG',
+                                        '../imagens/paseos/Tango class/Tango & Hippodromo & asado/DSC01007.JPG',
+                                        '../imagens/paseos/Tango class/Tango & Hippodromo & asado/deafb8e03095e628cba25e62626249c1.jpg.png',
+                ],
                 'video'             : '',
                 'tour-info'   : {
                     'tour-description'  : '<p>Para aquellas personas que quieran aprender o practicar tango en un lugar precioso: en un estudio en el hipódromo \

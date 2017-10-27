@@ -7,11 +7,10 @@ PASEO['city_tour'] = {
             {
                 'tour-title'        : 'Tour Privado a pie',
                 'tour-card-duration': '3 horas',
-                'tour-card-image'   : '../imagens/paseos/city_tour/foot/la-boca.jpg',
+                'tour-card-image'   : '../imagens/paseos/city_tour/city tour a pied/la-boca-2673956_960_720.jpg',
                 'images'            : [
-                                        '../imagens/paseos/city_tour/foot/casa-rosada.jpg',
-                                        '../imagens/paseos/city_tour/foot/DSC00894.jpg',
-                                        '../imagens/paseos/city_tour/foot/la-boca.jpg'
+                                        '../imagens/paseos/city_tour/city tour a pied/casa-rosada-907344_1920.jpg',
+                                        '../imagens/paseos/city_tour/city tour a pied/la-boca-2673956_960_720.jpg'
                                     ],
                 'video'             : '',
                 'tour-info'   : {
@@ -37,13 +36,14 @@ PASEO['city_tour'] = {
             {
                 'tour-title'        : 'Tours en bicicleta',
                 'tour-card-duration': '4 horas - 1 dia',
-                'tour-card-image'   : '../imagens/paseos/city_tour/bike/DSC_0047.JPG',
+                'tour-card-image'   : '../imagens/paseos/city_tour/City tour velo/DSC_0047.JPG',
                 'images'            : [
-                                        '../imagens/paseos/city_tour/bike/DSC_0047.JPG',
-                                        '../imagens/paseos/city_tour/bike/DSC_0184.JPG',
-                                        '../imagens/paseos/city_tour/bike/DSC_0188.JPG',
-                                        '../imagens/paseos/city_tour/bike/IMG_20160409_123657511.jpg',
-                                        '../imagens/paseos/city_tour/bike/Puenta de la mujer 2.jpg',
+                                        '../imagens/paseos/city_tour/City tour velo/DSC_0047.JPG',
+                                        '../imagens/paseos/city_tour/City tour velo/DSC_0184.JPG',
+                                        '../imagens/paseos/city_tour/City tour velo/DSC_0188.JPG',
+                                        '../imagens/paseos/city_tour/City tour velo/DSC_0188copy.JPG',
+                                        '../imagens/paseos/city_tour/City tour velo/IMG_20160409_123657511.jpg',
+                                        '../imagens/paseos/city_tour/City tour velo/Puenta de la mujer 2.jpg',
                                     ],
                 'video'             : '',
                 'tour-info'   : {
@@ -72,8 +72,12 @@ PASEO['city_tour'] = {
             {
                 'tour-title'        : 'Tour fotográfico en auto',
                 'tour-card-duration': '4 horas',
-                'tour-card-image'   : '../imagens/paseos/city_tour/car/car.png',
-                'images'            : [],
+                'tour-card-image'   : '../imagens/paseos/city_tour/city tour auto/DSC00894.JPG',
+                'images'            : [
+                                        '../imagens/paseos/city_tour/city tour auto/DSC00894.JPG',
+                                        '../imagens/paseos/city_tour/city tour auto/DSC_0565.JPG',
+                                        '../imagens/paseos/city_tour/city tour auto/floralis.jpg',
+                ],
                 'video'             : '',
                 'tour-info'   : {
                     'tour-description'  : '<p>Recomendado para las personas que no tienen mucho tiempo para visitar la ciudad o que no quieren \

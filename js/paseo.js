@@ -43,11 +43,6 @@ function setUp(){
     });
 }
 
-function closeTourInfo(){
-    $('#reservation_form').show();
-    toggleReservationForm();
-    $("#tour_info").animate({width:'hide'}, 400);
-}
 
 function setUpCategory(change_lang = false){
     var lang = '';
@@ -158,6 +153,13 @@ function openTourInfo(tour_title){
 
     $('body').addClass('no-scroll');
     $('#tour_info').slideToggle();
+}
+
+function closeTourInfo(){
+    $('#reservation_form').show();
+    toggleReservationForm();
+    $('#tour_info').animate({scrollTop:0},0);
+    $("#tour_info").animate({width:'hide'}, 400);
 }
 
 function fillImageCarousel(images){

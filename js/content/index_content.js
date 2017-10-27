@@ -22,7 +22,7 @@ var INDEX = {
         'tours': {
             'tours_title'       : 'Nuestros tours y paseos',
             'city_tour'         : 'City Tour',
-            'country'           : 'Día de Campo',
+            'countryside'           : 'Día de Campo',
             'delta_del_tigre'   : 'Delta del Tigre',
             'cocina'            : 'Taller de Empanadas',
             'tango_class'       : 'Classes de Tango',
@@ -79,7 +79,7 @@ var INDEX = {
         'tours': {
             'tours_title'       : 'Tours',
             'city_tour'         : 'City Tour',
-            'country'           : 'Field Day',
+            'countryside'           : 'Field Day',
             'delta_del_tigre'   : 'Delta del Tigre',
             'cocina'            : 'Empanadas',
             'tango_class'       : 'Tango Classes',

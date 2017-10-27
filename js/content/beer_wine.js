@@ -7,8 +7,12 @@ PASEO['beer_wine'] = {
             {
                 'tour-title'        : 'Tour cervecero ',
                 'tour-card-duration': '3 Horas',
-                'tour-card-image'   : '',
-                'images'            : [],
+                'tour-card-image'   : '../imagens/paseos/beer_wine/Beer walk/beerz_grande.jpg',
+                'images'            : [ 
+                                        '../imagens/paseos/beer_wine/Beer walk/13103414_1162906693748225_4226652806905097467_n.jpg',
+                                        '../imagens/paseos/beer_wine/Beer walk/beer-2435382_960_720.jpg',  
+                                        '../imagens/paseos/beer_wine/Beer walk/beerz_grande.jpg'
+                                      ],
                 'video'             : '',
                 'tour-info'   : {
                     'tour-description'  : 'Cada vez son más los establecimientos que ofrecen cerveza artesanal en Buenos Aires. \
@@ -28,8 +32,16 @@ PASEO['beer_wine'] = {
             {
                 'tour-title'        : 'Degustación de vino y tapas argentinos',
                 'tour-card-duration': '2 horas',
-                'tour-card-image'   : '',
-                'images'            : [],
+                'tour-card-image'   : '../imagens/paseos/beer_wine/Vino y tapas/IMG_20170605_160517.jpg',
+                'images'            : [
+                                        '../imagens/paseos/beer_wine/Vino y tapas/IMG_20170605_151455.jpg',
+                                        '../imagens/paseos/beer_wine/Vino y tapas/IMG_20170605_152356.jpg',
+                                        '../imagens/paseos/beer_wine/Vino y tapas/IMG_20170605_154057.jpg',
+                                        '../imagens/paseos/beer_wine/Vino y tapas/IMG_20170605_160517.jpg',
+                                        '../imagens/paseos/beer_wine/Vino y tapas/IMG_20170605_162438.jpg',
+                                        '../imagens/paseos/beer_wine/Vino y tapas/IMG_20170605_163159.jpg',
+                                        '../imagens/paseos/beer_wine/Vino y tapas/IMG_20170605_163322.jpg'
+                ],
                 'video'             : '',
                 'tour-info'   : {
                     'tour-description'  : 'Argentina es el 5º productor mundial de vino, y la más grande superficie de producción vitivinícola procedido de Malbec. \
@@ -53,8 +65,14 @@ PASEO['beer_wine'] = {
             {
                 'tour-title'        : 'Degustación de vinos y quesos argentinos',
                 'tour-card-duration': '2 horas',
-                'tour-card-image'   : '',
-                'images'            : [],
+                'tour-card-image'   : '../imagens/paseos/beer_wine/Vino y queso/DSC01387.JPG',
+                'images'            : [
+                                    '../imagens/paseos/beer_wine/Vino y queso/DSC01387.JPG',
+                                    '../imagens/paseos/beer_wine/Vino y queso/DSC01390.JPG',
+                                    // '../imagens/paseos/beer_wine/Vino y queso/DSC01391.JPG',
+                                    '../imagens/paseos/beer_wine/Vino y queso/DSC01392.JPG',
+                                    '../imagens/paseos/beer_wine/Vino y queso/DSC01393.JPG'
+                ],
                 'video'             : 'https://www.youtube.com/embed/QYEhNwZOZL4?rel=0',
                 'tour-info'   : {
                     'tour-description'  : 'Degustación de 4 vinos y quesos argentinos. El sommelier nos lleva al descubrimiento de la combinación de \

@@ -1,50 +1,12 @@
 ------- TODO -----------
 Severine:
     - separer les tours d'uruguay?
-    - photos pour chaque tour
-    - check las e-mails pour changement des prix
+    - check los e-mails pour changement des prix
 
 TOUR-INFO:
     - check language bug (going back and forth/ flags)
 
-CITY TOUR
-    - photos car tour
-    - video?
 
-COUNTRY
-    - photo
-    - videos
-
-DELTA DEL TIGRE
-    - photo
-    - videos (paseo en gomon: https://www.youtube.com/watch?v=e7Y9SXLSD4M&t=119s)
-
-TANGO CLASSES
-    - photo
-    - videos
-    - voir tableau des prix
-
-SOCCER
-    - photo
-    - videos
-
-EMPANADAS
-    - photo
-    - videos (https://www.youtube.com/watch?v=1phmONaAxyw)
-
-WINE/BEER
-    - photo
-    - videos (wine/cheese: https://www.youtube.com/watch?v=QYEhNwZOZL4)
-
-URUGUAY
-    - photo
-    - videos
-    - 4 distinct tours?
-
-ESTEROS DE IBERÁ
-    - photo
-    - videos
-    - Preços (em anexo)!!!
 
 TANGO SHOW (planifica tu show de tango con nosotros)
     - photo
@@ -88,3 +50,36 @@ TOUR-INFO:
     (X) criar botão reserva + seção de form em baixo (toggle) (collocar form em row atrás)
     (X) ao clicar em abrir form focalizar no form
     (X) change language
+
+WINE/BEER
+    - photo
+    - videos (wine/cheese: https://www.youtube.com/watch?v=QYEhNwZOZL4)
+
+CITY TOUR
+    - photos car tour
+
+COUNTRY
+    - photo
+
+DELTA DEL TIGRE
+    - photo
+    - videos (paseo en gomon: https://www.youtube.com/watch?v=e7Y9SXLSD4M&t=119s)
+
+EMPANADAS
+    - photo
+    - videos (https://www.youtube.com/watch?v=1phmONaAxyw)
+
+
+TANGO CLASSES
+    - photo
+
+
+SOCCER
+    - photo
+
+URUGUAY
+    - photo
+    - 4 distinct tours?
+
+ESTEROS DE IBERÁ
+    - photo

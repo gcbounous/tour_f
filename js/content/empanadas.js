@@ -7,8 +7,20 @@ PASEO['empanadas'] = {
             {
                 'tour-title'        : 'Taller de empanadas',
                 'tour-card-duration': '4 horas',
-                'tour-card-image'   : '',
-                'images'            : [],
+                'tour-card-image'   : '../imagens/paseos/Empanadas workshop/22278760_1487275898018986_785212778_n.jpg',
+                'images'            : [
+                                        '../imagens/paseos/Empanadas workshop/22278760_1487275898018986_785212778_n.jpg',
+                                        '../imagens/paseos/Empanadas workshop/DSC01394.JPG',
+                                        '../imagens/paseos/Empanadas workshop/DSC01395.JPG',
+                                        '../imagens/paseos/Empanadas workshop/DSC01396.JPG',
+                                        '../imagens/paseos/Empanadas workshop/DSC01398.JPG',
+                                        '../imagens/paseos/Empanadas workshop/DSC01399.JPG',
+                                        '../imagens/paseos/Empanadas workshop/DSC01400.JPG',
+                                        '../imagens/paseos/Empanadas workshop/DSC01401.JPG',
+                                        '../imagens/paseos/Empanadas workshop/DSC01402.JPG',
+                                        '../imagens/paseos/Empanadas workshop/DSC01405.JPG',
+                                        '../imagens/paseos/Empanadas workshop/DSC01411.JPG',
+                ],
                 'video'             : 'https://www.youtube.com/embed/1phmONaAxyw?rel=0',
                 'tour-info'   : {
                     'tour-description'  : 'Con la ayuda de una argentina vamos a aprender a hacer empanadas. Desde la masa hasta el relleno, \
