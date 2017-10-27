@@ -13,7 +13,7 @@ PASEO['city_tour'] = {
                                         '../imagens/paseos/city_tour/foot/DSC00894.jpg',
                                         '../imagens/paseos/city_tour/foot/la-boca.jpg'
                                     ],
-                'videos'            : [],
+                'video'             : '',
                 'tour-info'   : {
                     'tour-description'  : '<p>Recomendado para personas que ya han visto una parte de la ciudad y quieren un itinerario personalizado incluyendo \
                                         explicaciones sobre la historia de Argentina, descubierta de lugares desconocido, anécdotas y tips para comer y salir. \
@@ -45,7 +45,7 @@ PASEO['city_tour'] = {
                                         '../imagens/paseos/city_tour/bike/IMG_20160409_123657511.jpg',
                                         '../imagens/paseos/city_tour/bike/Puenta de la mujer 2.jpg',
                                     ],
-                'videos'            : [],
+                'video'             : '',
                 'tour-info'   : {
                     'tour-description'  : '<p>Esta es la manera más completa de recorrer y conocer Buenos Aires, combinando el paseo \
                                             en bicicleta con nuestros amistosos y profesionales guías, que revelarán las historias detrás \
@@ -74,7 +74,7 @@ PASEO['city_tour'] = {
                 'tour-card-duration': '4 horas',
                 'tour-card-image'   : '../imagens/paseos/city_tour/car/car.png',
                 'images'            : [],
-                'videos'            : [],
+                'video'             : '',
                 'tour-info'   : {
                     'tour-description'  : '<p>Recomendado para las personas que no tienen mucho tiempo para visitar la ciudad o que no quieren \
                                         caminar mucho. Acompañados de un guía y fotógrafo profesional recorrerán los principales puntos \
@@ -104,7 +104,7 @@ PASEO['city_tour'] = {
                 'tour-card-duration': '',
                 'tour-card-image'   : '',
                 'images'            : [],
-                'videos'            : [],
+                'video'             : '',
                 'tour-info'   : {
                     'tour-description'  : '',
                     'tour-frequency'    : '',
@@ -122,7 +122,7 @@ PASEO['city_tour'] = {
                 'tour-card-duration': '',
                 'tour-card-image'   : '',
                 'images'            : [],
-                'videos'            : [],
+                'video'             : '',
                 'tour-info'   : {
                     'tour-description'  : '',
                     'tour-frequency'    : '',
@@ -146,7 +146,7 @@ PASEO['city_tour'] = {
         //         'tour-card-duration': '',
         //         'tour-card-image'   : '',
         //         'images'            : [],
-        //         'videos'            : [],
+        //         'video'             : '',
         //         'tour-info'   : {
         //             'tour-description'  : '',
         //             'tour-frequency'    : '',
@@ -164,7 +164,7 @@ PASEO['city_tour'] = {
         //         'tour-card-duration': '',
         //         'tour-card-image'   : '',
         //         'images'            : [],
-        //         'videos'            : [],
+        //         'video'             : '',
         //         'tour-info'   : {
         //             'tour-description'  : '',
         //             'tour-frequency'    : '',

@@ -9,7 +9,7 @@ PASEO['soccer'] = {
                 'tour-card-duration': '1 Noche',
                 'tour-card-image'   : '',
                 'images'            : [],
-                'videos'            : [],
+                'video'             : '',
                 'tour-info'   : {
                     'tour-description'  : '<p>Si quieres sentir la pasión de los hinchas del futbol argentino en un estadio, tenemos 2 opciones para ver partidos \
                                             de Boca, River, San Lorenzo, y más equipos</p>\
@@ -31,6 +31,7 @@ PASEO['soccer'] = {
                     'tour-not-include'  : '<strong>Opción</strong> 1 : Transporte, guía, comida<br>\
                                             <strong>Opción</strong> 2 : Comida',
                 }
-            },        
+            },
+        ]        
     }
 }

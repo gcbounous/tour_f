@@ -13,7 +13,7 @@ PASEO['uruguay'] = {
                 'tour-card-duration': '1 día',
                 'tour-card-image'   : '',
                 'images'            : [],
-                'videos'            : [],
+                'video'             : '',
                 'tour-info'   : {
                     'tour-description'  : '<p><strong>Wine road Colonia : 7 horas</strong><br>\
                                             Recorrido: visitas de 3 bodegas (incluyendo una de las mas antiguas y mas importante de Uruguay) con degustación de 3 \

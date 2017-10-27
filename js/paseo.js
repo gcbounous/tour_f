@@ -145,7 +145,15 @@ function openTourInfo(tour_title){
     }else{
         $('#myCarousel').hide();
     }
-    
+
+    if(dic_paseo['video'].length > 0){
+        $('.tour-panel').find('#tour_video > iframe').attr('src',dic_paseo['video']);
+        $('.tour-panel').find('#tour_video').show();
+    }else{
+        $('.tour-panel').find('#tour_video').hide();
+        $('.tour-panel').find('#tour_video > iframe').attr('src','');
+    }
+
     fillTourPanel(dic_paseo)
 
     $('body').addClass('no-scroll');
@@ -197,24 +205,33 @@ function fillTourPanel(tour){
 
 function createPiceTable(price_table){
     var table = '';
-    for(var i = 0; i< price_table.length; i++){ 
+    var div_class = '';
+
+    if(price_table.length > 0){
+        if(price_table[0]['price_table']['header'].length < 5 && price_table.length > 3){
+            div_class = 'col-md-6'
+        }
+    }
+
+    for(var i = 0; i< price_table.length; i++){
+        table += '<div class="'+ div_class +'">'
         if(price_table[i]['description'] == null){
             table += '';
         } else{
             table += price_table[i]['description'];
         }
-        table +=' <table class="price-table table table-bordered table-hover .table-condensed">'; 
-        table +='   <thead> ';
-        table +='       <tr>';
+        table +='   <table class="price-table table table-bordered table-hover table-condensed">'; 
+        table +='       <thead> ';
+        table +='           <tr>';
 
         for(var j =0; j<price_table[i]['price_table']['header'].length; j++){
             var h = price_table[i]['price_table']['header'][j];
             table +='<th>'+ h +'</th>';
         }
-        table +='       </tr>'; 
-        table +='   </thead>';
+        table +='           </tr>'; 
+        table +='       </thead>';
 
-        table +='   <tbody> ';
+        table +='       <tbody> ';
         var rows = price_table[i]['price_table']['rows'];
         for(var j =0; j<rows.length; j++){
             table +='       <tr>';
@@ -229,8 +246,9 @@ function createPiceTable(price_table){
             table +='       </tr>';
         }
 
-        table +='   </tbody> ';
-        table +=' </table>';
+        table +='       </tbody> ';
+        table +='   </table>';
+        table +=' </div>';
     }
     return table;
 }

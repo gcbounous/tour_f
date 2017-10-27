@@ -16,7 +16,7 @@ PASEO['delta_del_tigre'] = {
                 'tour-card-duration': '1 Día',
                 'tour-card-image'   : '',
                 'images'            : [],
-                'videos'            : [],
+                'video'             : 'https://www.youtube.com/embed/e7Y9SXLSD4M?rel=0',
                 'tour-info'   : {
                     'tour-description'  : '<p>Descubrirán el Tigre alquilando un Gomón  con guía para moverse rápido y libremente por el Delta. \
                                             Con estas embarcaciones tienen acceso a ríos y lugares que otras embarcaciones de calado superior no pueden entrar, \
@@ -54,7 +54,7 @@ PASEO['delta_del_tigre'] = {
                 'tour-card-duration': '1 Día',
                 'tour-card-image'   : '',
                 'images'            : [],
-                'videos'            : [],
+                'video'             : '',
                 'tour-info'   : {
                     'tour-description'  : 'Para las personas que quieren disfrutar del Delta del Tigre fuera del camino turístico y que no quieren preocuparse \
                                             del transporte desde Buenos Aires. Descubrirán el Tigre en bote privado y visitarán también una playa en una isla.',
@@ -74,7 +74,7 @@ PASEO['delta_del_tigre'] = {
                 'tour-card-duration': '1 Día',
                 'tour-card-image'   : '',
                 'images'            : [],
-                'videos'            : [],
+                'video'             : '',
                 'tour-info'   : {
                     'tour-description'  : '<p>Para las personas que buscan un tour económico, así como un tour que les permite de descubrir el Delta de una manera especial.</p> \
                                             <p>Después de pasear por 1 hora en 5 ríos del Delta, bajaran en una isla recorriendo senderos y descubriendo los diferentes tipos \
@@ -96,7 +96,7 @@ PASEO['delta_del_tigre'] = {
                 'tour-card-duration': '½ - 1 Día',
                 'tour-card-image'   : '',
                 'images'            : [],
-                'videos'            : [],
+                'video'             : '',
                 'tour-info'   : {
                     'tour-description'  : 'Veni a descubrir el Delta del Tigre en kayak. Saldrán desde una isla lejos de la contaminación y el ruido de la ciudad \
                                             para sumergirse directamente en los hermosos paisajes y disfrutar del contacto con la flora y la fauna local. \
@@ -125,7 +125,7 @@ PASEO['delta_del_tigre'] = {
                 'tour-card-duration': '1h - 1 Día',
                 'tour-card-image'   : '',
                 'images'            : [],
-                'videos'            : [],
+                'video'             : '',
                 'tour-info'   : {
                     'tour-description'  : '<p>Hugo, bandoneonista nos abre las puertas de su casa de fin de semana en una <strong>isla del Tigre</strong>. \
                                             Vengan a aprovechar la oportunidad de descubrir el Tigre como un porteño. Llegaran en lancha taxi y una vez allá, \

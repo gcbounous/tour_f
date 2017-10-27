@@ -9,7 +9,7 @@ PASEO['example_tour'] = {
                 'tour-card-duration': '',
                 'tour-card-image'   : '',
                 'images'            : [],
-                'videos'            : [],
+                'video'             : '',
                 'tour-info'   : {
                     'tour-description'  : '',
                     'tour-frequency'    : '',
@@ -27,14 +27,14 @@ PASEO['example_tour'] = {
                 'tour-card-duration': '',
                 'tour-card-image'   : '',
                 'images'            : [],
-                'videos'            : [],
+                'video'             : '',
                 'tour-info'   : {
                     'tour-description'  : '',
                     'tour-frequency'    : '',
                     'tour-schedule'     : '',
                     'tour-meeting-spot' : '',
                     'tour-duration'     : '',
-                    'tour-prices'       : 
+                    'tour-prices'       : {
                         'options' : [
                             {
                                 'description': '',
@@ -69,7 +69,7 @@ PASEO['example_tour'] = {
                 'tour-card-duration': '',
                 'tour-card-image'   : '',
                 'images'            : [],
-                'videos'            : [],
+                'video'             : '',
                 'tour-info'   : {
                     'tour-description'  : '',
                     'tour-frequency'    : '',
@@ -87,7 +87,7 @@ PASEO['example_tour'] = {
                 'tour-card-duration': '',
                 'tour-card-image'   : '',
                 'images'            : [],
-                'videos'            : [],
+                'video'             : '',
                 'tour-info'   : {
                     'tour-description'  : '',
                     'tour-frequency'    : '',
@@ -129,7 +129,7 @@ PASEO['example_tour'] = {
                 'tour-card-duration': '',
                 'tour-card-image'   : '',
                 'images'            : [],
-                'videos'            : [],
+                'video'             : '',
                 'tour-info'   : {
                     'tour-description'  : '',
                     'tour-frequency'    : '',
@@ -147,7 +147,7 @@ PASEO['example_tour'] = {
                 'tour-card-duration': '',
                 'tour-card-image'   : '',
                 'images'            : [],
-                'videos'            : [],
+                'video'             : '',
                 'tour-info'   : {
                     'tour-description'  : '',
                     'tour-frequency'    : '',

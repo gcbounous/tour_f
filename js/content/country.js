@@ -8,7 +8,7 @@ PASEO['country'] = {
                 'tour-card-duration': '1 día',
                 'tour-card-image'   : '',
                 'images'            : [],
-                'videos'            : [],
+                'video'             : '',
                 'tour-info'   : {
                     'tour-description'  : '<p>El día de campo permite sumergirse en la vida gauchezca, \
                                         descubriendo una estancia, la cultura folklórica y culinaria.</p>\
@@ -37,7 +37,7 @@ PASEO['country'] = {
                 'tour-card-duration': '1 Día',
                 'tour-card-image'   : '',
                 'images'            : [],
-                'videos'            : [],
+                'video'             : '',
                 'tour-info'   : {
                     'tour-description'  : '<p>El día de campo permite de sumergirse en la vida de un gaucho, descubriendo \
                                             una estancia, la cultura gaucha y aprendiendo a ir a caballo como un gaucho.</p>\
@@ -83,7 +83,7 @@ PASEO['country'] = {
                                             'rows'    : [
                                                     {
                                                         'title' : 'Duración',
-                                                        'values': ['2h pampa','3h ->Santa Coloma','3h->San Antonio']
+                                                        'values': ['2h pampa','3h Santa Coloma','3h San Antonio']
                                                     },
                                                     {
                                                         'title' : 'Precio',
@@ -129,7 +129,7 @@ PASEO['country'] = {
                 'tour-card-duration': '1 Día',
                 'tour-card-image'   : '',
                 'images'            : [],
-                'videos'            : [],
+                'video'             : '',
                 'tour-info'   : {
                     'tour-description'  : '<p>Día de campo en un rancho precordillerano, con cabalgata de 2 horas en el pedemonte. \
                                             Terminan el día compartiendo un típico asado.</p>',

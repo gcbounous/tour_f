@@ -9,7 +9,7 @@ PASEO['beer_wine'] = {
                 'tour-card-duration': '3 Horas',
                 'tour-card-image'   : '',
                 'images'            : [],
-                'videos'            : [],
+                'video'             : '',
                 'tour-info'   : {
                     'tour-description'  : 'Cada vez son más los establecimientos que ofrecen cerveza artesanal en Buenos Aires. \
                                             Para los amantes de cerveza, ofrecemos un tour de 4 cervecerías incluyendo degustación de 8 a 10 cervezas \
@@ -30,7 +30,7 @@ PASEO['beer_wine'] = {
                 'tour-card-duration': '2 horas',
                 'tour-card-image'   : '',
                 'images'            : [],
-                'videos'            : [],
+                'video'             : '',
                 'tour-info'   : {
                     'tour-description'  : 'Argentina es el 5º productor mundial de vino, y la más grande superficie de producción vitivinícola procedido de Malbec. \
                                             Aby y Bertie les acompaña en una degustación de 4 vinos Boutiques y 1 Oliva extra virgen. Cada vino está servido con \
@@ -55,7 +55,7 @@ PASEO['beer_wine'] = {
                 'tour-card-duration': '2 horas',
                 'tour-card-image'   : '',
                 'images'            : [],
-                'videos'            : [],
+                'video'             : 'https://www.youtube.com/embed/QYEhNwZOZL4?rel=0',
                 'tour-info'   : {
                     'tour-description'  : 'Degustación de 4 vinos y quesos argentinos. El sommelier nos lleva al descubrimiento de la combinación de \
                                             unos de los vinos más típicos de argentina con quesos locales incluyendo el típico postre argentino con dulce \
@@ -75,6 +75,7 @@ PASEO['beer_wine'] = {
                                             Milonga : gratuito<br>\
                                             Orquestra en vivo : a la gorra</p>',
                 }
-            },       
+            },
+        ]       
     }
 }

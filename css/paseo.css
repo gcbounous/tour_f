@@ -209,7 +209,7 @@ body {
 }
 
 .price-table{
-    width: 50%;
+    /*width: 50%;*/
 }
 
 .no-scroll {
@@ -217,8 +217,9 @@ body {
 }
 
 #reserve_btn {
-    margin-right: 16%;
-    margin-bottom: 25px;
+    position: absolute;
+    bottom: 5px;
+    right: 10%;
     color: white;
     font-weight: 700;
     background-color: #5b2581;
@@ -243,6 +244,10 @@ body {
 #reserve_btn:active, 
 #reserve_btn.active{
     outline: unset;
+}
+
+#tour_end {
+    margin-top: 50px;
 }
 
 #reservation_form{

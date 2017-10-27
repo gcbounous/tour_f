@@ -9,7 +9,7 @@ PASEO['empanadas'] = {
                 'tour-card-duration': '4 horas',
                 'tour-card-image'   : '',
                 'images'            : [],
-                'videos'            : [],
+                'video'             : 'https://www.youtube.com/embed/1phmONaAxyw?rel=0',
                 'tour-info'   : {
                     'tour-description'  : 'Con la ayuda de una argentina vamos a aprender a hacer empanadas. Desde la masa hasta el relleno, \
                                             terminaremos comiendo lo que hicimos con un rico vino. Más ricas que el vino van a estar las empanadas ',
@@ -27,5 +27,5 @@ PASEO['empanadas'] = {
                 }
             },
         ]
-
-    }
+    },
+}

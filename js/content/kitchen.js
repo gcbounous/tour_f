@@ -2,7 +2,7 @@ PASEO['kitchen'] = {
     'es' : {
     //     'category_title': '',
     //     'images'        : [],
-    //     'videos'        : [],
+    //     'video'        : [],
     //     'tours': [
     //         {
     //             'tour-title'        : '',

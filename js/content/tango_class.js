@@ -6,26 +6,27 @@ PASEO['tango_class'] = {
         'tours' : [
             // ---------- CLASSE DE TANGO ----------
             {
-            'tour-title'        : 'Classe de Tango',
-            'tour-card-duration': '1 hora',
-            'tour-card-image'   : '',
-            'images'            : [],
-            'videos'            : [],
-            'tour-info'   : {
-                'tour-description'  : 'Buenos Aires es la ciudad del tango, hay más de 150 lugares de milonga (= que puede ser un bar, un teatro, \
-                                        un local, una casa particular, un departamento secreto, un parque, etc. donde se baila tango). Por los que \
-                                        quieren mejorar sus técnicas, como por los que quieren empezar desde cero, tenemos dos profes (hombre y mujer) \
-                                        que ofrecen clases privadas o semi-privadas para aprender el tango. Con eso, no tendrán ninguna excusa para perderte \
-                                        las milongas de Buenos Aires',
-                'tour-frequency'    : 'Diaria',
-                'tour-schedule'     : 'A consultar',
-                'tour-meeting-spot' : 'A consultar',
-                'tour-duration'     : '1 hora',
-                'tour-prices'       : '00 pesos : clase privada<BR>\
-                                        250 pesos/persona : grupo pequeño',
-                'tour-languages'    : 'Español/inglés',
-                'tour-include'      : '1 hora de clase',
-                'tour-not-include'  : 'Transporte',
+                'tour-title'        : 'Classe de Tango',
+                'tour-card-duration': '1 hora',
+                'tour-card-image'   : '',
+                'images'            : [],
+                'video'             : '',
+                'tour-info'   : {
+                    'tour-description'  : 'Buenos Aires es la ciudad del tango, hay más de 150 lugares de milonga (= que puede ser un bar, un teatro, \
+                                            un local, una casa particular, un departamento secreto, un parque, etc. donde se baila tango). Por los que \
+                                            quieren mejorar sus técnicas, como por los que quieren empezar desde cero, tenemos dos profes (hombre y mujer) \
+                                            que ofrecen clases privadas o semi-privadas para aprender el tango. Con eso, no tendrán ninguna excusa para perderte \
+                                            las milongas de Buenos Aires',
+                    'tour-frequency'    : 'Diaria',
+                    'tour-schedule'     : 'A consultar',
+                    'tour-meeting-spot' : 'A consultar',
+                    'tour-duration'     : '1 hora',
+                    'tour-prices'       : '00 pesos : clase privada<BR>\
+                                            250 pesos/persona : grupo pequeño',
+                    'tour-languages'    : 'Español/inglés',
+                    'tour-include'      : '1 hora de clase',
+                    'tour-not-include'  : 'Transporte',
+                }
             },
             // ---------- TANGO E HIPODROMO ----------
             {
@@ -33,7 +34,7 @@ PASEO['tango_class'] = {
                 'tour-card-duration': '3 horas',
                 'tour-card-image'   : '',
                 'images'            : [],
-                'videos'            : [],
+                'video'             : '',
                 'tour-info'   : {
                     'tour-description'  : 'Para aquellas personas que quieran aprender o practicar tango en un lugar precioso: en un estudio en el hipódromo \
                                             de Buenos Aires. Esta es la oportunidad de descubrir dos pasiones de Buenos Aires: el mundo ecuestre y el tango. \
@@ -57,7 +58,7 @@ PASEO['tango_class'] = {
                 'tour-card-duration': '',
                 'tour-card-image'   : '',
                 'images'            : [],
-                'videos'            : [],
+                'video'             : '',
                 'tour-info'   : {
                     'tour-description'  : '<p>Para aquellas personas que quieran aprender o practicar tango en un lugar precioso: en un estudio en el hipódromo \
                                             de Buenos Aires. Esta es la oportunidad de descubrir dos pasiones de Buenos Aires:  el mundo ecuestre y el tango \
@@ -81,8 +82,6 @@ PASEO['tango_class'] = {
                 }
             },
         ]
-    },
-
     },
 
     'en': {

@@ -9,7 +9,7 @@ PASEO['tango_show'] = {
                 'tour-card-duration': '',
                 'tour-card-image'   : '',
                 'images'            : [],
-                'videos'            : [],
+                'video'             : '',
                 'tour-info'   : {
                     'tour-description'  : '',
                     'tour-frequency'    : '',
