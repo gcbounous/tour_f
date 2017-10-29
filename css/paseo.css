@@ -5,7 +5,7 @@
 
 body {
     /*background: url(https://hullopallosa.files.wordpress.com/2017/06/back_left.png) no-repeat center center fixed; */
-    background: url(../imagens/back_left.png) no-repeat center center fixed; 
+    background: rgba(222, 220, 220, 0.5) url(../imagens/back_left.png) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -176,6 +176,11 @@ body {
     overflow: hidden;
 }
 
+#tour_video {
+    margin-top: 50px;
+    text-align: center;
+}
+
 /*.tour-left {
     position: absolute;
     top: 0; 
@@ -258,9 +263,8 @@ body {
     outline: unset;
 }
 
-#tour_video {
+#tour_end {
     margin-top: 50px;
-    text-align: center;
 }
 
 #reservation_form{

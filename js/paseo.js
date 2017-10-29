@@ -126,7 +126,7 @@ function openTourInfo(tour_title){
     var lang = $('body').data('lang');
     var category = $('body').data('category');
 
-    //get right tour jason
+    //get the right tour jason
     var dic_paseo = PASEO[category][lang]['tours'];
     for (var i=0; i<dic_paseo.length; i++){
         if(tour_title == dic_paseo[i]['tour-title']){
@@ -198,10 +198,12 @@ function fillTourPanel(tour){
                 panel.find('.' + id).find('.description p').html(val);
             }
         }else{
-            if(val == null || val == '') 
-                val = '---';
-
-            panel.find('.' + id).find('.description p').html(val);
+            if(val == null || val == ''){ 
+                panel.find('.' + id).hide();
+            } else {
+                panel.find('.' + id).find('.description p').html(val);
+                panel.find('.' + id).show();
+            }
         }
     });
 
@@ -276,11 +278,11 @@ function checkJsonExists(lang, tour){
             dic_paseo = PASEO[tour];
             if(dic_paseo == null || $.isEmptyObject(dic_paseo)){ 
                 // window.location.replace("../templates/index.html");
-                console.log("[ERROR] jsonCheck: Tour doesn't exist!");
+                console.log('[ERROR] jsonCheck: Tour ('+tour+') doesn\'t exists or null!');
             }
     } catch (e) {
-        // window.location.replace("../templates/index.html");
-        console.log("[ERROR] jsonCheck: Tour doesn't exist!");
+        // window.location.replace('../templates/index.html');
+        console.log('[ERROR] jsonCheck: Tour ('+tour+') doesn\'t exist!');
         console.log(e);
     }
 
