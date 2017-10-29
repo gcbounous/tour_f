@@ -43,8 +43,8 @@ PASEO['main'] = {
         'tour-panel':{
             'tour-frequency'    : 'Frequency',
             'tour-schedule'     : 'Schedule',
-            'tour-meeting-spot' : 'Meeting Spot',
-            'tour-duration'     : 'Duration',
+            'tour-meeting-spot' : 'Meeting point',
+            'tour-duration'     : 'Length',
             'tour-prices'       : 'Prices',
             'tour-languages'    : 'Languages',
             'tour-include'      : 'Included',

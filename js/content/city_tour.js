@@ -56,9 +56,9 @@ PASEO['city_tour'] = {
                                             (Rosedal y lagos) y Plaza Congreso.</p>\
                                             <p><strong>BA In a Day Tour</strong>: visitando todos los puntos del circuito norte y el sur.</p>',
                     'tour-frequency'    : 'Todos los días',
-                    'tour-schedule'     : 'Circuito sur : 9.30am<br/>\
-                                            Circuito norte : 1.30pm<br/>\
-                                            BA in a Day Tour : 9.30am',
+                    'tour-schedule'     : 'Circuito sur : 9:30h<br/>\
+                                            Circuito norte : 13:30h<br/>\
+                                            BA in a Day Tour : 10h',
                     'tour-meeting-spot' : 'Parada de subte Independencia',
                     'tour-duration'     : 'Circuito de medio día : 4 horas<br> BA in a Day Tour : 7 horas',
                     'tour-prices'       : 'Circuito de medio día : 35 USD o 590 pesos<br> BA in a Day Tour : 75 USD o 1280 pesos',
@@ -101,45 +101,94 @@ PASEO['city_tour'] = {
     },
 
     'en': {
-        'category_title': '',
+        'category_title': 'City Tour',
+        'category_description'  : '',
         'tours': [
+            // ----------- PRIVATE WALKING TOUR -----------
             {
-                'tour-title'        : '',
-                'tour-card-duration': '',
-                'tour-card-image'   : '',
-                'images'            : [],
+                'tour-title'        : 'Private walking tour',
+                'tour-card-duration': '3 hours',
+                'tour-card-image'   : '../imagens/paseos/city_tour/city tour a pied/la-boca-2673956_960_720.jpg',
+                'images'            : [
+                                        '../imagens/paseos/city_tour/city tour a pied/casa-rosada-907344_1920.jpg',
+                                        '../imagens/paseos/city_tour/city tour a pied/la-boca-2673956_960_720.jpg'
+                                    ],
                 'video'             : '',
                 'tour-info'   : {
-                    'tour-description'  : '',
-                    'tour-frequency'    : '',
-                    'tour-schedule'     : '',
-                    'tour-meeting-spot' : '',
-                    'tour-duration'     : '',
-                    'tour-prices'       : '',
-                    'tour-languages'    : '',
-                    'tour-include'      : '',
-                    'tour-not-include'  : '',
+                    'tour-description'  : '<p>Recommended for those who have already seen a part of the city and want a personalized itinerary including explanations about the story of Argentina, anecdotes and tips about where to eat and go out. Recommended also for those who don’t speak Spanish or English.</p>\
+                                            <p>Itineraries that you can personalize: </p>\
+                                            <p>THistorical tour (Obelisco, Microcentro, Plaza de Mayo, Casa Rosada, tango history, historical center, San Telmo market, etc...)</p>\
+                                            <p>Recoleta (Plaza San Martin, Retiro area and Recoleta, local architecture, full tour of Recoleta´s cemetery, etc...)</p>',
+                    'tour-frequency'    : 'Every day',
+                    'tour-schedule'     : 'Flexible',
+                    'tour-meeting-spot' : 'Flexible',
+                    'tour-duration'     : '3 hours',
+                    'tour-prices'       : '440 pesos for 2 pers or more or 550 pesos for 1pers.',
+                    'tour-languages'    : 'French, Spanish, English or Portuguese',
+                    'tour-include'      : 'Guide in the chosen language',
+                    'tour-not-include'  : 'Pick up, drinks or food.',
                 }
             },
+            // ----------- BICYCLE TOUR -----------
             {
-                'tour-title'        : '',
-                'tour-card-duration': '',
-                'tour-card-image'   : '',
-                'images'            : [],
+                'tour-title'        : 'Bicycle tours',
+                'tour-card-duration': '4 hours - 1 day',
+                'tour-card-image'   : '../imagens/paseos/city_tour/City tour velo/DSC_0047.JPG',
+                'images'            : [
+                                        '../imagens/paseos/city_tour/City tour velo/DSC_0047.JPG',
+                                        '../imagens/paseos/city_tour/City tour velo/DSC_0184.JPG',
+                                        '../imagens/paseos/city_tour/City tour velo/DSC_0188.JPG',
+                                        '../imagens/paseos/city_tour/City tour velo/DSC_0188copy.JPG',
+                                        '../imagens/paseos/city_tour/City tour velo/IMG_20160409_123657511.jpg',
+                                        '../imagens/paseos/city_tour/City tour velo/Puenta de la mujer 2.jpg',
+                                    ],
                 'video'             : '',
                 'tour-info'   : {
-                    'tour-description'  : '',
-                    'tour-frequency'    : '',
-                    'tour-schedule'     : '',
-                    'tour-meeting-spot' : '',
-                    'tour-duration'     : '',
-                    'tour-prices'       : '',
-                    'tour-languages'    : '',
-                    'tour-include'      : '',
-                    'tour-not-include'  : '',
+                    'tour-description'  : '<p>This is the most complete way to see and know Buenos Aires, combining the bike ride with our friendly and professional tour guides, who will reveal the stories behind the walls of the emblematic places of our city.</p>\
+                                            <p><strong>Southern Path:</strong> San Telmo, Boca Juniors stadium, Caminito, Puerto Madero, Ecologic Reserve and Plaza de Mayo</p>\
+                                            <p><strong>Northern Path:</strong> Retiro, Recoleta and the cemetery, green area of Palermo (Rose Garden and lakes) and the Congress Square</p>\
+                                            <p><strong>BA In a Day Tour:</strong> Combines northern and southern path.</p>',
+                    'tour-frequency'    : 'Every day',
+                    'tour-schedule'     : 'Southern Path: 9:30am<br/>\
+                                            Northern Path: 1:30pm<br/>\
+                                            BA In a Day Tour: 10am',
+                    'tour-meeting-spot' : 'Near metro stop Independencia (Enquire within)',
+                    'tour-duration'     : 'Half day tour  : 4 hours<br>\
+                                            BA in a Day Tour : 7 hours',
+                    'tour-prices'       : 'Half day tour  : 35 USD or 590 pesos<br>\
+                                            BA in a Day Tour : 75 USD or 1280 pesos',
+                    'tour-languages'    : 'French, Spanish, English or Portuguese',
+                    'tour-include'      : 'Bilingual guide service, bicycle, helmet, water and mate tea with pastries during the technical speech before departure.<br>\
+                                            BA in a Day Tour : lunch at a barbecue place (with vegetarian option)',
+                    'tour-not-include'  : 'Pick up',                    
                 }
             },
-        ]
+            // ----------- PHOTO PRIVATE TOUR IN CAR -----------
+            {
+                'tour-title'        : 'Photo private tour in car',
+                'tour-card-duration': '3 hours',
+                'tour-card-image'   : '../imagens/paseos/city_tour/city tour auto/DSC00894.JPG',
+                'images'            : [
+                                        '../imagens/paseos/city_tour/city tour auto/DSC00894.JPG',
+                                        '../imagens/paseos/city_tour/city tour auto/DSC_0565.JPG',
+                                        '../imagens/paseos/city_tour/city tour auto/floralis.jpg',
+                ],
+                'video'             : '',
+                'tour-info'   : {
+                    'tour-description'  : '<p>Recommended for those who don´t have much time or do not feel like walking. Along with a guide and photograph, you´ll visit the city in a car following an itinerary that you can customize. </p>\
+                                            <p>In a car or a van of 7 to 21 passengers we’ll pick you up in the central hotels.</p>\
+                                            <p>During the tour we stop at Plaza de Mayo and the Casa Rosada, the well-known Caminito street in la Boca, the Flor Generica and Puerto Madero. You’ll also visit the neighborhoods of San Telmo, La Boca, Palermo and Recoleta, The Obelisk, and the Congress area.</p>',
+                    'tour-frequency'    : 'Every day',
+                    'tour-schedule'     : 'Flexible',
+                    'tour-meeting-spot' : 'Pick up at the hotel',
+                    'tour-duration'     : '3 hours',
+                    'tour-prices'       : '600 pesos per person',
+                    'tour-languages'    : 'French, Spanish, English or Portuguese',
+                    'tour-include'      : 'Guide in the chosen language and pictures sent at the end of the tours by email',
+                    'tour-not-include'  : 'Drinks',
+                }
+            }
+        ]    
     },
 
     'fr' : {

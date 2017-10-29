@@ -22,15 +22,15 @@ var INDEX = {
         'tours': {
             'tours_title'       : 'Nuestros tours y paseos',
             'city_tour'         : 'City Tour',
-            'countryside'           : 'Día de Campo',
+            'countryside'       : 'Día de Campo',
             'delta_del_tigre'   : 'Delta del Tigre',
             'cocina'            : 'Taller de Empanadas',
-            'tango_class'       : 'Classes de Tango',
+            'tango_class'       : 'Clases de Tango',
             'tango_show'        : 'Tango Show',
             'uruguay'           : 'Uruguay',
             'esteros_ibera'     : 'Esteros del Iberá',
             'soccer'            : 'Partido de Fútbol',
-            'beer_wine'         : 'Vino y Cerveza',
+            'beer_wine'         : 'Degustacion de Vino o Cerveza',
         },
         'presentation': {
             'presentation_title'    : 'Somos viajeros',
@@ -79,7 +79,7 @@ var INDEX = {
         'tours': {
             'tours_title'       : 'Tours',
             'city_tour'         : 'City Tour',
-            'countryside'           : 'Field Day',
+            'countryside'       : 'Gaucho day trip',
             'delta_del_tigre'   : 'Delta del Tigre',
             'cocina'            : 'Empanadas',
             'tango_class'       : 'Tango Classes',
@@ -87,7 +87,7 @@ var INDEX = {
             'uruguay'           : 'Uruguay',
             'esteros_ibera'     : 'Esteros del Iberá',
             'soccer'            : 'Soccer Match',
-            'beer_wine'         : 'Wine and Beer',
+            'beer_wine'         : 'Beer / Wine Tasting',
         },
         'presentation': {
             'presentation_title'    : 'We are travelers',

@@ -198,6 +198,9 @@ function fillTourPanel(tour){
                 panel.find('.' + id).find('.description p').html(val);
             }
         }else{
+            if(val == null || val == '') 
+                val = '---';
+
             panel.find('.' + id).find('.description p').html(val);
         }
     });
@@ -401,7 +404,7 @@ function sendReservationEmail(){
     
     //send to formspree
     $.ajax({
-        url:'https://formspree.io/gccbounous@gmail.com',
+        url:'https://formspree.io/infotourf@gmail.com',
         method:'POST',
         data:{
             tour:tour,

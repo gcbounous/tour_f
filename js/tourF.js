@@ -136,7 +136,7 @@ function sendContactEmail(){
     
     //send to formspree
     $.ajax({
-        url:'https://formspree.io/gccbounous@gmail.com',
+        url:'https://formspree.io/infotourf@gmail.com',
         method:'POST',
         data:{
             name:name,

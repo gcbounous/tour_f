@@ -55,7 +55,7 @@ PASEO['beer_wine'] = {
                     'tour-duration'     : '2 horas',
                     'tour-prices'       : '<p>Regular : 42 USD</p>\
                                             <p>Cata privada : 42 USD<br>\
-                                            Mínimo: 4 personas (ó 2 personas pagando el valor de 4 pax 84 USD c/u)</p',
+                                            Mínimo: 4 personas (ó 2 personas pagando el valor de 4 pax 84 USD c/u)</p>',
                     'tour-languages'    : 'Español/inglés',
                     'tour-include'      : 'Degustación de 4 vinos y un aceite de oliva acompañado de tapas caseras. Guía bilingüe.',
                     'tour-not-include'  : 'Transporte',
@@ -69,7 +69,7 @@ PASEO['beer_wine'] = {
                 'images'            : [
                                     '../imagens/paseos/beer_wine/Vino y queso/DSC01387.JPG',
                                     '../imagens/paseos/beer_wine/Vino y queso/DSC01390.JPG',
-                                    // '../imagens/paseos/beer_wine/Vino y queso/DSC01391.JPG',
+                                    '../imagens/paseos/beer_wine/Vino y queso/DSC01391.JPG',
                                     '../imagens/paseos/beer_wine/Vino y queso/DSC01392.JPG',
                                     '../imagens/paseos/beer_wine/Vino y queso/DSC01393.JPG'
                 ],
@@ -92,6 +92,96 @@ PASEO['beer_wine'] = {
                                             Menú especial + bebida: 250 pesos<br>\
                                             Milonga : gratuito<br>\
                                             Orquestra en vivo : a la gorra</p>',
+                }
+            },
+        ]       
+    },
+
+    'en' : {
+        'category_title'        : 'Beer / Wine Tasting',
+        'category_description'  : '',
+        'tours' : [
+            // ---------- BEER WALK ----------
+            {
+                'tour-title'        : 'Beer walk',
+                'tour-card-duration': '3 hours',
+                'tour-card-image'   : '../imagens/paseos/beer_wine/Beer walk/beerz_grande.jpg',
+                'images'            : [ 
+                                        '../imagens/paseos/beer_wine/Beer walk/13103414_1162906693748225_4226652806905097467_n.jpg',
+                                        '../imagens/paseos/beer_wine/Beer walk/beer-2435382_960_720.jpg',  
+                                        '../imagens/paseos/beer_wine/Beer walk/beerz_grande.jpg'
+                                      ],
+                'video'             : '',
+                'tour-info'   : {
+                    'tour-description'  : 'Every day there are more bars which offer artisanal beer in Buenos Aires. For the beer lovers, we offer a tour of 4 bars including a tasting of 8 to 10 beers (old way, modern, artisanal style, etc...) of various sizes paired with tapas.',
+                    'tour-frequency'    : 'Wednesday to Sunday',
+                    'tour-schedule'     : '6pm',
+                    'tour-meeting-spot' : 'San Telmo',
+                    'tour-duration'     : '6pm to 9pm',
+                    'tour-prices'       : '68 USD ',
+                    'tour-languages'    : 'Spanish, English',
+                    'tour-include'      : 'Bilingual guide.  Tasting of 8 to 10 beers of various sizes paired with tapas. Meet a master brewer. ',
+                    'tour-not-include'  : 'Transport',
+                }
+            },
+            // ---------- WINE TASTING ----------
+            {
+                'tour-title'        : 'Wine tasting',
+                'tour-card-duration': '2 hours',
+                'tour-card-image'   : '../imagens/paseos/beer_wine/Vino y tapas/IMG_20170605_160517.jpg',
+                'images'            : [
+                                        '../imagens/paseos/beer_wine/Vino y tapas/IMG_20170605_151455.jpg',
+                                        '../imagens/paseos/beer_wine/Vino y tapas/IMG_20170605_152356.jpg',
+                                        '../imagens/paseos/beer_wine/Vino y tapas/IMG_20170605_154057.jpg',
+                                        '../imagens/paseos/beer_wine/Vino y tapas/IMG_20170605_160517.jpg',
+                                        '../imagens/paseos/beer_wine/Vino y tapas/IMG_20170605_162438.jpg',
+                                        '../imagens/paseos/beer_wine/Vino y tapas/IMG_20170605_163159.jpg',
+                                        '../imagens/paseos/beer_wine/Vino y tapas/IMG_20170605_163322.jpg'
+                ],
+                'video'             : '',
+                'tour-info'   : {
+                    'tour-description'  : 'Argentina is the 5th largest wine producer in the world, and the biggest wine-growing area for Malbec grapes. Aby and Bertie will take you to taste 4 boutique wines and 1 extra-virgin olive oil. Each wine will be paired with homemade tapas from its region.',
+                    'tour-frequency'    : 'Monday, Wednesday and Friday<br>\
+                                            <small>* Other days available for private groups enquire within</small>',
+                    'tour-schedule'     : '3pm',
+                    'tour-meeting-spot' : 'Vain Hotel Boutique,  Thames 2226, Palermo Soho',
+                    'tour-duration'     : '2 hours',
+                    'tour-prices'       : '<p>Regular : 42 USD</p>\
+                                            <p>Private wine tasting : 42 USD per person.<br>\
+                                             Minimum of 4 persons (or 2 persons paying the value of 4 pers 84 USD per person)</p>',
+                    'tour-languages'    : 'Spanish, English',
+                    'tour-include'      : 'Wine tasting of 4 wines and 1 extra-virgin olive oil paired with homemade tapas. Bilingual guide. ',
+                    'tour-not-include'  : 'Transport',
+                }
+            },
+            // ---------- WINE TASTING PAIRED WITH CHESSE ----------
+            {
+                'tour-title'        : 'Wine tasting paired with cheese',
+                'tour-card-duration': '2 Hours',
+                'tour-card-image'   : '../imagens/paseos/beer_wine/Vino y queso/DSC01387.JPG',
+                'images'            : [
+                                    '../imagens/paseos/beer_wine/Vino y queso/DSC01387.JPG',
+                                    '../imagens/paseos/beer_wine/Vino y queso/DSC01390.JPG',
+                                    '../imagens/paseos/beer_wine/Vino y queso/DSC01391.JPG',
+                                    '../imagens/paseos/beer_wine/Vino y queso/DSC01392.JPG',
+                                    '../imagens/paseos/beer_wine/Vino y queso/DSC01393.JPG'
+                ],
+                'video'             : 'https://www.youtube.com/embed/QYEhNwZOZL4?rel=0',
+                'tour-info'   : {
+                    'tour-description'  : 'Wine tasting of 4 wines paired with cheese. The sommelier will lead us to discover the combination between some of the most typical wines of Argentina and local cheese including a typical Argentinian desert “dulce de membrillo”. Organized every Monday in café Vinilo so you can stay at the milonga and attend a 12-musician orchestra tango concert, this is fantastic watch!',
+                    'tour-frequency'    : 'Monday',
+                    'tour-schedule'     : '5.30pm',
+                    'tour-meeting-spot' : 'Café Vinilo, Gorriti 3780',
+                    'tour-duration'     : '2 hours',
+                    'tour-prices'       : '500 pesos',
+                    'tour-languages'    : 'Spanish, English, French',
+                    'tour-include'      : 'Wine tasting of 4 wines paired with cheese with an Argentinian sommelier. Trilingual guide.  ',
+                    'tour-not-include'  : '<p>Transport</p>\
+                                            <p><strong>Options for those who want to stay at the milonga</strong>:<br>\
+                                            Tango class : 100 pesos<br>\
+                                            Special menu with 1 drink: 250 pesos<br>\
+                                            Milonga : free<br>\
+                                            Orchestra music : free (tips)</p>',
                 }
             },
         ]       

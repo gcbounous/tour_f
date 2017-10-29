@@ -27,14 +27,53 @@ PASEO['soccer'] = {
                     'tour-meeting-spot' : '<strong>Opción 1</strong> : en el estadio<br>\
                                             <strong>Opción 2</strong> : Recogida en el hotel',
                     'tour-duration'     : '2h a 3h',
-                    'tour-prices'       : '<strong>Opción</strong> 1 : Desde 900 pesos, a consultar para cada partido<br>\
-                                            <strong>Opción</strong> 2 : Desde 2500 pesos, a consultar para cada partido',
+                    'tour-prices'       : '<strong>Opción 1</strong> : Desde 900 pesos, a consultar para cada partido<br>\
+                                            <strong>Opción 2</strong> : Desde 2500 pesos, a consultar para cada partido',
                     'tour-languages'    : 'Español/inglés',
-                    'tour-include'      : '<strong>Opción</strong> 1 : Entrada a la cancha<br>\
-                                            <strong>Opción</strong> 2 : Guía bilingüe, transporte desde el hotel ida y vuelta, charla antes del partido con 1 \
+                    'tour-include'      : '<strong>Opción 1</strong> : Entrada a la cancha<br>\
+                                            <strong>Opción 2</strong> : Guía bilingüe, transporte desde el hotel ida y vuelta, charla antes del partido con 1 \
                                             cerveza, entrada a la cancha ',
-                    'tour-not-include'  : '<strong>Opción</strong> 1 : Transporte, guía, comida<br>\
-                                            <strong>Opción</strong> 2 : Comida',
+                    'tour-not-include'  : '<strong>Opción 1</strong> : Transporte, guía, comida<br>\
+                                            <strong>Opción 2</strong> : Comida',
+                }
+            },
+        ]        
+    },
+
+    'en' : {
+        'category_title'        : 'Football game',
+        'category_description'  : '',
+        'tours' : [
+            // ---------- SOCCER MATCH ----------
+            {
+                'tour-title'        : 'Football game',
+                'tour-card-duration': '1 Night',
+                'tour-card-image'   : '../imagens/paseos/partido de futbol/boca-juniors-1712628_1920.jpg',
+                'images'            : [
+                                        '../imagens/paseos/partido de futbol/boca-juniors-775838_1920.jpg',
+                                        '../imagens/paseos/partido de futbol/boca-juniors-1286662_1920.jpg',
+                                        '../imagens/paseos/partido de futbol/boca-juniors-1712628_1920.jpg',
+                                        '../imagens/paseos/partido de futbol/los-borrachos-del-tablon-river-plate-122-114939-barrabrava-net.jpg',
+                ],
+                'video'             : '',
+                'tour-info'   : {
+                    'tour-description'  : '<p>If you want to feel the fans passion in a stadium, we have two options to see a football game of Boca, River, San Lorenzo and more…</p>\
+                                            <p><strong>Option 1 :  non-guided entry (solo)</strong><br>\
+                                            Entry on your own to the stadium</p>\
+                                            <p><strong>Option 2 : guided entrance to the football game</strong><br>\
+                                            Tour at the stadium with a guide to see games of the main teams.</p>',
+                    'tour-frequency'    : 'Enquire within to find scheduled games',
+                    'tour-schedule'     : 'Enquire within for each game',
+                    'tour-meeting-spot' : '<strong>Option 1</strong> : at the stadium<br>\
+                                            <strong>Option 2</strong> : Pick up at the hotel',
+                    'tour-duration'     : '2 to 3 hours',
+                    'tour-prices'       : '<strong>Option 1</strong> : From 900 pesos, enquire within<br>\
+                                            <strong>Option 2</strong> : From 2500 pesos, enquire within ',
+                    'tour-languages'    : 'Spanish, English',
+                    'tour-include'      : '<strong>Option 1</strong> : Entry to the game<br>\
+                                            <strong>Option 2</strong> : Bilingual guide, pick up and drop off from the hotel, speech before the game with a beer, entry to the game',
+                    'tour-not-include'  : '<strong>Option 1</strong> : Transport, guide, food<br>\
+                                            <strong>Option 2</strong> : Food',
                 }
             },
         ]        

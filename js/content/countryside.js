@@ -134,7 +134,7 @@ PASEO['countryside'] = {
                                             3200 pesos hasta 3 personas (ida y vuelta mismo día)<br>\
                                             4000 pesos hasta 6 personas (ida y vuelta mismo día)</p>\
                                             <p>Posibilidad de ir por su propria cuenta :<br>\
-                                            Bus hasta San Antonio de Areco (~250pesos/pers/ida y vuelta)\
+                                            Bus hasta San Antonio de Areco (~250pesos/pers/ida y vuelta)<br>\
                                             Taxi-Remis entre La Segunda-San A Areco (~400 pesos ida)</p>',
                 }
             },
@@ -169,7 +169,173 @@ PASEO['countryside'] = {
                     'tour-prices'       : '1090 pesos',
                     'tour-languages'    : 'Guía traductor francés/ingles',
                     'tour-include'      : 'Transporte, cabalgata guiada, asado con carne y verduras a la parilla, vino.',
-                    'tour-not-include'  : '---',
+                    'tour-not-include'  : '',
+                }
+            },
+        ]
+    },
+
+    'en' : { 
+        'category_title': 'Gaucho day trip',
+        'tours': [
+            // ----------- LA PORTENA DE ARCO -----------
+            {
+                'tour-title'        : 'La porteña de Areco',
+                'tour-card-duration': '1 day',
+                'tour-card-image'   : '../imagens/paseos/countryside/la portena de areco/El-Gaucho-y-su-facon2.jpg',
+                'images'            : [
+                                        '../imagens/paseos/countryside/la portena de areco/Carruaje-en-arboleda-centenaria.jpg',
+                                        '../imagens/paseos/countryside/la portena de areco/Demostracion-con-boleadoras.jpg',
+                                        '../imagens/paseos/countryside/la portena de areco/El-Gaucho-y-su-facon2.jpg',
+                                        '../imagens/paseos/countryside/la portena de areco/Espectaculares-cabalgatas.jpg',
+                                        '../imagens/paseos/countryside/la portena de areco/Guitarreada.jpg'
+                ],
+                'video'             : '',
+                'tour-info'   : {
+                    'tour-description'  : '<p>Immerse yourself in the gaucho (Argentine Farmers/Cowboys) lifestyle, discovering a farm, along with the folkloric and culinary culture.</p>\
+                                            <p>The great author Ricardo Guiraldes, spent his childhood in this farm which inspired him for books such as “Don segundo sombra”. The farm has been classified as a national historical monument, you can explore it by walking around, taking a guided tour either riding a horse or with a horse drawn carriage.  Also enjoy folkloric guitar entertainment, a swimming pool (in summer), ping-pong, cards and kids games just to name a few </p>',
+                    'tour-frequency'    : 'Every day',
+                    'tour-schedule'     : '11am',
+                    'tour-meeting-spot' : 'Estancia porteña de Areco',
+                    'tour-duration'     : '11am to 6.30pm',
+                    'tour-prices'       : '95 USD',
+                    'tour-languages'    : 'Spanish, English  ',
+                    'tour-include'      : 'Guided walking or horse riding tour, horse drawn carriage,  folkloric guitar representation, access to the swimming pool, reception with typical empanadas, typical barbecue lunch, drinks, desert and afternoon snack',
+                    'tour-not-include'  : 'Transport <br/>\
+                                            Private transport option :<br>\
+                                            Itinerary: return to and from your hotel in Buenos Aires<br>\
+                                            Price: 3200 pesos maximum 3 persons',
+                }
+            },
+            // ----------- HORSE-RIDE -----------
+            {
+                'tour-title'        : 'Horse-ride ',
+                'tour-card-duration': '1 Day',
+                'tour-card-image'   : '../imagens/paseos/countryside/Cabalgatas/WP_20170624_008.jpg',
+                'images'            : [
+                                        '../imagens/paseos/countryside/Cabalgatas/IMG-20170319-WA0004.jpg',
+                                        '../imagens/paseos/countryside/Cabalgatas/WP_20160813_003.jpg',
+                                        '../imagens/paseos/countryside/Cabalgatas/WP_20161107_003.jpg',
+                                        '../imagens/paseos/countryside/Cabalgatas/WP_20170410_001.jpg',
+                                        '../imagens/paseos/countryside/Cabalgatas/WP_20170416_010.jpg',
+                                        '../imagens/paseos/countryside/Cabalgatas/WP_20170420_003.jpg',
+                                        '../imagens/paseos/countryside/Cabalgatas/WP_20170624_006.jpg',
+                                        '../imagens/paseos/countryside/Cabalgatas/WP_20170624_008.jpg',
+                ],
+                'video'             : '',
+                'tour-info'   : {
+                    'tour-description'  : '<p>Immerse yourself in the gaucho lifestyle, discovering a farm, along with the culinary culture and learning to ride a horse like a gaucho.</p>\
+                                            <p>Ride through a gaucho family production farm observing local agriculture, apiculture from cattle to the production and harvest of citrus fruit, pecan nuts and dried plums.</p>\
+                                            <p>There are different horse ride options available with native horses and a guide speaking <strong>French, Spanish and Portuguese</strong>. The horse-rides allows you to discover the farm and the gaucho tradition in an authentic way not to mention horse riding is fun in itself ending by sharing a tea or mate at the farm.</p>',
+                    'tour-frequency'    : 'Every day',
+                    'tour-schedule'     : 'From 2pm',
+                    'tour-meeting-spot' : 'In the farm “La Secunda”',
+                    'tour-duration'     : 'Depending on the chosen option',
+                    'tour-prices'       : {
+                        'options' : [
+                                {
+                                    'description': '<p><strong>Option 1 :</strong> Horse rides in the farm between fields and cattle including a gaucho horse-ride style class :</p>',
+                                    'price_table': {
+                                            'header'  : [],
+                                            'rows'    : [
+                                                    {
+                                                        'title' : 'Length',
+                                                        'values': ['1 hora','2 horas','3 horas']
+                                                    },
+                                                    {
+                                                        'title' : 'Price',
+                                                        'values': ['900 pesos','1500 pesos','2100 pesos']
+                                                    },
+                                                    {
+                                                        'title' : 'Persons',
+                                                        'values': ['2 pers*','2 pers*','2 pers*']
+                                                    }
+                                                ]
+                                        }
+                                },
+                                {
+                                    'description': '<p><strong>Option 2 :</strong> Caminata por los campos o hasta pueblos \
+                                                    coloniales:</p>\
+                                                    <p><small>NB:   Los Prices son por 2 personas o 1 solo pasajero.</small></p>',
+                                    'price_table': { 
+                                            'header'  : [],
+                                            'rows'    : [
+                                                    {
+                                                        'title' : 'Length',
+                                                        'values': ['2h pampa','3h Santa Coloma','3h San Antonio']
+                                                    },
+                                                    {
+                                                        'title' : 'Precio',
+                                                        'values': ['1200 pesos','1800 pesos','2100 pesos']
+                                                    },
+                                                    {
+                                                        'title' : 'Persons',
+                                                        'values': ['2 pers*','2 pers*','2 pers*']
+                                                    }
+                                            ]
+                                        }
+                                },
+                                {
+                                    'description': '<small><strong>*</strong> If you are only one you can still take the tours but have to pay the full price of 2 people.</small><br><br>\
+                                                    <p><strong> Extra option :</strong></p>\
+                                                    <p>Empanadas workshop (you eat what you cook paired with wine and desert)<strong>(330 pesos)</strong></p>\
+                                                    <p>1 hour tango class (1-2 persons)<strong>(900 pesos)</strong></p>\
+                                                    <p>1 night 1 person<strong>(950 pesos)</strong></p>\
+                                                    <p>1 night 2 persons<strong>(1500 pesos)</strong></p>\
+                                                    <p>Barbecue dinner, wine and desert<strong>(330 pesos)</strong></p>',
+                                    'price_table':  {
+                                            'header'  : [],
+                                            'rows'    : []
+                                        }
+                                },
+                        ]
+                    },
+                    'tour-languages'    : 'Spanish, French, Portuguese',
+                    'tour-include'      : '<p>Trilingual Guide, tea or mate.</p>\
+                                            <p><small>Note.<br> \
+                                            1. The trek to Santa Coloma includes a visit to the colonial town, the church, and a gaucho bar.<br>\
+                                            2. The trek to San Antonio de Areco includes an explanation of the town history, visiting a museum and some craftsmen who work leather and silver</small></p> ',
+                    'tour-not-include'  : '<p>Transport not included </p>\
+                                            <p>Travel Options:</p>\
+                                            <p> Remis from the hotel in Buenos Aires until La Segunda, return: (Private transport)<br>\
+                                            &nbsp;&nbsp;&nbsp - 3200 pesos max 3 persons (return on the same day)<br>\
+                                            &nbsp;&nbsp;&nbsp - 4000 pesos max 6 persons (return on the same day)</p>\
+                                            <p>Posibility to go on your own :<br>\
+                                            Bus to San Antonio de Areco (~250pesos/pers/return)<br>\
+                                            Taxi-Remis between La Segunda-San A Areco (~400 pesos one way)</p>',
+                }
+            },
+            // ----------- JAVIER HORSE RIDE IN MENDOZA -----------
+            {
+                'tour-title'        : 'Javier horse ride in Mendoza',
+                'tour-card-duration': '1 Day',
+                'tour-card-image'   : '../imagens/paseos/countryside/Javier cabalgata/IMG_2297.JPG',
+                'images'            : [
+                                        '../imagens/paseos/countryside/Javier cabalgata/10.JPG',
+                                        '../imagens/paseos/countryside/Javier cabalgata/20.JPG',
+                                        '../imagens/paseos/countryside/Javier cabalgata/asado1.JPG',
+                                        '../imagens/paseos/countryside/Javier cabalgata/asado2.JPG',
+                                        '../imagens/paseos/countryside/Javier cabalgata/caballo8.jpg',
+                                        '../imagens/paseos/countryside/Javier cabalgata/casa3.JPG',
+                                        '../imagens/paseos/countryside/Javier cabalgata/_DSC5774.jpg',
+                                        '../imagens/paseos/countryside/Javier cabalgata/IMG_2271.JPG',
+                                        '../imagens/paseos/countryside/Javier cabalgata/IMG_2297.JPG',
+                                        '../imagens/paseos/countryside/Javier cabalgata/_MG_3307.JPG',
+                                        '../imagens/paseos/countryside/Javier cabalgata/pileta1.jpg',
+                                        '../imagens/paseos/countryside/Javier cabalgata/pileta2.JPG'
+                ],
+                'video'             : '',
+                'tour-info'   : {
+                    'tour-description'  : '<p>Gaucho day trip in a ranch in the precordillera with a 2-hour horse ride in the pedemonte. End the day enjoying a typical barbecue dinner.</p>',
+                    'tour-frequency'    : '<p>Regular : Tuesday, Thursday and Sunday</p>\
+                                            <p>Groups : Daily</p>',
+                    'tour-schedule'     : '3pm',
+                    'tour-meeting-spot' : 'Pick up at the hotel',
+                    'tour-duration'     : '3pm to 9pm',
+                    'tour-prices'       : '1090 pesos',
+                    'tour-languages'    : 'Spanish, English, French',
+                    'tour-include'      : 'Pick up and drop off at the hotel in Mendoza, guided horse-ride,  barbecue with meat, vegetables and red wine',
+                    'tour-not-include'  : '',
                 }
             },
         ]
