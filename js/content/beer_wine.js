@@ -7,12 +7,11 @@ PASEO['beer_wine'] = {
             {
                 'tour-title'        : 'Tour cervecero ',
                 'tour-card-duration': '3 Horas',
-                'tour-card-image'   : '../imagens/paseos/beer_wine/Beer walk/beerz_grande.jpg',
+                'tour-card-image'   : '../imagens/paseos/Beer walk/1a.jpg',
                 'images'            : [ 
-                                        '../imagens/paseos/beer_wine/Beer walk/13103414_1162906693748225_4226652806905097467_n.jpg',
-                                        '../imagens/paseos/beer_wine/Beer walk/beer-2435382_960_720.jpg',  
-                                        '../imagens/paseos/beer_wine/Beer walk/beerz_grande.jpg'
-                                      ],
+                                        '../imagens/paseos/Beer walk/2.jpg',
+                                        '../imagens/paseos/Beer walk/3.jpg',
+                                    ],
                 'video'             : '',
                 'tour-info'   : {
                     'tour-description'  : 'Cada vez son más los establecimientos que ofrecen cerveza artesanal en Buenos Aires. \
@@ -32,16 +31,16 @@ PASEO['beer_wine'] = {
             {
                 'tour-title'        : 'Degustación de vino y tapas argentinos',
                 'tour-card-duration': '2 horas',
-                'tour-card-image'   : '../imagens/paseos/beer_wine/Vino y tapas/IMG_20170605_160517.jpg',
+                'tour-card-image'   : '/home/marispsico/gab/tour_f/imagens/paseos/Degustacion de vino/Vino y tapas/1ad.jpg',
                 'images'            : [
-                                        '../imagens/paseos/beer_wine/Vino y tapas/IMG_20170605_151455.jpg',
-                                        '../imagens/paseos/beer_wine/Vino y tapas/IMG_20170605_152356.jpg',
-                                        '../imagens/paseos/beer_wine/Vino y tapas/IMG_20170605_154057.jpg',
-                                        '../imagens/paseos/beer_wine/Vino y tapas/IMG_20170605_160517.jpg',
-                                        '../imagens/paseos/beer_wine/Vino y tapas/IMG_20170605_162438.jpg',
-                                        '../imagens/paseos/beer_wine/Vino y tapas/IMG_20170605_163159.jpg',
-                                        '../imagens/paseos/beer_wine/Vino y tapas/IMG_20170605_163322.jpg'
-                ],
+                                        '/home/marispsico/gab/tour_f/imagens/paseos/Degustacion de vino/Vino y tapas/1ad.jpg',
+                                        '/home/marispsico/gab/tour_f/imagens/paseos/Degustacion de vino/Vino y tapas/2.jpg',
+                                        '/home/marispsico/gab/tour_f/imagens/paseos/Degustacion de vino/Vino y tapas/3.jpg',
+                                        '/home/marispsico/gab/tour_f/imagens/paseos/Degustacion de vino/Vino y tapas/4.jpg',
+                                        '/home/marispsico/gab/tour_f/imagens/paseos/Degustacion de vino/Vino y tapas/5.jpg',
+                                        '/home/marispsico/gab/tour_f/imagens/paseos/Degustacion de vino/Vino y tapas/6.jpg',
+                                        '/home/marispsico/gab/tour_f/imagens/paseos/Degustacion de vino/Vino y tapas/7.jpg',
+                                    ],
                 'video'             : '',
                 'tour-info'   : {
                     'tour-description'  : 'Argentina es el 5º productor mundial de vino, y la más grande superficie de producción vitivinícola procedido de Malbec. \
@@ -65,14 +64,14 @@ PASEO['beer_wine'] = {
             {
                 'tour-title'        : 'Degustación de vinos y quesos argentinos',
                 'tour-card-duration': '2 horas',
-                'tour-card-image'   : '../imagens/paseos/beer_wine/Vino y queso/DSC01387.JPG',
+                'tour-card-image'   : '/home/marispsico/gab/tour_f/imagens/paseos/Degustacion de vino/Vino y queso/1a.jpg',
                 'images'            : [
-                                    '../imagens/paseos/beer_wine/Vino y queso/DSC01387.JPG',
-                                    '../imagens/paseos/beer_wine/Vino y queso/DSC01390.JPG',
-                                    '../imagens/paseos/beer_wine/Vino y queso/DSC01391.JPG',
-                                    '../imagens/paseos/beer_wine/Vino y queso/DSC01392.JPG',
-                                    '../imagens/paseos/beer_wine/Vino y queso/DSC01393.JPG'
-                ],
+                                        '/home/marispsico/gab/tour_f/imagens/paseos/Degustacion de vino/Vino y queso/2.jpg',
+                                        '/home/marispsico/gab/tour_f/imagens/paseos/Degustacion de vino/Vino y queso/3.jpg',
+                                        '/home/marispsico/gab/tour_f/imagens/paseos/Degustacion de vino/Vino y queso/4.jpg',
+                                        '/home/marispsico/gab/tour_f/imagens/paseos/Degustacion de vino/Vino y queso/5.jpg',
+                                        '/home/marispsico/gab/tour_f/imagens/paseos/Degustacion de vino/Vino y queso/6.jpg',
+                                    ],
                 'video'             : 'https://www.youtube.com/embed/QYEhNwZOZL4?rel=0',
                 'tour-info'   : {
                     'tour-description'  : 'Degustación de 4 vinos y quesos argentinos. El sommelier nos lleva al descubrimiento de la combinación de \
@@ -105,11 +104,10 @@ PASEO['beer_wine'] = {
             {
                 'tour-title'        : 'Beer walk',
                 'tour-card-duration': '3 hours',
-                'tour-card-image'   : '../imagens/paseos/beer_wine/Beer walk/beerz_grande.jpg',
+                'tour-card-image'   : '../imagens/paseos/Beer walk/1a.jpg',
                 'images'            : [ 
-                                        '../imagens/paseos/beer_wine/Beer walk/13103414_1162906693748225_4226652806905097467_n.jpg',
-                                        '../imagens/paseos/beer_wine/Beer walk/beer-2435382_960_720.jpg',  
-                                        '../imagens/paseos/beer_wine/Beer walk/beerz_grande.jpg'
+                                        '../imagens/paseos/Beer walk/2.jpg',
+                                        '../imagens/paseos/Beer walk/3.jpg',
                                       ],
                 'video'             : '',
                 'tour-info'   : {
@@ -128,16 +126,16 @@ PASEO['beer_wine'] = {
             {
                 'tour-title'        : 'Wine tasting',
                 'tour-card-duration': '2 hours',
-                'tour-card-image'   : '../imagens/paseos/beer_wine/Vino y tapas/IMG_20170605_160517.jpg',
+                'tour-card-image'   : '/home/marispsico/gab/tour_f/imagens/paseos/Degustacion de vino/Vino y tapas/1ad.jpg',
                 'images'            : [
-                                        '../imagens/paseos/beer_wine/Vino y tapas/IMG_20170605_151455.jpg',
-                                        '../imagens/paseos/beer_wine/Vino y tapas/IMG_20170605_152356.jpg',
-                                        '../imagens/paseos/beer_wine/Vino y tapas/IMG_20170605_154057.jpg',
-                                        '../imagens/paseos/beer_wine/Vino y tapas/IMG_20170605_160517.jpg',
-                                        '../imagens/paseos/beer_wine/Vino y tapas/IMG_20170605_162438.jpg',
-                                        '../imagens/paseos/beer_wine/Vino y tapas/IMG_20170605_163159.jpg',
-                                        '../imagens/paseos/beer_wine/Vino y tapas/IMG_20170605_163322.jpg'
-                ],
+                                        '/home/marispsico/gab/tour_f/imagens/paseos/Degustacion de vino/Vino y tapas/1ad.jpg',
+                                        '/home/marispsico/gab/tour_f/imagens/paseos/Degustacion de vino/Vino y tapas/2.jpg',
+                                        '/home/marispsico/gab/tour_f/imagens/paseos/Degustacion de vino/Vino y tapas/3.jpg',
+                                        '/home/marispsico/gab/tour_f/imagens/paseos/Degustacion de vino/Vino y tapas/4.jpg',
+                                        '/home/marispsico/gab/tour_f/imagens/paseos/Degustacion de vino/Vino y tapas/5.jpg',
+                                        '/home/marispsico/gab/tour_f/imagens/paseos/Degustacion de vino/Vino y tapas/6.jpg',
+                                        '/home/marispsico/gab/tour_f/imagens/paseos/Degustacion de vino/Vino y tapas/7.jpg',
+                                    ],
                 'video'             : '',
                 'tour-info'   : {
                     'tour-description'  : 'Argentina is the 5th largest wine producer in the world, and the biggest wine-growing area for Malbec grapes. Aby and Bertie will take you to taste 4 boutique wines and 1 extra-virgin olive oil. Each wine will be paired with homemade tapas from its region.',
@@ -158,14 +156,14 @@ PASEO['beer_wine'] = {
             {
                 'tour-title'        : 'Wine tasting paired with cheese',
                 'tour-card-duration': '2 Hours',
-                'tour-card-image'   : '../imagens/paseos/beer_wine/Vino y queso/DSC01387.JPG',
+                'tour-card-image'   : '/home/marispsico/gab/tour_f/imagens/paseos/Degustacion de vino/Vino y queso/1a.jpg',
                 'images'            : [
-                                    '../imagens/paseos/beer_wine/Vino y queso/DSC01387.JPG',
-                                    '../imagens/paseos/beer_wine/Vino y queso/DSC01390.JPG',
-                                    '../imagens/paseos/beer_wine/Vino y queso/DSC01391.JPG',
-                                    '../imagens/paseos/beer_wine/Vino y queso/DSC01392.JPG',
-                                    '../imagens/paseos/beer_wine/Vino y queso/DSC01393.JPG'
-                ],
+                                        '/home/marispsico/gab/tour_f/imagens/paseos/Degustacion de vino/Vino y queso/2.jpg',
+                                        '/home/marispsico/gab/tour_f/imagens/paseos/Degustacion de vino/Vino y queso/3.jpg',
+                                        '/home/marispsico/gab/tour_f/imagens/paseos/Degustacion de vino/Vino y queso/4.jpg',
+                                        '/home/marispsico/gab/tour_f/imagens/paseos/Degustacion de vino/Vino y queso/5.jpg',
+                                        '/home/marispsico/gab/tour_f/imagens/paseos/Degustacion de vino/Vino y queso/6.jpg',
+                                    ],
                 'video'             : 'https://www.youtube.com/embed/QYEhNwZOZL4?rel=0',
                 'tour-info'   : {
                     'tour-description'  : 'Wine tasting of 4 wines paired with cheese. The sommelier will lead us to discover the combination between some of the most typical wines of Argentina and local cheese including a typical Argentinian desert “dulce de membrillo”. Organized every Monday in café Vinilo so you can stay at the milonga and attend a 12-musician orchestra tango concert, this is fantastic watch!',

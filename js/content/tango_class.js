@@ -8,10 +8,10 @@ PASEO['tango_class'] = {
             {
                 'tour-title'        : 'Clase de Tango',
                 'tour-card-duration': '1 hora',
-                'tour-card-image'   : '../imagens/paseos/Tango class/Tango class/IMG_20170806_002624.png',
+                'tour-card-image'   : '../imagens/paseos/Tango class/Tango class/1ad.png',
                 'images'            : [
-                                        '../imagens/paseos/Tango class/Tango class/IMG_20170806_002624.png',
-                ],
+                                        '../imagens/paseos/Tango class/Tango class/1ad.png',
+                                    ],
                 'video'             : '',
                 'tour-info'   : {
                     'tour-description'  : 'Buenos Aires es la ciudad del tango, hay más de 150 lugares de milonga (= que puede ser un bar, un teatro, \
@@ -34,12 +34,12 @@ PASEO['tango_class'] = {
             {
                 'tour-title'        : 'Tango y hipódromo',
                 'tour-card-duration': '3 horas',
-                'tour-card-image'   : '../imagens/paseos/Tango class/Tango & Hippodromo & asado/DSC01007.JPG',
+                'tour-card-image'   : '../imagens/paseos/Tango class/Tango & Hyppodromo/1a.jpg',
                 'images'            : [
-                                        '../imagens/paseos/Tango class/Tango & Hippodromo & asado/IMG_20170806_002624.png',
-                                        '../imagens/paseos/Tango class/Tango & Hippodromo & asado/DSC01005.JPG',
-                                        '../imagens/paseos/Tango class/Tango & Hippodromo & asado/DSC01007.JPG',
-                ],
+                                        '../imagens/paseos/Tango class/Tango & Hyppodromo/2.png',
+                                        '../imagens/paseos/Tango class/Tango & Hyppodromo/3.jpg',
+                                        '../imagens/paseos/Tango class/Tango & Hyppodromo/4.jpg',
+                                    ],
                 'video'             : '',
                 'tour-info'   : {
                     'tour-description'  : 'Para aquellas personas que quieran aprender o practicar tango en un lugar precioso: en un estudio en el hipódromo \
@@ -61,16 +61,15 @@ PASEO['tango_class'] = {
             // ---------- TANGO, ASSADO Y MILONGA ----------
             {
                 'tour-title'        : 'Tango, asado y milonga',
-                'tour-card-duration': '',
-                'tour-card-image'   : '../imagens/paseos/Tango class/Tango & Hippodromo & asado/drinks-2616778_960_720.jpg',
+                'tour-card-duration': '1 día',
+                'tour-card-image'   : '../imagens/paseos/Tango class/Tango & Hippodromo & asado/1a.png',
                 'images'            : [
-                                        '../imagens/paseos/Tango class/Tango & Hippodromo & asado/barbecue-area-2491088_960_720.jpg',
-                                        '../imagens/paseos/Tango class/Tango & Hippodromo & asado/IMG_20170806_002624.png',
-                                        '../imagens/paseos/Tango class/Tango & Hippodromo & asado/drinks-2616778_960_720.jpg',
-                                        '../imagens/paseos/Tango class/Tango & Hippodromo & asado/DSC01005.JPG',
-                                        '../imagens/paseos/Tango class/Tango & Hippodromo & asado/DSC01007.JPG',
-                                        '../imagens/paseos/Tango class/Tango & Hippodromo & asado/deafb8e03095e628cba25e62626249c1.jpg.png',
-                ],
+                                        '../imagens/paseos/Tango class/Tango & Hippodromo & asado/2.jpg',
+                                        '../imagens/paseos/Tango class/Tango & Hippodromo & asado/3.jpg',
+                                        '../imagens/paseos/Tango class/Tango & Hippodromo & asado/4.png',
+                                        '../imagens/paseos/Tango class/Tango & Hippodromo & asado/5.jpg',
+                                        '../imagens/paseos/Tango class/Tango & Hippodromo & asado/6.jpg',
+                                    ],
                 'video'             : '',
                 'tour-info'   : {
                     'tour-description'  : '<p>Para aquellas personas que quieran aprender o practicar tango en un lugar precioso: en un estudio en el hipódromo \
@@ -105,10 +104,10 @@ PASEO['tango_class'] = {
             {
                 'tour-title'        : 'Tango Class',
                 'tour-card-duration': '1 hour',
-                'tour-card-image'   : '../imagens/paseos/Tango class/Tango class/IMG_20170806_002624.png',
+                'tour-card-image'   : '../imagens/paseos/Tango class/Tango class/1ad.png',
                 'images'            : [
-                                        '../imagens/paseos/Tango class/Tango class/IMG_20170806_002624.png',
-                ],
+                                        '../imagens/paseos/Tango class/Tango class/1ad.png',
+                                    ],
                 'video'             : '',
                 'tour-info'   : {
                     'tour-description'  : 'Buenos Aires is the city of tango, there are more than 150 milonga places (bars, theaters, private houses, secret apartments, parks, etc…). For all levels from those who want to master their techniques to those starting from scratch or just looking for some fun, we have two teachers (man and woman) who offer private or semi-private classes to learn or master tango. With all that, you won’t have any excuse to miss out on Buenos Aires milongas',
@@ -127,12 +126,12 @@ PASEO['tango_class'] = {
             {
                 'tour-title'        : 'Tango and racetrack',
                 'tour-card-duration': '3 horas',
-                'tour-card-image'   : '../imagens/paseos/Tango class/Tango & Hippodromo & asado/DSC01007.JPG',
+                'tour-card-image'   : '../imagens/paseos/Tango class/Tango & Hyppodromo/1a.jpg',
                 'images'            : [
-                                        '../imagens/paseos/Tango class/Tango & Hippodromo & asado/IMG_20170806_002624.png',
-                                        '../imagens/paseos/Tango class/Tango & Hippodromo & asado/DSC01005.JPG',
-                                        '../imagens/paseos/Tango class/Tango & Hippodromo & asado/DSC01007.JPG',
-                ],
+                                        '../imagens/paseos/Tango class/Tango & Hyppodromo/2.png',
+                                        '../imagens/paseos/Tango class/Tango & Hyppodromo/3.jpg',
+                                        '../imagens/paseos/Tango class/Tango & Hyppodromo/4.jpg',
+                                    ],
                 'video'             : '',
                 'tour-info'   : {
                     'tour-description'  : 'For those who want to learn and practice tango in a phenomenal place: We offer a studio at Palermo’s racetrack in Buenos Aires. This is the opportunity to discover 2 passions of Buenos Aires: Horse racing and tango. Classes will be held by Roberto Caroprese, the winner of the International Club of Argentinian Tango (CITA) champions league in Miami.',
@@ -151,16 +150,15 @@ PASEO['tango_class'] = {
             // ---------- TANGO, ASSADO Y MILONGA ----------
             {
                 'tour-title'        : ' Tango, barbecue and milongas',
-                'tour-card-duration': '',
-                'tour-card-image'   : '../imagens/paseos/Tango class/Tango & Hippodromo & asado/drinks-2616778_960_720.jpg',
+                'tour-card-duration': '1 day',
+                'tour-card-image'   : '../imagens/paseos/Tango class/Tango & Hippodromo & asado/1a.png',
                 'images'            : [
-                                        '../imagens/paseos/Tango class/Tango & Hippodromo & asado/barbecue-area-2491088_960_720.jpg',
-                                        '../imagens/paseos/Tango class/Tango & Hippodromo & asado/IMG_20170806_002624.png',
-                                        '../imagens/paseos/Tango class/Tango & Hippodromo & asado/drinks-2616778_960_720.jpg',
-                                        '../imagens/paseos/Tango class/Tango & Hippodromo & asado/DSC01005.JPG',
-                                        '../imagens/paseos/Tango class/Tango & Hippodromo & asado/DSC01007.JPG',
-                                        '../imagens/paseos/Tango class/Tango & Hippodromo & asado/deafb8e03095e628cba25e62626249c1.jpg.png',
-                ],
+                                        '../imagens/paseos/Tango class/Tango & Hippodromo & asado/2.jpg',
+                                        '../imagens/paseos/Tango class/Tango & Hippodromo & asado/3.jpg',
+                                        '../imagens/paseos/Tango class/Tango & Hippodromo & asado/4.png',
+                                        '../imagens/paseos/Tango class/Tango & Hippodromo & asado/5.jpg',
+                                        '../imagens/paseos/Tango class/Tango & Hippodromo & asado/6.jpg',
+                                    ],
                 'video'             : '',
                 'tour-info'   : {
                     'tour-description'  : '<p>For those who want to learn and practice tango in a beautiful place: in a studio in Palermo’s racetrack in Buenos Aires. This is the opportunity to discover 2 passions of Buenos Aires: the horse world and tango and enjoy a typical barbecue dinner paired with wine. Classes will be held by Roberto Caroprese, the winner of the International Club or Argentinian Tango (CITA) champions league in Miami.</p>\

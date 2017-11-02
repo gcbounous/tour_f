@@ -6,14 +6,14 @@ PASEO['countryside'] = {
             {
                 'tour-title'        : 'La porteña de Areco',
                 'tour-card-duration': '1 día',
-                'tour-card-image'   : '../imagens/paseos/countryside/la portena de areco/El-Gaucho-y-su-facon2.jpg',
+                'tour-card-image'   : '../imagens/paseos/Dia de gaucho/la portena de areco/1ad.jpg',
                 'images'            : [
-                                        '../imagens/paseos/countryside/la portena de areco/Carruaje-en-arboleda-centenaria.jpg',
-                                        '../imagens/paseos/countryside/la portena de areco/Demostracion-con-boleadoras.jpg',
-                                        '../imagens/paseos/countryside/la portena de areco/El-Gaucho-y-su-facon2.jpg',
-                                        '../imagens/paseos/countryside/la portena de areco/Espectaculares-cabalgatas.jpg',
-                                        '../imagens/paseos/countryside/la portena de areco/Guitarreada.jpg'
-                ],
+                                        '../imagens/paseos/Dia de gaucho/la portena de areco/1ad.jpg',
+                                        '../imagens/paseos/Dia de gaucho/la portena de areco/2.jpg',
+                                        '../imagens/paseos/Dia de gaucho/la portena de areco/3.jpg',
+                                        '../imagens/paseos/Dia de gaucho/la portena de areco/4.jpg',
+                                        '../imagens/paseos/Dia de gaucho/la portena de areco/5.jpg',
+                                    ],
                 'video'             : '',
                 'tour-info'   : {
                     'tour-description'  : '<p>El día de campo permite sumergirse en la vida gauchezca, \
@@ -40,18 +40,18 @@ PASEO['countryside'] = {
             // ----------- CABALGATAS -----------
             {
                 'tour-title'        : 'Cabalgatas',
-                'tour-card-duration': '1 Día',
-                'tour-card-image'   : '../imagens/paseos/countryside/Cabalgatas/WP_20170624_008.jpg',
+                'tour-card-duration': '1 día',
+                'tour-card-image'   : '../imagens/paseos/Dia de gaucho/Cabalgatas/1ad.jpg',
                 'images'            : [
-                                        '../imagens/paseos/countryside/Cabalgatas/IMG-20170319-WA0004.jpg',
-                                        '../imagens/paseos/countryside/Cabalgatas/WP_20160813_003.jpg',
-                                        '../imagens/paseos/countryside/Cabalgatas/WP_20161107_003.jpg',
-                                        '../imagens/paseos/countryside/Cabalgatas/WP_20170410_001.jpg',
-                                        '../imagens/paseos/countryside/Cabalgatas/WP_20170416_010.jpg',
-                                        '../imagens/paseos/countryside/Cabalgatas/WP_20170420_003.jpg',
-                                        '../imagens/paseos/countryside/Cabalgatas/WP_20170624_006.jpg',
-                                        '../imagens/paseos/countryside/Cabalgatas/WP_20170624_008.jpg',
-                ],
+                                        '../imagens/paseos/Dia de gaucho/Cabalgatas/1ad.jpg',
+                                        '../imagens/paseos/Dia de gaucho/Cabalgatas/2.jpg',
+                                        '../imagens/paseos/Dia de gaucho/Cabalgatas/3.jpg',
+                                        '../imagens/paseos/Dia de gaucho/Cabalgatas/4.jpg',
+                                        '../imagens/paseos/Dia de gaucho/Cabalgatas/5.jpg',
+                                        '../imagens/paseos/Dia de gaucho/Cabalgatas/6.jpg',
+                                        '../imagens/paseos/Dia de gaucho/Cabalgatas/7.jpg',
+                                        '../imagens/paseos/Dia de gaucho/Cabalgatas/8.jpg',
+                                    ],
                 'video'             : '',
                 'tour-info'   : {
                     'tour-description'  : '<p>El día de campo permite de sumergirse en la vida de un gaucho, descubriendo \
@@ -141,22 +141,22 @@ PASEO['countryside'] = {
             // ----------- JAVIER CABALGATA EN MENDOZA -----------
             {
                 'tour-title'        : 'Javier cabalgata en Mendoza',
-                'tour-card-duration': '1 Día',
-                'tour-card-image'   : '../imagens/paseos/countryside/Javier cabalgata/IMG_2297.JPG',
+                'tour-card-duration': '1 día',
+                'tour-card-image'   : '../imagens/paseos/Dia de gaucho/Javier cabalgata/1ad.jpg',
                 'images'            : [
-                                        '../imagens/paseos/countryside/Javier cabalgata/10.JPG',
-                                        '../imagens/paseos/countryside/Javier cabalgata/20.JPG',
-                                        '../imagens/paseos/countryside/Javier cabalgata/asado1.JPG',
-                                        '../imagens/paseos/countryside/Javier cabalgata/asado2.JPG',
-                                        '../imagens/paseos/countryside/Javier cabalgata/caballo8.jpg',
-                                        '../imagens/paseos/countryside/Javier cabalgata/casa3.JPG',
-                                        '../imagens/paseos/countryside/Javier cabalgata/_DSC5774.jpg',
-                                        '../imagens/paseos/countryside/Javier cabalgata/IMG_2271.JPG',
-                                        '../imagens/paseos/countryside/Javier cabalgata/IMG_2297.JPG',
-                                        '../imagens/paseos/countryside/Javier cabalgata/_MG_3307.JPG',
-                                        '../imagens/paseos/countryside/Javier cabalgata/pileta1.jpg',
-                                        '../imagens/paseos/countryside/Javier cabalgata/pileta2.JPG'
-                ],
+                                        '../imagens/paseos/Dia de gaucho/Javier cabalgata/1ad.jpg',
+                                        '../imagens/paseos/Dia de gaucho/Javier cabalgata/2.jpg',
+                                        '../imagens/paseos/Dia de gaucho/Javier cabalgata/3.jpg',
+                                        '../imagens/paseos/Dia de gaucho/Javier cabalgata/4.jpg',
+                                        '../imagens/paseos/Dia de gaucho/Javier cabalgata/5.jpg',
+                                        '../imagens/paseos/Dia de gaucho/Javier cabalgata/6.jpg',
+                                        '../imagens/paseos/Dia de gaucho/Javier cabalgata/7.jpg',
+                                        '../imagens/paseos/Dia de gaucho/Javier cabalgata/8.jpg',
+                                        '../imagens/paseos/Dia de gaucho/Javier cabalgata/9.jpg',
+                                        '../imagens/paseos/Dia de gaucho/Javier cabalgata/10.jpg',
+                                        '../imagens/paseos/Dia de gaucho/Javier cabalgata/11.jpg',
+                                        '../imagens/paseos/Dia de gaucho/Javier cabalgata/12.jpg',
+                                    ],
                 'video'             : '',
                 'tour-info'   : {
                     'tour-description'  : '<p>Día de campo en un rancho precordillerano, con cabalgata de 2 horas en el pedemonte. \
@@ -182,14 +182,14 @@ PASEO['countryside'] = {
             {
                 'tour-title'        : 'La porteña de Areco',
                 'tour-card-duration': '1 day',
-                'tour-card-image'   : '../imagens/paseos/countryside/la portena de areco/El-Gaucho-y-su-facon2.jpg',
+                'tour-card-image'   : '../imagens/paseos/Dia de gaucho/la portena de areco/1ad.jpg',
                 'images'            : [
-                                        '../imagens/paseos/countryside/la portena de areco/Carruaje-en-arboleda-centenaria.jpg',
-                                        '../imagens/paseos/countryside/la portena de areco/Demostracion-con-boleadoras.jpg',
-                                        '../imagens/paseos/countryside/la portena de areco/El-Gaucho-y-su-facon2.jpg',
-                                        '../imagens/paseos/countryside/la portena de areco/Espectaculares-cabalgatas.jpg',
-                                        '../imagens/paseos/countryside/la portena de areco/Guitarreada.jpg'
-                ],
+                                        '../imagens/paseos/Dia de gaucho/la portena de areco/1ad.jpg',
+                                        '../imagens/paseos/Dia de gaucho/la portena de areco/2.jpg',
+                                        '../imagens/paseos/Dia de gaucho/la portena de areco/3.jpg',
+                                        '../imagens/paseos/Dia de gaucho/la portena de areco/4.jpg',
+                                        '../imagens/paseos/Dia de gaucho/la portena de areco/5.jpg',
+                                    ],
                 'video'             : '',
                 'tour-info'   : {
                     'tour-description'  : '<p>Immerse yourself in the gaucho (Argentine Farmers/Cowboys) lifestyle, discovering a farm, along with the folkloric and culinary culture.</p>\
@@ -210,18 +210,18 @@ PASEO['countryside'] = {
             // ----------- HORSE-RIDE -----------
             {
                 'tour-title'        : 'Horse-ride ',
-                'tour-card-duration': '1 Day',
-                'tour-card-image'   : '../imagens/paseos/countryside/Cabalgatas/WP_20170624_008.jpg',
+                'tour-card-duration': '1 day',
+                'tour-card-image'   : '../imagens/paseos/Dia de gaucho/Cabalgatas/1ad.jpg',
                 'images'            : [
-                                        '../imagens/paseos/countryside/Cabalgatas/IMG-20170319-WA0004.jpg',
-                                        '../imagens/paseos/countryside/Cabalgatas/WP_20160813_003.jpg',
-                                        '../imagens/paseos/countryside/Cabalgatas/WP_20161107_003.jpg',
-                                        '../imagens/paseos/countryside/Cabalgatas/WP_20170410_001.jpg',
-                                        '../imagens/paseos/countryside/Cabalgatas/WP_20170416_010.jpg',
-                                        '../imagens/paseos/countryside/Cabalgatas/WP_20170420_003.jpg',
-                                        '../imagens/paseos/countryside/Cabalgatas/WP_20170624_006.jpg',
-                                        '../imagens/paseos/countryside/Cabalgatas/WP_20170624_008.jpg',
-                ],
+                                        '../imagens/paseos/Dia de gaucho/Cabalgatas/1ad.jpg',
+                                        '../imagens/paseos/Dia de gaucho/Cabalgatas/2.jpg',
+                                        '../imagens/paseos/Dia de gaucho/Cabalgatas/3.jpg',
+                                        '../imagens/paseos/Dia de gaucho/Cabalgatas/4.jpg',
+                                        '../imagens/paseos/Dia de gaucho/Cabalgatas/5.jpg',
+                                        '../imagens/paseos/Dia de gaucho/Cabalgatas/6.jpg',
+                                        '../imagens/paseos/Dia de gaucho/Cabalgatas/7.jpg',
+                                        '../imagens/paseos/Dia de gaucho/Cabalgatas/8.jpg',
+                                    ],
                 'video'             : '',
                 'tour-info'   : {
                     'tour-description'  : '<p>Immerse yourself in the gaucho lifestyle, discovering a farm, along with the culinary culture and learning to ride a horse like a gaucho.</p>\
@@ -308,22 +308,22 @@ PASEO['countryside'] = {
             // ----------- JAVIER HORSE RIDE IN MENDOZA -----------
             {
                 'tour-title'        : 'Javier horse ride in Mendoza',
-                'tour-card-duration': '1 Day',
-                'tour-card-image'   : '../imagens/paseos/countryside/Javier cabalgata/IMG_2297.JPG',
+                'tour-card-duration': '1 day',
+                'tour-card-image'   : '../imagens/paseos/Dia de gaucho/Javier cabalgata/1ad.jpg',
                 'images'            : [
-                                        '../imagens/paseos/countryside/Javier cabalgata/10.JPG',
-                                        '../imagens/paseos/countryside/Javier cabalgata/20.JPG',
-                                        '../imagens/paseos/countryside/Javier cabalgata/asado1.JPG',
-                                        '../imagens/paseos/countryside/Javier cabalgata/asado2.JPG',
-                                        '../imagens/paseos/countryside/Javier cabalgata/caballo8.jpg',
-                                        '../imagens/paseos/countryside/Javier cabalgata/casa3.JPG',
-                                        '../imagens/paseos/countryside/Javier cabalgata/_DSC5774.jpg',
-                                        '../imagens/paseos/countryside/Javier cabalgata/IMG_2271.JPG',
-                                        '../imagens/paseos/countryside/Javier cabalgata/IMG_2297.JPG',
-                                        '../imagens/paseos/countryside/Javier cabalgata/_MG_3307.JPG',
-                                        '../imagens/paseos/countryside/Javier cabalgata/pileta1.jpg',
-                                        '../imagens/paseos/countryside/Javier cabalgata/pileta2.JPG'
-                ],
+                                        '../imagens/paseos/Dia de gaucho/Javier cabalgata/1ad.jpg',
+                                        '../imagens/paseos/Dia de gaucho/Javier cabalgata/2.jpg',
+                                        '../imagens/paseos/Dia de gaucho/Javier cabalgata/3.jpg',
+                                        '../imagens/paseos/Dia de gaucho/Javier cabalgata/4.jpg',
+                                        '../imagens/paseos/Dia de gaucho/Javier cabalgata/5.jpg',
+                                        '../imagens/paseos/Dia de gaucho/Javier cabalgata/6.jpg',
+                                        '../imagens/paseos/Dia de gaucho/Javier cabalgata/7.jpg',
+                                        '../imagens/paseos/Dia de gaucho/Javier cabalgata/8.jpg',
+                                        '../imagens/paseos/Dia de gaucho/Javier cabalgata/9.jpg',
+                                        '../imagens/paseos/Dia de gaucho/Javier cabalgata/10.jpg',
+                                        '../imagens/paseos/Dia de gaucho/Javier cabalgata/11.jpg',
+                                        '../imagens/paseos/Dia de gaucho/Javier cabalgata/12.jpg',
+                                    ],
                 'video'             : '',
                 'tour-info'   : {
                     'tour-description'  : '<p>Gaucho day trip in a ranch in the precordillera with a 2-hour horse ride in the pedemonte. End the day enjoying a typical barbecue dinner.</p>',

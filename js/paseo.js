@@ -167,6 +167,7 @@ function closeTourInfo(){
     toggleReservationForm();
     $('#tour_info').animate({scrollTop:0},0);
     $("#tour_info").animate({width:'hide'}, 400);
+    $('body').removeClass('no-scroll');
 }
 
 function fillImageCarousel(images){

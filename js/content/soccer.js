@@ -6,14 +6,14 @@ PASEO['soccer'] = {
             // ---------- PARTIDO DE FUTBOL ----------
             {
                 'tour-title'        : 'Partido de fútbol',
-                'tour-card-duration': '1 Noche',
-                'tour-card-image'   : '../imagens/paseos/partido de futbol/boca-juniors-1712628_1920.jpg',
+                'tour-card-duration': '1 noche',
+                'tour-card-image'   : '../imagens/paseos/partido de futbol/1ad.jpg',
                 'images'            : [
-                                        '../imagens/paseos/partido de futbol/boca-juniors-775838_1920.jpg',
-                                        '../imagens/paseos/partido de futbol/boca-juniors-1286662_1920.jpg',
-                                        '../imagens/paseos/partido de futbol/boca-juniors-1712628_1920.jpg',
-                                        '../imagens/paseos/partido de futbol/los-borrachos-del-tablon-river-plate-122-114939-barrabrava-net.jpg',
-                ],
+                                        '../imagens/paseos/partido de futbol/1ad.jpg',
+                                        '../imagens/paseos/partido de futbol/2.jpg',
+                                        '../imagens/paseos/partido de futbol/3.jpg',
+                                        '../imagens/paseos/partido de futbol/4.jpg',
+                                    ],
                 'video'             : '',
                 'tour-info'   : {
                     'tour-description'  : '<p>Si quieres sentir la pasión de los hinchas del futbol argentino en un estadio, tenemos 2 opciones para ver partidos \
@@ -47,14 +47,14 @@ PASEO['soccer'] = {
             // ---------- SOCCER MATCH ----------
             {
                 'tour-title'        : 'Football game',
-                'tour-card-duration': '1 Night',
-                'tour-card-image'   : '../imagens/paseos/partido de futbol/boca-juniors-1712628_1920.jpg',
+                'tour-card-duration': '1 night',
+                'tour-card-image'   : '../imagens/paseos/partido de futbol/1ad.jpg',
                 'images'            : [
-                                        '../imagens/paseos/partido de futbol/boca-juniors-775838_1920.jpg',
-                                        '../imagens/paseos/partido de futbol/boca-juniors-1286662_1920.jpg',
-                                        '../imagens/paseos/partido de futbol/boca-juniors-1712628_1920.jpg',
-                                        '../imagens/paseos/partido de futbol/los-borrachos-del-tablon-river-plate-122-114939-barrabrava-net.jpg',
-                ],
+                                        '../imagens/paseos/partido de futbol/1ad.jpg',
+                                        '../imagens/paseos/partido de futbol/2.jpg',
+                                        '../imagens/paseos/partido de futbol/3.jpg',
+                                        '../imagens/paseos/partido de futbol/4.jpg',
+                                    ],
                 'video'             : '',
                 'tour-info'   : {
                     'tour-description'  : '<p>If you want to feel the fans passion in a stadium, we have two options to see a football game of Boca, River, San Lorenzo and more…</p>\

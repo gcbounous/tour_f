@@ -1,4 +1,5 @@
 PASEO['esteros_ibera'] = {
+    //****** CASTELLANO ******
     'es' : {
         'category_title'        : 'Esteros del Iberà',
         'category_description'  : '',
@@ -7,21 +8,22 @@ PASEO['esteros_ibera'] = {
             {
                 'tour-title'        : 'Esteros del Iberà',
                 'tour-card-duration': '3 - 4 días',
-                'tour-card-image'   : '../imagens/paseos/Esteros del Ibera/DSC00810.JPG',
+                'tour-card-image'   : '../imagens/paseos/Esteros del Ibera/1a.jpg',
                 'images'            : [
-                                        '../imagens/paseos/Esteros del Ibera/DSC00714.JPG',
-                                        '../imagens/paseos/Esteros del Ibera/DSC00730.JPG',
-                                        '../imagens/paseos/Esteros del Ibera/DSC00738.JPG',
-                                        '../imagens/paseos/Esteros del Ibera/DSC00739.JPG',
-                                        '../imagens/paseos/Esteros del Ibera/DSC00759.JPG',
-                                        '../imagens/paseos/Esteros del Ibera/DSC00768.JPG',
-                                        '../imagens/paseos/Esteros del Ibera/DSC00778.JPG',
-                                        '../imagens/paseos/Esteros del Ibera/DSC00801.JPG',
-                                        '../imagens/paseos/Esteros del Ibera/DSC00810.JPG',
-                                        '../imagens/paseos/Esteros del Ibera/DSC00811.JPG',
-                                        '../imagens/paseos/Esteros del Ibera/DSC00813.JPG',
-                                        '../imagens/paseos/Esteros del Ibera/DSC00839.JPG'
-                ],
+                                        '../imagens/paseos/Esteros del Ibera/1a.jpg',
+                                        '../imagens/paseos/Esteros del Ibera/2.jpg',
+                                        '../imagens/paseos/Esteros del Ibera/3.jpg',
+                                        '../imagens/paseos/Esteros del Ibera/4.jpg',
+                                        '../imagens/paseos/Esteros del Ibera/5.jpg',
+                                        '../imagens/paseos/Esteros del Ibera/6.jpg',
+                                        '../imagens/paseos/Esteros del Ibera/7.jpg',
+                                        '../imagens/paseos/Esteros del Ibera/8.jpg',
+                                        '../imagens/paseos/Esteros del Ibera/9.jpg',
+                                        '../imagens/paseos/Esteros del Ibera/10.jpg',
+                                        '../imagens/paseos/Esteros del Ibera/11.jpg',
+                                        '../imagens/paseos/Esteros del Ibera/12.jpg',
+                                        '../imagens/paseos/Esteros del Ibera/13.jpg',
+                                    ],
                 'video'             : '',
                 'tour-info'   : {
                     'tour-description'  : '<p>Imagina 1300000 hectáreas de zona con pantanos, tierra e islas flotantes donde viven yacarés, carpinchos, monos, \
@@ -217,7 +219,7 @@ PASEO['esteros_ibera'] = {
             },
         ]
     },
-
+    //****** ENGLISH ******
     'en' : {
         'category_title'        : 'Esteros del Iberà',
         'category_description'  : '',
@@ -225,22 +227,23 @@ PASEO['esteros_ibera'] = {
             // ---------- ESTEROS DEL IBERA ----------
             {
                 'tour-title'        : 'Esteros del Iberà',
-                'tour-card-duration': '3 - 4 Days',
-                'tour-card-image'   : '../imagens/paseos/Esteros del Ibera/DSC00810.JPG',
+                'tour-card-duration': '3 - 4 days',
+                'tour-card-image'   : '../imagens/paseos/Esteros del Ibera/1a.jpg',
                 'images'            : [
-                                        '../imagens/paseos/Esteros del Ibera/DSC00714.JPG',
-                                        '../imagens/paseos/Esteros del Ibera/DSC00730.JPG',
-                                        '../imagens/paseos/Esteros del Ibera/DSC00738.JPG',
-                                        '../imagens/paseos/Esteros del Ibera/DSC00739.JPG',
-                                        '../imagens/paseos/Esteros del Ibera/DSC00759.JPG',
-                                        '../imagens/paseos/Esteros del Ibera/DSC00768.JPG',
-                                        '../imagens/paseos/Esteros del Ibera/DSC00778.JPG',
-                                        '../imagens/paseos/Esteros del Ibera/DSC00801.JPG',
-                                        '../imagens/paseos/Esteros del Ibera/DSC00810.JPG',
-                                        '../imagens/paseos/Esteros del Ibera/DSC00811.JPG',
-                                        '../imagens/paseos/Esteros del Ibera/DSC00813.JPG',
-                                        '../imagens/paseos/Esteros del Ibera/DSC00839.JPG'
-                ],
+                                        '../imagens/paseos/Esteros del Ibera/1a.jpg',
+                                        '../imagens/paseos/Esteros del Ibera/2.jpg',
+                                        '../imagens/paseos/Esteros del Ibera/3.jpg',
+                                        '../imagens/paseos/Esteros del Ibera/4.jpg',
+                                        '../imagens/paseos/Esteros del Ibera/5.jpg',
+                                        '../imagens/paseos/Esteros del Ibera/6.jpg',
+                                        '../imagens/paseos/Esteros del Ibera/7.jpg',
+                                        '../imagens/paseos/Esteros del Ibera/8.jpg',
+                                        '../imagens/paseos/Esteros del Ibera/9.jpg',
+                                        '../imagens/paseos/Esteros del Ibera/10.jpg',
+                                        '../imagens/paseos/Esteros del Ibera/11.jpg',
+                                        '../imagens/paseos/Esteros del Ibera/12.jpg',
+                                        '../imagens/paseos/Esteros del Ibera/13.jpg',
+                                    ],
                 'video'             : '',
                 'tour-info'   : {
                     'tour-description'  : '<p>Picture 1300000 hectares of wetlands and floating islands where species roam free including caimans, capybaras, monkeys, wild pigs, foxes, and more than 350 bird species. Imagine getting up close and personal with these animals in their natural habitat. This is possible in Esteros del Iberà. </p>\
