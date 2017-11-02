@@ -152,36 +152,40 @@ input:read-only {
 
 #idioma {
     float: right;
-    padding-right: 30px;
+    /*padding-right: 30px;*/
 }
 
-.dropdown {
+#idioma > span > a{
+    margin-right: 5px;
+}
+
+/*.dropdown {
     font-family: Ubuntu;
     font-size: 18px;
     background-color: transparent;
-}
+}*/
 
-.dropdown-content{
+/*.dropdown-content{
     position: absolute;
     left: -20px;
-}
+}*/
 
-.dropdown-content .lang{
+/*.dropdown-content .lang{
     margin-left: -15px; 
     color: #831f82;
     display: none;
-}
+}*/
 
 .lang.selected {
-    margin-bottom: 15px;
+    /*margin-bottom: 15px;*/
     color: white;
     display: inherit;
 }
 
-.dropdown-content .lang.selected:hover ~ .lang,
+/*.dropdown-content .lang.selected:hover ~ .lang,
 .dropdown:hover .lang {
     display: block;
-}
+}*/
 
 #buenosAires {
     /*background-image: url(https://hullopallosa.files.wordpress.com/2017/06/back_left.png);*/

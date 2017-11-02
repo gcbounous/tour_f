@@ -29,8 +29,8 @@ PASEO['tango_show'] = {
                     'tour-meeting-spot' : 'Pick up Desde zona céntrica (Recoleta, San Telmo, Palermo, microcentro, etc...)',
                     'tour-duration'     : '1h30',
                     'tour-prices'       : '<p><strong>900 pesos</strong></p>\
-                                            <p>Opción solo show          : 460 pesos<br>\
-                                            Solo show con pick up   : 560 pesos</p>\
+                                            <p><strong>Opción solo show</strong>    : 460 pesos<br>\
+                                            <strong>Solo show con pick up</strong>  : 560 pesos</p>\
                                             <p><strong>Política niños:</strong><br>\
                                             Hasta 3 años                   : 95 <br>\
                                             Entre 4 años y 10 años*   : 550 pesos</p>\
@@ -124,7 +124,7 @@ PASEO['tango_show'] = {
                                             Entre 4 años y 12 años* : -50%</p>\
                                             <small><strong>Pago: </strong></small>efectivo o tarjeta',
                     'tour-languages'    : '',
-                    'tour-include'      : 'Ida y vuelta (en todos los hoteles de BsA)<br>\
+                    'tour-include'      : 'Ida y vuelta (en todos los hoteles de BsA)<br><br>\
                                             <p><strong>Cena-show ejecutiva</strong><br>\
                                             Menú: 4 opciones de cada paso que incluyen el Bife de chorizo<br>\
                                             Bebida: Agua mineral o gaseosa (1 botella por persona), o un chop de cerveza o una botella de vino cada 2 personas<br>\
@@ -343,8 +343,8 @@ PASEO['tango_show'] = {
                     'tour-meeting-spot' : 'Pick up in central area (Recoleta, San Telmo, Palermo, microcentro, etc...)',
                     'tour-duration'     : '1h30',
                     'tour-prices'       : '<p><strong>900 pesos</strong></p>\
-                                            <p>Option show only          : 460 pesos<br>\
-                                            Only show with pick up   : 560 pesos</p>\
+                                            <p><strong>Option show only</strong> : 460 pesos<br>\
+                                            <strong>Only show with pick up</strong>   : 560 pesos</p>\
                                             <p><strong>Kids policy:</strong><br>\
                                             Until 3 years old : 95 pesos<br>\
                                             Between 4 and y 10 years* : 550 pesos</p>\
@@ -437,7 +437,7 @@ PASEO['tango_show'] = {
                                             Between 4 and y 12 years* : -50%</p>\
                                             <small><strong>Payment.</strong></small>cash or credit card',
                     'tour-languages'    : '',
-                    'tour-include'      : 'Pick up and drop off (at/to every hotel in Buenos Aires)<br>\
+                    'tour-include'      : 'Pick up and drop off (at/to every hotel in Buenos Aires)<br><br>\
                                             <p><strong>Executive dinner & show</strong><br>\
                                             Menu: 4 options of each course including bife de chorizo (sirloin steak)<br>\
                                             Drinks: Still or sparkling water (1 bottle per person), or a bottle of wine every 2 persons.<br>\

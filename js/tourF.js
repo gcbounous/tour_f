@@ -57,7 +57,9 @@ function setLangParamURL(tag, first=true){
 
 function setLanguage(lang){
     $('body').data('lang', lang);
-    changeSelectedFlag(lang);
+    // changeSelectedFlag(lang);
+    $('.lang.selected').removeClass('selected');
+    $('#idioma').find('a[data-lang="'+lang+'"]').addClass('selected');
     changeIndexLanguage(lang);
 }
 

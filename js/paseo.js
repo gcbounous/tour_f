@@ -10,7 +10,8 @@ function setUp(){
     });
 
     //change language
-    $('.lang').click(function(){
+    $('.lang').click(function(e){
+        e.preventDefault();
         var lang = $(this).data('lang');
 
         if(lang != $('body').data('lang')){
@@ -74,7 +75,9 @@ function setUpCategory(change_lang = false){
     dic_paseo = PASEO[tour][lang];
 
     // set static information in chosen language
-    changeSelectedFlag(lang);
+    // changeSelectedFlag(lang);
+    $('.lang.selected').removeClass('selected');
+    $('#idioma').find('a[data-lang="'+lang+'"]').addClass('selected');
     setTourMainLanguage(lang);
 
     $('#category_title').html(dic_paseo['category_title']);
@@ -270,8 +273,8 @@ function setLanguage(lang){
 }
 
 function changeSelectedFlag(lang){
-    $('.lang.selected').attr('href', '#').removeClass('selected');
-    $('.dropdown').find('a[data-lang="'+lang+'"]').attr('href', 'javascript:;').addClass('selected');
+    $('.lang.selected').removeClass('selected');
+    $('.dropdown').find('a[data-lang="'+lang+'"]').addClass('selected');
     
     var new_lang = $('.lang.selected').detach();
     $('.dropdown-content').prepend(new_lang);
