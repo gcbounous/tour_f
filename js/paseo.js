@@ -82,6 +82,10 @@ function setUpCategory(change_lang = false){
 
     createTourCards(dic_paseo['tours'], tour);
     setUpTourCards();
+
+    if(dic_paseo['tours'].length == 1){
+        $('.tour-card').click();
+    }
 }
 
 function createTourCards(tours){

@@ -17,6 +17,7 @@ p {
     color: gray;
     font-size: 15px;
     font-style: regular;
+    text-align: justify;
 }
 
 h1, h3 {

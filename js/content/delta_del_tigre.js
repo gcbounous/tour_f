@@ -207,16 +207,15 @@ PASEO['delta_del_tigre'] = {
                 ],
                 'video'             : '',
                 'tour-info'   : {
-                    'tour-description'  : '<p>Hugo, bandoneonista nos abre las puertas de su casa de fin de semana en una <strong>isla del Tigre</strong>. \
-                                            Vengan a aprovechar la oportunidad de descubrir el Tigre como un porteño. Llegaran en lancha taxi y una vez allá, \
-                                            pasearan a lo largo de las casas de fin de semana, bosque de bambú, arroyos, y almorzaran un típico <strong>asado</strong>.</p>\
-                                            <p>También, podrán disfrutar de una representación de <strong>bandoneón</strong>, nadar, remar, jugar futbol, \
-                                            juegos de mesa, etc...</p>',
+                    'tour-description'  : '<p>Hugo, bandoneonista nos abre las puertas de su casa de fin de semana en una <strong>isla del Tigre</strong>. Vengan a aprovechar la oportunidad de descubrir el Tigre como un porteño. Llegaran en lancha taxi y una vez allá, pasearan a lo largo de las casas de fin de semana, bosque de bambú, arroyos, y almorzaran un típico <strong>asado</strong>.</p>\
+                                            <p>También, podrán disfrutar de una representación de <strong>bandoneón</strong>, nadar, remar, jugar futbol, juegos de mesa, etc...</p>\
+                                            <p>Para los que quieren desconectar y conocer el Delta de noche tenemos opciones con pernoctación para disfrutarlo a full.</p>',
                     'tour-frequency'    : 'Se debe revisar eventos con anticipación en la página <a href="https://www.facebook.com/TourF/">Facebook</a>.',
                     'tour-schedule'     : '10h',
                     'tour-meeting-spot' : 'Estación Tigre',
                     'tour-duration'     : '10h a 19h30',
-                    'tour-prices'       : '1500 pesos',
+                    'tour-prices'       : '1500 pesos : 1 día<br>\
+                                            2100 pesos : 2 días',
                     'tour-languages'    : 'Español/inglés/francés',
                     'tour-include'      : 'Guía trilingüe, transporte desde el Tigre,  paseo guiado en la isla, asado, vino, postre, representación de bandoneón, juegos',
                     'tour-not-include'  : 'Transporte desde Buenos Aires hasta el Tigre',
@@ -417,12 +416,13 @@ PASEO['delta_del_tigre'] = {
                 ],
                 'video'             : '',
                 'tour-info'   : {
-                    'tour-description'  : '<p>Hugo the bandoneonist, opens up the doors of his weekend house on an island in Delta Tigre to us. Come and enjoy the opportunity to discover El Tigre like a “porteño” (inhabitant of Buenos Aires). You’ll arrive in taxi boat and once there you could walk along the river side, going through bamboo forest, luxurious vegetation and discovering different kinds of typical house. You will also enjoy an authentic barbecue and a bandeneon presentation. You have the possibility to swim, kayak, play football, board games to name a few</p>',
+                    'tour-description'  : '<p>Hugo the bandoneonist, opens up the doors of his weekend house on an island in Delta Tigre to us. Experience El Tigre like a true “porteño” (inhabitant of Buenos Aires) with this amazing opportunity. Arriving by taxi boat you relish in amazing river views before landing on the island. Once here you can walk along the river side, enjoying bamboo forests, luxurious vegetation and discovering different kinds of typical Delta homes. Take a swim or go kayaking and even learn to bake bread and make a delicious chocotorta if you would like.  An amazing Argentinian Asado (barbecue) is served for lunch followed by a bandeneon performance by Hugo afterwards. If you chose to stay the night you can do it all over again the next day, this is a great weekend escape from the city and an experience not to be missed for those looking to know Buenos Aires culture.</p>',
                     'tour-frequency'    : 'Check event on the <a href="https://www.facebook.com/TourF/">Facebook</a> page.',
                     'tour-schedule'     : '10am',
                     'tour-meeting-spot' : 'Train station Tigre',
                     'tour-duration'     : 'From 10am to 7.30pm',
-                    'tour-prices'       : '1500 pesos',
+                    'tour-prices'       : '1500 pesos : 1 day<br>\
+                                            2100 pesos : 2 days',
                     'tour-languages'    : 'Spanish, English, French',
                     'tour-include'      : 'Trilingual Guide, transport from Tigre train station, guided walking tour on the island, barbecue lunch, wine, desert, bandoneon presentation, games',
                     'tour-not-include'  : 'Transport from Buenos Aires to Tigre',

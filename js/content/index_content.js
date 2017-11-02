@@ -9,15 +9,23 @@ var INDEX = {
 		},
 		'buenos_aires': {
             'buenos_aires_title'    : 'Una ciudad, mil encantos', 
-            'buenos_aires_content'  : '<p>Si quieres descubrir las orígenes del tango durante una cena-show en un lugar histórico, sentir la pasión \
-                                    que conquista a los hinchas las noches de partido en la Bombonera, descubrir los bares secretos de Buenos Aires, \
-                                    aprender a cocinar empanadas, alquilar un bote a pedal al atardecer en el bosque de Palermo, probar una de las numerosas \
-                                    cervezas artesanales argentinas, saborear un fernet con coca en un bar de Palermo antes de salir a un boliche a bailar, \
-                                    ver un concierto en la calle los domingos en el mercado de San Telmo, bailar tango en una de las 150 milongas de la ciudad, \
-                                    descubrir los edifícios de estilo francés de 8 pisos en Recoleta, viajar en el tiempo recorriendo los túneles sobre tierra en \
-                                    San Telmo, buscar el mausoleo de Eva Perón en el cementerio de Recoleta, ir al concierto de Fuerza Bruta, observar los ejecutivos \
-                                    atravesando Puerto Madero en taxi lancha al final del día, probar un vino argentino acompañado de tapas, etc...</p>\
-                                    <p>Buenos Aires te encantará.</p>'
+            'buenos_aires_content'  : '<p>Si quiere<br>\
+                                        Descubrir las orígenes del tango durante una cena-show en un lugar histórico<br>\
+                                        Sentir la pasión que conquista a los hinchas las noches de partido en la Bombonera,<br>\
+                                        Descubrir los bares secretos de Buenos Aires,<br>\
+                                        Aprender a cocinar empanadas<br>\
+                                        Alquilar un bote a pedal al atardecer en el bosque de Palermo<br>\
+                                        Probar una de las numerosas cervezas artesanales de Buenos Aires,<br>\
+                                        Saborear un fernet con coca en un bar de Palermo antes de salir a un boliche (ir a bailar),<br>\
+                                        Ver un concierto en la calle los domingos en el mercado de San Telmo,<br>\
+                                        Bailar tango en una de las 150 milongas de Buenos Aires,<br>\
+                                        Descubrir los edificios de estilo francés de 8 pisos en Recoleta,<br>\
+                                        Viajar en el tiempo recorriendo los túneles sobre tierra en San Telmo,<br>\
+                                        Buscar el mausoleo de Eva Perón en el cementerio de Recoleta,<br>\
+                                        Ir al concierto de Fuerza Bruta,<br>\
+                                        Observar los ejecutivos atravesar puerto madero en taxi lancha al final del día,<br>\
+                                        Probar un vino argentino acompañado de tapas, etc… <br>\
+                                        Buenos Aires le encantará.</p>'
 		},
         'tours': {
             'tours_title'       : 'Nuestros tours y paseos',
@@ -64,17 +72,23 @@ var INDEX = {
         },
         'buenos_aires': {
             'buenos_aires_title'    : 'Be delighted by Buenos Aires', 
-            'buenos_aires_content'  : '<p>Discover the origin of tango attending a dinner-show in an historical house, \
-                                        feel the passion spreading out amongst the fans of a football game in la Bombonera, \
-                                        explore the secret bars in Buenos Aires, learn how to cook empanadas, rent a pedal \
-                                        boat at the sunset in Palermo park, try one of the numerous artisanal beers, watch a \
-                                        street concert on a Sunday in San Telmo\'s market, sip a fernet and coke in a bar in Palermo \
-                                        before going to a boliche (night club), dance tango in one of the 150 milongas, discover some \
-                                        8 floors French style building in Recoleta, time travel wandering along the underground tunnels \
-                                        in San Telmo, look for Eva Peron\'s mausoleum in Recoleta\'s cementery, go to Fuerza Bruta\'s \
-                                        concert, watch the business men crossing Puerto Madero in taxi boat at the end of the day try \
-                                        an Argentinian wine paired with some local tapas</p>\
-                                        <p>Grow, learn, discover, delight!</p>'
+            'buenos_aires_content'  : '<p>Be delighted by Buenos Aires<br>\
+                                        Discover the origin of tango attending a dinner-show in an historical house<br>\
+                                        Feel the passion spreading out amongst the fans of a football game in la Bombonera<br>\
+                                        Explore the secret bars in Buenos Aires<br>\
+                                        Learn how to cook empanadas<br>\
+                                        Rent a pedal boat at the sunset in Palermo park<br>\
+                                        Try one of the numerous artisanal beers<br>\
+                                        Watch a street concert on a Sunday in San Telmo\'s market,<br>\
+                                        Sip a fernet and coke in a bar in Palermo before going to a boliche (night club)<br>\
+                                        Dance tango in one of the 150 milongas<br>\
+                                        discover some 8 floors French style building in Recoleta,<br>\
+                                        Time travel wandering along the underground tunnels in San Telmo<br>\
+                                        Look for Eva Peron\'s mausoleum in Recoleta\'s cementery<br>\
+                                        Go to Fuerza Bruta\'s concert<br>\
+                                        Watch the business men crossing Puerto Madero in taxi boat at the end of the day<br>\
+                                        Try an Argentinian wine paired with some local tapas<br>\
+                                        Grow, learn, discover, delight!</p>'
         },
         'tours': {
             'tours_title'       : 'Tours',

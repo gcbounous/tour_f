@@ -148,6 +148,7 @@ function sendContactEmail(){
         dataType:"json",
         success:function() {
             console.log('success'); 
+            window.location.replace('./index.html');
         },
         error: function(e){
             console.log(e);
