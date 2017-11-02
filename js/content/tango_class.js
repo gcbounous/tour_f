@@ -1,5 +1,6 @@
 PASEO['tango_class'] = {
-    
+
+    //****** CASTELLANO ******
     'es': {
         'category_title'        : 'Clases de Tango',
         'category_description'  : '',
@@ -49,9 +50,9 @@ PASEO['tango_class'] = {
                     'tour-frequency'    : 'Días de carrera',
                     'tour-schedule'     : '14h30',
                     'tour-meeting-spot' : 'Olleros 1528',
-                    'tour-duration'     : '14h30—16h: Clase de tango<br>\
-                                            16h: té y facturas<br>\
-                                            16h30 paseo guiado del stúdio y del hipódromo',
+                    'tour-duration'     : '14h30 - 16h : Clase de tango<br>\
+                                            16h : té y facturas<br>\
+                                            16h30 : paseo guiado del stúdio y del hipódromo',
                     'tour-prices'       : '750 pesos',
                     'tour-languages'    : 'Español/inglés/francés',
                     'tour-include'      : 'Guía trilingüe, 1h30 de clase de tango, té y facturas, paseo guiado del stúdio y del hipódromo',
@@ -76,7 +77,7 @@ PASEO['tango_class'] = {
                                             de Buenos Aires. Esta es la oportunidad de descubrir dos pasiones de Buenos Aires:  el mundo ecuestre y el tango \
                                             así que disfrutar de un típico asado acompañado de vino argentinos.  Las clases estarán dadas por el profe Roberto \
                                             Caroprese, ganador del campeonato club internacional de tango Argentina Cita en Miami.</p>\
-                                            <p><small>Posibilidad de clase intensiva de 1 semana incluyendo el alojamiento. A consultar</small</p>',
+                                            <p>Posibilidad de clase intensiva de 1 semana incluyendo el alojamiento. A consultar</p>',
                     'tour-frequency'    : 'Días de carrera',
                     'tour-schedule'     : '13h30 recogida en el hotel',
                     'tour-meeting-spot' : 'Hotel',
@@ -96,6 +97,7 @@ PASEO['tango_class'] = {
         ]
     },
 
+    //****** ENGLISH ******
     'en': {
         'category_title'        : 'Tango Class',
         'category_description'  : '',
@@ -162,7 +164,7 @@ PASEO['tango_class'] = {
                 'video'             : '',
                 'tour-info'   : {
                     'tour-description'  : '<p>For those who want to learn and practice tango in a beautiful place: in a studio in Palermo’s racetrack in Buenos Aires. This is the opportunity to discover 2 passions of Buenos Aires: the horse world and tango and enjoy a typical barbecue dinner paired with wine. Classes will be held by Roberto Caroprese, the winner of the International Club or Argentinian Tango (CITA) champions league in Miami.</p>\
-                                            <p><small>Possibility to do a 1 week intensive class including accommodation. Call to enquire.</small</p>',
+                                            <p>Possibility to do a 1 week intensive class including accommodation. Call to enquire.</p>',
                     'tour-frequency'    : 'On racing days',
                     'tour-schedule'     : '1.30pm pick up at the hotel',
                     'tour-meeting-spot' : 'Hotel',

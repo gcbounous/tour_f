@@ -1,3 +1,22 @@
-- photos
-- align prices durations atc (colocar em uma table separar linhas por <br> e colunas por :)
-- duration dasn tango y hipodromo et tango, hipodromo y milonga
+- align prices durations etc (colocar em uma table separar linhas por <br> e colunas por :)
+
+
+Esteros del  Ibera : 
+(à voir - force div to take whole hight) Pour l'option 3 si tu peux mettre le tableau de prix au même niveau que l'option 4 c'est plus joli
+
+Cerveza y vino
+(?!?!?!?!) Re séparer les catégories
+
+Tango show
+Bien aligner les horaires dans chaque show
+Pour tous les tango show si c'est possible je changerai l'intitulé de punto de encuentro et je l'appelerai : Pick up et pour éviter les redondances j'écrirai juste d'où en dessous : et l'enleverai d'en dessous
+
+Dans la catégorie duracion si tu peux écrire duracion du show car la soirée c'est 3 ou 4h car ils mangent sur place
+En fait du coup je ne retrouve pas mes catégories, car tu sais je t'avais demandé à faire d'autres catégories pour les show de tango et que ça ne suive pas le reste, mais si je comprends bien tu n'as pas du pouvoir
+
+
+
+
+IMPORTAR GPANEL:
+content
+paseos.js

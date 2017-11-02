@@ -26,13 +26,13 @@ PASEO['tango_show'] = {
                     'tour-schedule'     : 'Pick up: 20h - 20h45h<br>\
                                             Cena: 21h<br>\
                                             Show: 22h',
-                    'tour-meeting-spot' : 'Pick up Desde zona céntrica (Recoleta, San Telmo, Palermo, microcentro, etc...)',
-                    'tour-duration'     : '1h30',
+                    'tour-meeting-spot' : 'Pick up desde zona céntrica (Recoleta, San Telmo, Palermo, microcentro, etc...)',
+                    'tour-duration'     : 'Show : 1h30',
                     'tour-prices'       : '<p><strong>900 pesos</strong></p>\
                                             <p><strong>Opción solo show</strong>    : 460 pesos<br>\
                                             <strong>Solo show con pick up</strong>  : 560 pesos</p>\
                                             <p><strong>Política niños:</strong><br>\
-                                            Hasta 3 años                   : 95 <br>\
+                                            Hasta 3 años : 95 pesos <br>\
                                             Entre 4 años y 10 años*   : 550 pesos</p>\
                                             <small><strong>Pago:</strong></small> efectivo o tarjeta (con un recargo de 10%)',
                     'tour-languages'    : '',
@@ -72,7 +72,7 @@ PASEO['tango_show'] = {
                                             Cena: 20h30<br>\
                                             Show: 22h',
                     'tour-meeting-spot' : 'Pick up en hoteles céntricos (hoteles de Palermo tendrán un recargo de 100 pesos)',
-                    'tour-duration'     : '1h20',
+                    'tour-duration'     : 'Show : 1h20',
                     'tour-prices'       : '<p><strong>1 400 pesos</strong></p>\
                                             <p><strong>Opción solo show:</strong><br>\
                                             sin pick up  : 500 pesos<br>\
@@ -114,7 +114,7 @@ PASEO['tango_show'] = {
                                             Cena: 20h30<br>\
                                             Show: 21h45',
                     'tour-meeting-spot' : 'Pick up en en todos los hoteles de BsA',
-                    'tour-duration'     : '1h20',
+                    'tour-duration'     : 'Show : 1h20',
                     'tour-prices'       : '<p><strong>Cena-show ejecutiva</strong> 900 pesos<br>\
                                             <strong>Cena-show VIP</strong> 1250 pesos<br>\
                                             <strong>Cena-show premium</strong> 1600 pesos</p>\
@@ -163,7 +163,7 @@ PASEO['tango_show'] = {
                                             Cena: 22h<br>\
                                             Show: 22h',
                     'tour-meeting-spot' : 'Pick up en en todos los hoteles de BsA',
-                    'tour-duration'     : '1h40',
+                    'tour-duration'     : 'Show : 1h40',
                     'tour-prices'       : '<strong>Solo show con transfer</strong> : 58 USD<br>\
                                             <strong>Solo show con transfer y empanadas</strong> : 64 USD</p>\
                                             <p><strong>Política niños:</strong><br>\
@@ -206,7 +206,7 @@ PASEO['tango_show'] = {
                                             Cena: 20h30<br>\
                                             Show: 22h15',
                     'tour-meeting-spot' : 'Pick up en en todos los hoteles de BsA',
-                    'tour-duration'     : '1h20',
+                    'tour-duration'     : 'Show : 1h20',
                     'tour-prices'       : '<p><strong>Cena-show platea</strong> : 85 USD<br>\
                                             <strong>Cena-show VIP </strong> : 190 USD<br>\
                                             <strong>Solo show con transfer</strong> : 58 USD </p>\
@@ -248,7 +248,7 @@ PASEO['tango_show'] = {
                                             Cena: 21h<br>\
                                             Show: 22h',
                     'tour-meeting-spot' : 'Pick up en en todos los hoteles de BsA',
-                    'tour-duration'     : '1h30',
+                    'tour-duration'     : 'Show : 1h30',
                     'tour-prices'       : '<p><strong>Cena-show platea</strong> 120 USD<br>\
                                             <strong>Cena-show VIP</strong> 240 USD<br>\
                                             <strong>Solo show platea con transfer</strong> 80 USD</p>\
@@ -296,7 +296,7 @@ PASEO['tango_show'] = {
                                             Cena: 20h30<br>\
                                             Show: 22h',
                     'tour-meeting-spot' : 'Pick up en en todos los hoteles de BsA',
-                    'tour-duration'     : '1h25',
+                    'tour-duration'     : 'Show : 1h25',
                     'tour-prices'       : '<strong>Cena-show VIP</strong> : 270 USD<br>\
                                             <strong>Solo show con transfer</strong> : 200 USD</p>\
                                             <small><strong>Pago:</strong></small> efectivo o tarjeta',
@@ -340,7 +340,7 @@ PASEO['tango_show'] = {
                                             Dinner: 9pm<br>\
                                             Show: 10pm',
                     'tour-meeting-spot' : 'Pick up in central area (Recoleta, San Telmo, Palermo, microcentro, etc...)',
-                    'tour-duration'     : '1h30',
+                    'tour-duration'     : 'Show : 1h30',
                     'tour-prices'       : '<p><strong>900 pesos</strong></p>\
                                             <p><strong>Option show only</strong> : 460 pesos<br>\
                                             <strong>Only show with pick up</strong>   : 560 pesos</p>\
@@ -384,7 +384,7 @@ PASEO['tango_show'] = {
                                             Dinner: 8.30pm<br>\
                                             Show: 10pm',
                     'tour-meeting-spot' : 'Pick up and drop off at/to central hotels (for Palermo hotel : 100 pesos extra))',
-                    'tour-duration'     : '1h20',
+                    'tour-duration'     : 'Show : 1h20',
                     'tour-prices'       : '<p><strong>1 400 pesos</strong></p>\
                                             <p><strong>Option show only:</strong><br>\
                                             without pick up  : 500 pesos<br>\
@@ -426,7 +426,7 @@ PASEO['tango_show'] = {
                                             Dinner: 8.30pm<br>\
                                             Show: 9.45pm',
                     'tour-meeting-spot' : 'Pick up en at/to every hotel in Buenos Aires',
-                    'tour-duration'     : '1h20',
+                    'tour-duration'     : 'Show : 1h20',
                     'tour-prices'       : '<p><strong>Executive dinner & show</strong> 900 pesos<br>\
                                             <strong>Dinner & show VIP</strong> 1250 pesos<br>\
                                             <strong>Dinner & show premium</strong> 1600 pesos</p>\
@@ -475,7 +475,7 @@ PASEO['tango_show'] = {
                                             Dinner: 10pm<br>\
                                             Show: 10pm',
                     'tour-meeting-spot' : 'Pick up en at/to every hotel in Buenos Aires',
-                    'tour-duration'     : '1h40',
+                    'tour-duration'     : 'Show : 1h40',
                     'tour-prices'       : '<strong>Only show with transfer</strong> : 58 USD<br>\
                                             <strong>Only show with transfer and empanadas</strong> : 64 USD</p>\
                                             <p><strong>Kids policy:</strong><br>\
@@ -518,7 +518,7 @@ PASEO['tango_show'] = {
                                             Dinner: 8.30pm<br>\
                                             Show: 10.15pm',
                     'tour-meeting-spot' : 'Pick up en at/to every hotel in Buenos Aires',
-                    'tour-duration'     : '1h20',
+                    'tour-duration'     : 'Show : 1h20',
                     'tour-prices'       : '<p><strong>Dinner & show platea</strong> : 85 USD<br>\
                                             <strong>Dinner & show VIP</strong> : 190 USD<br>\
                                             <strong>Only show with transfer</strong> : 58 USD</p>\
@@ -561,7 +561,7 @@ PASEO['tango_show'] = {
                                             Dinner: 9pm<br>\
                                             Show: 10pm',
                     'tour-meeting-spot' : 'Pick up en at/to every hotel in Buenos Aires',
-                    'tour-duration'     : '1h30',
+                    'tour-duration'     : 'Show : 1h30',
                     'tour-prices'       : '<p><strong>Dinner & show platea</strong> 120 USD<br>\
                                             <strong>Dinner & show VIP</strong> 240 USD<br>\
                                             <strong>Only show platea con transfer</strong> 80 USD</p>\
@@ -607,7 +607,7 @@ PASEO['tango_show'] = {
                                             Dinner: 8.30pm<br>\
                                             Show: 10pm',
                     'tour-meeting-spot' : 'Pick up en at/to every hotel in Buenos Aires',
-                    'tour-duration'     : '1h25',
+                    'tour-duration'     : 'Show : 1h25',
                     'tour-prices'       : '<strong>Dinner-show VIP</strong> : 270 USD<br>\
                                             <strong>Only show with transfer</strong> : 200 USD</p>\
                                             <small><strong>Payment:</strong></small> cash or credit card',

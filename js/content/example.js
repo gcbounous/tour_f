@@ -1,4 +1,6 @@
 PASEO['example_tour'] = {
+
+    //****** CASTELLANO ******
     'es' : {
         'category_title'        : '',
         'category_description'  : '',
@@ -22,6 +24,7 @@ PASEO['example_tour'] = {
                     'tour-not-include'  : '',
                 }
             },
+            // ---------- TOUR ----------
             {
                 'tour-title'        : '',
                 'tour-card-duration': '',
@@ -61,9 +64,12 @@ PASEO['example_tour'] = {
             },
         ]        
     },
+
+    //****** ENGLISH ******
     'en' : {
         'category_title': '',
         'tours': [
+            // ---------- TOUR ----------
             {
                 'tour-title'        : '',
                 'tour-card-duration': '',
@@ -82,6 +88,7 @@ PASEO['example_tour'] = {
                     'tour-not-include'  : '',
                 }
             },
+            // ---------- TOUR ----------
             {
                 'tour-title'        : '',
                 'tour-card-duration': '',

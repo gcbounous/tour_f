@@ -1,4 +1,6 @@
 PASEO['beer_wine'] = {
+
+    //****** CASTELLANO ******
     'es' : {
         'category_title'        : 'Cerveza y Vino',
         'category_description'  : '',
@@ -6,7 +8,7 @@ PASEO['beer_wine'] = {
             // ---------- TOUR CERVECERO ----------
             {
                 'tour-title'        : 'Tour cervecero ',
-                'tour-card-duration': '3 Horas',
+                'tour-card-duration': '3 horas',
                 'tour-card-image'   : '../imagens/paseos/Beer walk/1a.jpg',
                 'images'            : [ 
                                         '../imagens/paseos/Beer walk/2.jpg',
@@ -96,6 +98,7 @@ PASEO['beer_wine'] = {
         ]       
     },
 
+    //****** ENGLISH ******
     'en' : {
         'category_title'        : 'Beer / Wine Tasting',
         'category_description'  : '',
@@ -155,7 +158,7 @@ PASEO['beer_wine'] = {
             // ---------- WINE TASTING PAIRED WITH CHESSE ----------
             {
                 'tour-title'        : 'Wine tasting paired with cheese',
-                'tour-card-duration': '2 Hours',
+                'tour-card-duration': '2 hours',
                 'tour-card-image'   : '/home/marispsico/gab/tour_f/imagens/paseos/Degustacion de vino/Vino y queso/1a.jpg',
                 'images'            : [
                                         '/home/marispsico/gab/tour_f/imagens/paseos/Degustacion de vino/Vino y queso/2.jpg',

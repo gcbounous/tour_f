@@ -38,15 +38,14 @@ PASEO['esteros_ibera'] = {
                                             <p>Recomendado a todas las personas a quien le gusta la naturaleza, los animales y que tienen 4 días libre. Las opciones \
                                             incluyen alojamiento y actividades con posibilidad de incluir un día de campo, por todos los que les gusta andar a caballo.</p>\
                                             <p>Las actividades incluidas son:<br>\
-                                            paseos en lancha de 2 horas para ver los animales (carpinchos, yacaré, ciervo de los pantanos, lobito de rio, mono, \
+                                            - Paseos en lancha de 2 horas para ver los animales (carpinchos, yacaré, ciervo de los pantanos, lobito de rio, mono, \
                                             etc... y una grande variedad de aves) con posibilidad de hacer paseo de noche. <br>\
-                                            Cabalgata en el pueblo o bañados.<br>\
-                                            Caminata de noche por zona de las selvas paranaense.</p>\
-                                            <p><small><strong>En opción : día de campo privado</strong></small>.\
-                                            Recorrido  : paseo en lancha de 2 horas pasando por un isla flotante, cabalgata de 3 horas en la estancia con \
+                                            - Cabalgata en el pueblo o bañados.<br>\
+                                            - Caminata de noche por zona de las selvas paranaense.</p>\
+                                            <p><strong>En opción : día de campo privado</strong>.<br>\
+                                            - Recorrido  : paseo en lancha de 2 horas pasando por un isla flotante, cabalgata de 3 horas en la estancia con \
                                             posibilidad de ver actividades gauchesca y vuelta en auto a Carlos Pellegrini. <br>\
-                                            Almuerzo  : asado criollo con postre acompañado de vino, cerveza y agua </p>\
-                                            <br><p><small><strong>*El transporte desde Mercedes hasta Colonia Carlos Pellegrini està incluido en todas las opciones</strong></small></p>',
+                                            - Almuerzo  : asado criollo con postre acompañado de vino, cerveza y agua </p>',
                     'tour-frequency'    : 'Diaria',
                     'tour-schedule'     : 'Dia de campo :<br>\
                                             9am – 3pm<br>\
@@ -59,11 +58,11 @@ PASEO['esteros_ibera'] = {
                                 'description': '<p><h4><strong>Opción 1 : 2 lanchas + 1 cabalgata</strong></h4></p>\
                                                 <p><strong>Dia 1</strong><br>\
                                                 Transporte : 8h - 11h<br>\
-                                                2h lancha por la tarde<br>\
+                                                2 horas lancha por la tarde<br>\
                                                 <strong>Dia 2</strong><br>\
-                                                Cabalgata 2h por la mañana<br>\
+                                                Cabalgata 2 horas por la mañana<br>\
                                                 Tarde libre para pasear<br>\
-                                                2h lancha nocturna<br>\
+                                                2 horas lancha nocturna<br>\
                                                 <strong>Dia 3</strong><br>\
                                                 Mañana libre para pasear<br>\
                                                 Transporte 15h-18h</p>\
@@ -94,13 +93,13 @@ PASEO['esteros_ibera'] = {
                                 'description': '<p><h4><strong>Opción 2 : 3 lanchas + 1 cabalgata</strong></h4></p>\
                                                 <p><strong>Dia 1</strong><br>\
                                                 Transporte : 8h - 11h<br>\
-                                                2h lancha por la tarde<br>\
+                                                2 horas lancha por la tarde<br>\
                                                 <strong>Dia 2</strong><br>\
-                                                Cabalgata 2h por la mañana<br>\
+                                                Cabalgata 2 horas por la mañana<br>\
                                                 Tarde libre para pasear<br>\
-                                                2h lancha nocturna<br>\
+                                                2 horas lancha nocturna<br>\
                                                 <strong>Dia 3</strong><br>\
-                                                2h lancha por la mañana<br>\
+                                                2 horas lancha por la mañana<br>\
                                                 Transporte 15h-18h</p>\
                                                 <p><small><strong>2 noches (con desayuno) + opción 2 :</strong></small></p>',
                                 'price_table':  {
@@ -129,10 +128,10 @@ PASEO['esteros_ibera'] = {
                                 'description': '<p><h4><strong>Opción 3 : 2 lanchas + 1 cabalgata larga</strong></h4></p>\
                                                 <p><strong>Dia 1</strong><br>\
                                                 Transporte : 8h - 11h<br>\
-                                                2h lancha por la tarde<br>\
+                                                2 horas lancha por la tarde<br>\
                                                 <strong>Dia 2</strong><br>\
                                                 Cabalgata larga en la estancia<br>\
-                                                2h lancha nocturna<br>\
+                                                2 horas lancha nocturna<br>\
                                                 <strong>Dia 3</strong><br>\
                                                 Mañana libre para pasear<br>\
                                                 Transporte 15h-18h</p>\
@@ -163,13 +162,13 @@ PASEO['esteros_ibera'] = {
                                 'description': '<p><h4><strong>Opción 4 : 2 lanchas 1 caminata nocturna + cabalgata larga</strong></h4></p>\
                                                 <p><strong>Dia 1</strong><br>\
                                                 Transporte : 8h - 11h<br>\
-                                                2h lancha por la tarde<br>\
+                                                2 horas lancha por la tarde<br>\
                                                 <strong>Dia 2</strong><br>\
                                                 Cabalgata larga en la estancia<br>\
-                                                2h lancha nocturna<br>\
+                                                2 horas lancha nocturna<br>\
                                                 <strong>Dia 3</strong><br>\
                                                 Dia libre para pasear<br>\
-                                                2h caminata nocturna<br>\
+                                                2 horas caminata nocturna<br>\
                                                 <strong>Dia 4</strong><br>\
                                                 Mañana libre para pasear<br>\
                                                 Transporte 15h-18h</p>\
@@ -195,7 +194,14 @@ PASEO['esteros_ibera'] = {
                                             }
                                     ]
                                 }
-                            }, 
+                            },
+                            {
+                                'description': '<p><small><strong>*El transporte desde Mercedes hasta Colonia Carlos Pellegrini està incluido en todas las opciones</strong></small></p>',
+                                'price_table':  {
+                                        'header'  : [],
+                                        'rows'    : []
+                                }
+                            },
                         ]
                     },
                     'tour-languages'    : 'Español',
@@ -251,29 +257,29 @@ PASEO['esteros_ibera'] = {
                                             <p> This is northern Argentina´s best kept secret and this is your opportunity to visit it through our sustainable tourism initiative.</p>\
                                             <p>Options include accommodation, breakfast, activities and the possibility to include a Gaucho day riding a horse in the vastness of an Argentinian farm discovering the Gaucho culture.</p>\
                                             <p>Depending on the options, the activities included are the following :<br>\
-                                            2 hours in a launch boat in one of two streams of the lagoon to reach deeper into the wilderness and watch native species from the boat. This launch tour can be made by night too.<br>\
-                                            Horse ride in Carlos Pellegrini town or in the wetland.<br>\
-                                            Night guided walking tour in the paranaense forest area.</p>\
-                                            <p><small><strong>In option : Gaucho day</strong></small>.\
-                                            Itinerary  : 2 hour launch boat trip stopping at a floating island, followed by 3 hours horse riding through the estancia (farm) with a chance of seeing gauchos working with cows.<br>\
-                                            Lunch  : typical barbecue served with wine, beer, water, and desert.</p>\
-                                            <br><p><small><strong>*Trip back to Colonia Carlos Pellegrini in car.</strong></small></p>',
+                                            - 2 hours in a launch boat in one of two streams of the lagoon to reach deeper into the wilderness and watch native species from the boat. This launch tour can be made by night too.<br>\
+                                            - Horse ride in Carlos Pellegrini town or in the wetland.<br>\
+                                            - Night guided walking tour in the paranaense forest area.</p>\
+                                            <p><strong>In option : Gaucho day</strong>.<br>\
+                                            - Itinerary  : 2 hour launch boat trip stopping at a floating island, followed by 3 hours horse riding through the estancia (farm) with a chance of seeing gauchos working with cows.<br>\
+                                            - Lunch  : typical barbecue served with wine, beer, water, and desert.</p>',
                     'tour-frequency'    : 'Daily',
                     'tour-schedule'     : 'Gaucho day : 9am - 3pm<br>\
                                             Other activities : Check on the options below.',
                     'tour-meeting-spot' : 'Posada',
                     'tour-duration'     : '3 to 4 days ',
                     'tour-prices'       : {
+
                         'options' : [
                             {
                                 'description': '<p><h4><strong>Option 1 : 2 launch boat tours + 1 horse ride</strong></h4></p>\
                                                 <p><strong>Day 1</strong><br>\
                                                 transport : 9am - 12pm<br>\
-                                                2h launch boat in the afternoon<br>\
+                                                2 hour launch boat in the afternoon<br>\
                                                 <strong>Day 2</strong><br>\
-                                                2h horse riding in the morning<br>\
+                                                2 hour horse riding in the morning<br>\
                                                 free afternoon to walk around<br>\
-                                                2h launch boat at night<br>\
+                                                2 hour launch boat at night<br>\
                                                 <strong>Day 3</strong><br>\
                                                 free morning to walk around<br>\
                                                 transport 2pm to 5pm</p>\
@@ -304,13 +310,13 @@ PASEO['esteros_ibera'] = {
                                 'description': '<p><h4><strong>Option 2 : 3 launch boat tours + 1 horse ride</strong></h4></p>\
                                                 <p><strong>Day 1</strong><br>\
                                                 transport : 9am - 12pm<br>\
-                                                2h launch boat in the afternoon<br>\
+                                                2 hour launch boat in the afternoon<br>\
                                                 <strong>Day 2</strong><br>\
-                                                2h horse riding in the morning<br>\
+                                                2 hour horse riding in the morning<br>\
                                                 free afternoon to walk around<br>\
-                                                2h launch boat at night<br>\
+                                                2 hour launch boat at night<br>\
                                                 <strong>Day 3</strong><br>\
-                                                2h launch in the morning<br>\
+                                                2 hour launch in the morning<br>\
                                                 transport 2pm to 5pm</p>\
                                                 <p><small><strong>2 nights (with breakfast) + option 2 :</strong></small></p>',
                                 'price_table':  {
@@ -339,10 +345,10 @@ PASEO['esteros_ibera'] = {
                                 'description': '<p><h4><strong>Option 3 : 2 launch boat tours + 1 Gaucho day </strong></h4></p>\
                                                 <p><strong>Day 1</strong><br>\
                                                 transport : 9am - 12pm<br>\
-                                                2h launch boat in the afternoon<br>\
+                                                2 hour launch boat in the afternoon<br>\
                                                 <strong>Day 2</strong><br>\
                                                 Gaucho day in the farm<br>\
-                                                2h launch boat at night<br>\
+                                                2 hour launch boat at night<br>\
                                                 <strong>Day 3</strong><br>\
                                                 free morning to walk around<br>\
                                                 transport 2pm to 5pm</p>\
@@ -373,13 +379,13 @@ PASEO['esteros_ibera'] = {
                                 'description': '<p><h4><strong>Option 4 : 2 launch boat tours + 1 night guided walk + Gaucho day</strong></h4></p>\
                                                 <p><strong>Day 1</strong><br>\
                                                 transport : 9am - 12pm<br>\
-                                                2h launch boat in the afternoon<br>\
+                                                2 hour launch boat in the afternoon<br>\
                                                 <strong>Day 2</strong><br>\
                                                 Gaucho day in the farm<br>\
-                                                2h launch boat at night<br>\
+                                                2 hour launch boat at night<br>\
                                                 <strong>Day 3</strong><br>\
                                                 day free to walk around<br>\
-                                                2h night time guided walk <br>\
+                                                2 hour night time guided walk <br>\
                                                 <strong>Day 4</strong><br>\
                                                 free morning to walk around<br>\
                                                 transport 2pm to 5pm</p>\
@@ -405,6 +411,13 @@ PASEO['esteros_ibera'] = {
                                             }
                                     ]
                                 }
+                            },
+                            {
+                                'description': '<p><<strong>*Trip back to Colonia Carlos Pellegrini in car.</strong></small></p>',
+                                'price_table':  {
+                                        'header'  : [],
+                                        'rows'    : []
+                                }
                             }, 
                         ]
                     },
@@ -418,11 +431,11 @@ PASEO['esteros_ibera'] = {
                                             1. Night bus from Buenos Aires to Mercedes (Corrientes)  <br>\
                                             2. Semi-private transport from Mercedes to Carlos Pellegrini leaving around 7:30/8am. </p>\
                                             <p>Way back : <br>\
-                                            1. Semi-private transport leaving around 3pm from Carlos Pellegrini arriving at 18h in Mercedes.<br>\
+                                            1. Semi-private transport leaving around 3pm from Carlos Pellegrini arriving at 6pm in Mercedes.<br>\
                                             2.  From Mercedes : <br><br>\
                                             - To Puerto Iguazú : <br>\
                                             1. Bus from Mercedes to Corrientes at 8pm (3hrs 30mins) <br>\
-                                            2. Night bus from Corrientes to Puerto Iguazú 00:20 – 9:20am<br>\
+                                            2. Night bus from Corrientes to Puerto Iguazú 00:20 - 9:20am<br>\
                                             - To Buenos Aires <br>\
                                             1.  Night bus from Mercedes to Buenos Aires</p>',
                 }

@@ -1,4 +1,6 @@
 PASEO['countryside'] = {
+
+    //****** CASTELLANO ******
     'es' : { 
         'category_title': 'Día de campo',
         'tours': [
@@ -91,8 +93,7 @@ PASEO['countryside'] = {
                                 },
                                 {
                                     'description': '<p><strong>Opción 2 :</strong> Caminata por los campos o hasta pueblos \
-                                                    coloniales:</p>\
-                                                    <p><small>NB:   Los precios son por 2 personas o 1 solo pasajero.</small></p>',
+                                                    coloniales:</p>',
                                     'price_table': { 
                                             'header'  : [],
                                             'rows'    : [
@@ -112,12 +113,13 @@ PASEO['countryside'] = {
                                         }
                                 },
                                 {
-                                    'description': '<p><strong>Otras opciones :</strong></p>\
-                                                    <p>Taller de empanadas (comen lo que cocinan acompañado de vino y postre<strong>(330 pesos)</strong></p>\
-                                                    <p>Clase de tango 1 hora (1-2 personas)<strong>(900 pesos)</strong></p>\
-                                                    <p>1 noche 1 persona<strong>(950 pesos)</strong></p>\
-                                                    <p>1 noche 2 personas<strong>(1500 pesos)</strong></p>\
-                                                    <p>Cena con asado, vino y postre<strong>(330 pesos)</strong></p>',
+                                    'description': '<p><small>NB:   Los precios son por 2 personas o 1 solo pasajero.</small></p><br>\
+                                                    <p><strong>Otras opciones :</strong></p>\
+                                                    <p>- Taller de empanadas (comen lo que cocinan acompañado de vino y postre<strong> (330 pesos)</strong></p>\
+                                                    <p>- Clase de tango 1 hora (1-2 personas)<strong> (900 pesos)</strong></p>\
+                                                    <p>- 1 noche 1 persona<strong> (950 pesos)</strong></p>\
+                                                    <p>- 1 noche 2 personas<strong> (1500 pesos)</strong></p>\
+                                                    <p>- Cena con asado, vino y postre<strong> (330 pesos)</strong></p>',
                                     'price_table':  {
                                             'header'  : [],
                                             'rows'    : []
@@ -127,12 +129,13 @@ PASEO['countryside'] = {
                     },
                     'tour-languages'    : 'Francés, español, portugués',
                     'tour-include'      : '<p>Guia trilingüe, té o maté.</p>\
-                                            <p><small>NB 1. La caminata por Santa Coloma incluye la visita del pueblo colonial, la iglesia, una pulperia.<br>\
+                                            <p><small>NB<br>\
+                                            1. La caminata por Santa Coloma incluye la visita del pueblo colonial, la iglesia, una pulperia.<br>\
                                             2. La caminata por San Antonio de Areco incluye la historia del pueblo, la visita de un museo, talabarteros y plateros.</small></p> ',
                     'tour-not-include'  : '<p>Transporte</p>\
                                             <p>Transporte privado opcional :<br>\
-                                            3200 pesos hasta 3 personas (ida y vuelta mismo día)<br>\
-                                            4000 pesos hasta 6 personas (ida y vuelta mismo día)</p>\
+                                            &nbsp;&nbsp;&nbsp; -  3200 pesos hasta 3 personas (ida y vuelta mismo día)<br>\
+                                            &nbsp;&nbsp;&nbsp; - 4000 pesos hasta 6 personas (ida y vuelta mismo día)</p>\
                                             <p>Posibilidad de ir por su propria cuenta :<br>\
                                             Bus hasta San Antonio de Areco (~250pesos/pers/ida y vuelta)<br>\
                                             Taxi-Remis entre La Segunda-San A Areco (~400 pesos ida)</p>',
@@ -175,6 +178,7 @@ PASEO['countryside'] = {
         ]
     },
 
+    //****** ENGLISH ******
     'en' : { 
         'category_title': 'Gaucho day trip',
         'tours': [
@@ -255,8 +259,7 @@ PASEO['countryside'] = {
                                 },
                                 {
                                     'description': '<p><strong>Option 2 :</strong> Caminata por los campos o hasta pueblos \
-                                                    coloniales:</p>\
-                                                    <p><small>NB:   Los Prices son por 2 personas o 1 solo pasajero.</small></p>',
+                                                    coloniales:</p>',
                                     'price_table': { 
                                             'header'  : [],
                                             'rows'    : [
@@ -276,13 +279,13 @@ PASEO['countryside'] = {
                                         }
                                 },
                                 {
-                                    'description': '<small><strong>*</strong> If you are only one you can still take the tours but have to pay the full price of 2 people.</small><br><br>\
+                                    'description': '<p><small><strong>*</strong> If you are only one you can still take the tours but have to pay the full price of 2 people.</small></p><br>\
                                                     <p><strong> Extra option :</strong></p>\
-                                                    <p>Empanadas workshop (you eat what you cook paired with wine and desert)<strong>(330 pesos)</strong></p>\
-                                                    <p>1 hour tango class (1-2 persons)<strong>(900 pesos)</strong></p>\
-                                                    <p>1 night 1 person<strong>(950 pesos)</strong></p>\
-                                                    <p>1 night 2 persons<strong>(1500 pesos)</strong></p>\
-                                                    <p>Barbecue dinner, wine and desert<strong>(330 pesos)</strong></p>',
+                                                    <p>- Empanadas workshop (you eat what you cook paired with wine and desert)<strong> (330 pesos)</strong></p>\
+                                                    <p>- 1 hour tango class (1-2 persons)<strong> (900 pesos)</strong></p>\
+                                                    <p>- 1 night 1 person<strong> (950 pesos)</strong></p>\
+                                                    <p>- 1 night 2 persons<strong> (1500 pesos)</strong></p>\
+                                                    <p>- Barbecue dinner, wine and desert<strong> (330 pesos)</strong></p>',
                                     'price_table':  {
                                             'header'  : [],
                                             'rows'    : []
@@ -298,8 +301,8 @@ PASEO['countryside'] = {
                     'tour-not-include'  : '<p>Transport not included </p>\
                                             <p>Travel Options:</p>\
                                             <p> Remis from the hotel in Buenos Aires until La Segunda, return: (Private transport)<br>\
-                                            &nbsp;&nbsp;&nbsp - 3200 pesos max 3 persons (return on the same day)<br>\
-                                            &nbsp;&nbsp;&nbsp - 4000 pesos max 6 persons (return on the same day)</p>\
+                                            &nbsp;&nbsp;&nbsp; - 3200 pesos max 3 persons (return on the same day)<br>\
+                                            &nbsp;&nbsp;&nbsp; - 4000 pesos max 6 persons (return on the same day)</p>\
                                             <p>Posibility to go on your own :<br>\
                                             Bus to San Antonio de Areco (~250pesos/pers/return)<br>\
                                             Taxi-Remis between La Segunda-San A Areco (~400 pesos one way)</p>',

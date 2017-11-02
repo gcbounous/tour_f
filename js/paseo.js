@@ -218,36 +218,40 @@ function fillTourPanel(tour){
     panel.find('#reservation_tour').val(tour['tour-title']);
 }
 
-function createPiceTable(price_table){
+function createPiceTable(options){
     var table = '';
     var div_class = '';
 
-    if(price_table.length > 0){
-        if(price_table[0]['price_table']['header'].length < 5 && price_table.length > 3){
+    if(options.length > 0){
+        if(options[0]['price_table']['header'].length < 5 && options.length > 3){
             div_class = 'col-md-6'
         }
     }
 
-    for(var i = 0; i< price_table.length; i++){
+    for(var i = 0; i< options.length; i++){
+        if(options[i]['price_table']['header'] == null || options[i]['price_table']['header'].length == 0)
+            div_class = '';
+
+
         table += '<div class="'+ div_class +'">'
-        if(price_table[i]['description'] == null){
+        if(options[i]['description'] == null){
             table += '';
         } else{
-            table += price_table[i]['description'];
+            table += options[i]['description'];
         }
         table +='   <table class="price-table table table-bordered table-hover table-condensed">'; 
         table +='       <thead> ';
         table +='           <tr>';
 
-        for(var j =0; j<price_table[i]['price_table']['header'].length; j++){
-            var h = price_table[i]['price_table']['header'][j];
+        for(var j =0; j<options[i]['price_table']['header'].length; j++){
+            var h = options[i]['price_table']['header'][j];
             table +='<th>'+ h +'</th>';
         }
         table +='           </tr>'; 
         table +='       </thead>';
 
         table +='       <tbody> ';
-        var rows = price_table[i]['price_table']['rows'];
+        var rows = options[i]['price_table']['rows'];
         for(var j =0; j<rows.length; j++){
             table +='       <tr>';
 

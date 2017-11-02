@@ -1,4 +1,6 @@
 PASEO['delta_del_tigre'] = {
+
+    //****** CASTELLANO ******
     'es' : {
         'category_title'        : 'Delta del Tigre ',
         'category_description'  : '<p>Que hay en Tigre? Imagina el delta del Ebro pero de la misma superficie de Bélgica. \
@@ -8,7 +10,7 @@ PASEO['delta_del_tigre'] = {
                                     Imagina arroyos donde no se ve el cielo por los bambúes, lianas, cerrados por plantas acuáticas, con ríos como el \
                                     Paraná de las Palmas con 1500mts. de ancho en medio de la jungla y canales de solo 3 metros de ancho. Trabajamos con 3 \
                                     compañías de paseos privados.</p>\
-                                    <p><strong>Transporte para llegar al Tigre por su propia cuenta </strong>:Tren desde Retiro hasta el Tigre (ramal mitre), 1 hora, 12 pesos</p>',
+                                    <p><strong>Transporte para llegar al Tigre por su propia cuenta </strong>: Tren desde Retiro hasta el Tigre (ramal mitre), 1 hora, 12 pesos (ida y vuelta)</p>',
         'tours' : [
             // ----------- PASEO EN GOMON -----------
             {
@@ -38,12 +40,13 @@ PASEO['delta_del_tigre'] = {
                                             donde se puede observar áreas habitadas y el Paraná de las Palmas y el recorrido más largos van en la segunda sección \
                                             ideal para nadar y ver flores, aves y a veces nutrias.</p>',
                     'tour-frequency'    : 'Todos los días',
-                    'tour-schedule'     : '11h o 14h y 17h30 para la opción económica',
+                    'tour-schedule'     : '11h o 14h<br>\
+                                            17h30 para la opción económica',
                     'tour-meeting-spot' : 'Estación Delta (Tren de la Costa) Tigre',
                     'tour-duration'     : 'Entre 3 y 6 horas dependiendo de la opción ',
                     'tour-prices'       : '<p><strong>Opción económica</strong> (el precio total se comparte entre los pasajeros (5pers máx.))</p>\
                                             <p>Recorrido de 30km : 225 USD<br>\
-                                            Recorrido: Áreas habitables y primera sección al atardecer con posibilidad de nadar y parar en un bar \
+                                            Áreas habitables y primera sección al atardecer con posibilidad de nadar y parar en un bar \
                                             de las islas a beber unas copas o cenar</p>\
                                             <br>\
                                             <p><strong>Excursiones privadas</strong> (precio por persona)</p>\
@@ -140,19 +143,19 @@ PASEO['delta_del_tigre'] = {
                                             para sumergirse directamente en los hermosos paisajes y disfrutar del contacto con la flora y la fauna local. \
                                             Tenemos opciones con pernoctación, a consultar.',
                     'tour-frequency'    : 'Diaria (se sugiere evitar el fin de semana cuando el Delta es muy concurrido)',
-                    'tour-schedule'     : '½ Día        : 9:30am – 2pm <br>\
+                    'tour-schedule'     : '½ Día        : 9:30am - 2pm <br>\
                                             ½ Día        : 2.30pm - 6:30pm<br>\
-                                            Dia entero : 9.30am – 6pm',
+                                            Dia entero : 9.30am - 6pm',
                     'tour-meeting-spot' : 'Estación de tren Tigre',
                     'tour-duration'     : 'Dependiendo del tour elegido',
                     'tour-prices'       : 'Medio día   : 750 pesos<br>\
                                             Dia entero  : 1250 pesos',
                     'tour-languages'    : 'Español/inglés',
-                    'tour-include'      : 'Traslados en lancha ida y vuelta a Tigre<br>\
+                    'tour-include'      : 'Traslados en lancha ida y vuelta a la isla en el Delta<br>\
                                             Charla instructiva básica de kayakismo<br>\
                                             Equipamiento completo<br>\
                                             Almuerzo casero y merienda (Excursión de día entero)<br>\
-                                            ½ Día       : 1h30/2h remada en kayak<br>\
+                                            ½ Día &nbsp &nbsp &nbsp &nbsp &nbsp : 1h30/2h remada en kayak<br>\
                                             Día entero : 2h/3h  remada en kayak',
                     'tour-not-include'  : 'Almuerzo, bebida (tour de medio día).',
                 }
@@ -160,7 +163,7 @@ PASEO['delta_del_tigre'] = {
             // ----------- CASA AZUL -----------
             {
                 'tour-title'        : 'Un día en la casa azul en delta Tigre',
-                'tour-card-duration': '1h - 1 día',
+                'tour-card-duration': '1 - 2 días',
                 'tour-card-image'   : '../imagens/paseos/Delta del Tigre/Un dia en la casa azul/1ad.jpg',
                 'images'            : [
                                         '../imagens/paseos/Delta del Tigre/Un dia en la casa azul/1ad.jpg',
@@ -193,7 +196,8 @@ PASEO['delta_del_tigre'] = {
                     'tour-frequency'    : 'Se debe revisar eventos con anticipación en la página <a href="https://www.facebook.com/TourF/">Facebook</a>.',
                     'tour-schedule'     : '10h',
                     'tour-meeting-spot' : 'Estación Tigre',
-                    'tour-duration'     : '10h a 19h30',
+                    'tour-duration'     : '10h a 19h30 ou<br>\
+                                            10h a 17h(J+1)',
                     'tour-prices'       : '1500 pesos : 1 día<br>\
                                             2100 pesos : 2 días',
                     'tour-languages'    : 'Español/inglés/francés',
@@ -204,9 +208,11 @@ PASEO['delta_del_tigre'] = {
         ]
     },
 
+    //****** ENGLISH ******
     'en':{
         'category_title'        : 'Delta del Tigre ',
-        'category_description'  : '<p>What is the Tigre Delta ? Picture the Ebro delta (Spain) but the size of Belgium. Hundreds of rivers and islands where there are no bridges or streets. Life is by boat. In the inhabited part (4000 inhabitants) you will see grocery boats, bar boats, floating hospitals, and kids kayaking to school. Further you will discover rain forest along rivers such as the Paraná de las Palmas which is 1500m wide.  Picture streams where you cannot see the sky through the bamboo and lianas closed by aquatic plants in the middle of the jungle and canals only 3m wide.</p>',
+        'category_description'  : '<p>What is the Tigre Delta ? Picture the Ebro delta (Spain) but the size of Belgium. Hundreds of rivers and islands where there are no bridges or streets. Life is by boat. In the inhabited part (4000 inhabitants) you will see grocery boats, bar boats, floating hospitals, and kids kayaking to school. Further you will discover rain forest along rivers such as the Paraná de las Palmas which is 1500m wide.  Picture streams where you cannot see the sky through the bamboo and lianas closed by aquatic plants in the middle of the jungle and canals only 3m wide.</p>\
+                                    <p><strong>How to get there by yourself? </strong>: Take the train Mitre from Retiro until Mitre, 1 hour, 12 pesos (return)</p>',
         'tours' : [
             // ----------- TOUR IN ZODIAC -----------
             {
@@ -233,7 +239,8 @@ PASEO['delta_del_tigre'] = {
                     'tour-description'  : 'Discover the Delta by Zodiac. With more speed and movability than other boats you will access the most pristine and virgin parts of the Delta, all while in the company of your native guide who will be sharing his knowledge and passion of life in the Delta with you.<br>\
                                             p.s They are also quite fun to ride',
                     'tour-frequency'    : 'Daily',
-                    'tour-schedule'     : '11am or 2pm and 5.30pm for the economic option',
+                    'tour-schedule'     : '11am or 2pm<br>\
+                                            5.30pm for the economic option',
                     'tour-meeting-spot' : 'Delta station (De la Costa train), tigre',
                     'tour-duration'     : 'Between 3 and 6 hours depending of the option',
                     'tour-prices'       : '<p><strong>Economic option:</strong> (The price will be divided between all the passengers (5pers max))</p>\
@@ -349,7 +356,7 @@ PASEO['delta_del_tigre'] = {
             // ----------- BLUE HOUSE -----------
             {
                 'tour-title'        : 'One day in the blue house in Tigre',
-                'tour-card-duration': '1h - 1 Day',
+                'tour-card-duration': '1 - 2 days',
                 'tour-card-image'   : '../imagens/paseos/Delta del Tigre/Un dia en la casa azul/1ad.jpg',
                 'images'            : [
                                         '../imagens/paseos/Delta del Tigre/Un dia en la casa azul/1ad.jpg',
@@ -380,7 +387,8 @@ PASEO['delta_del_tigre'] = {
                     'tour-frequency'    : 'Check event on the <a href="https://www.facebook.com/TourF/">Facebook</a> page.',
                     'tour-schedule'     : '10am',
                     'tour-meeting-spot' : 'Train station Tigre',
-                    'tour-duration'     : 'From 10am to 7.30pm',
+                    'tour-duration'     : 'From 10am to 7.30pm or<br>\
+                                            10am to 5pm(D+1)',
                     'tour-prices'       : '1500 pesos : 1 day<br>\
                                             2100 pesos : 2 days',
                     'tour-languages'    : 'Spanish, English, French',
