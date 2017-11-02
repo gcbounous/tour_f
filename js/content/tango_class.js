@@ -168,13 +168,13 @@ PASEO['tango_class'] = {
                     'tour-frequency'    : 'On racing days',
                     'tour-schedule'     : '1.30pm pick up at the hotel',
                     'tour-meeting-spot' : 'Hotel',
-                    'tour-duration'     : '14pm - 16pm : 2 hours tango class<br>\
-                                            16pm - 16.30pm : tea and pastries<br>\
-                                            16.30pm : 1 hour tango class <br>\
-                                            17.30pm - 18.30pm : guided tour of the stables and racetrack on racing days<br>\
-                                            18.30pm - 20pm : degustation of Argentinian wines and fernet<br>\
-                                            20pm - 22pm : barbecue<br>\
-                                            22.30pm - … : milonga (tango dancing) + drop off drop off at the hotel',
+                    'tour-duration'     : '2pm - 4pm : 2 hours tango class<br>\
+                                            4pm - 4.30pm : tea and pastries<br>\
+                                            4.30pm : 1 hour tango class <br>\
+                                            5.30pm - 6.30pm : guided tour of the stables and racetrack on racing days<br>\
+                                            6.30pm - 8pm : degustation of Argentinian wines and fernet<br>\
+                                            8pm - 10pm : barbecue<br>\
+                                            10.30pm - … : milonga (tango dancing) + drop off drop off at the hotel',
                     'tour-prices'       : '3300 pesos',
                     'tour-languages'    : 'Spanish, English, French',
                     'tour-include'      : 'Pick up and drop off from the hotel, trilingual guide, 3hr tango class, tea and pastries, walking tour of the stables and the racetrack,  barbecue dinner, drinks, entry to the milonga',

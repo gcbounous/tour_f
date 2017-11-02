@@ -44,7 +44,7 @@ PASEO['soccer'] = {
         'category_title'        : 'Football game',
         'category_description'  : '',
         'tours' : [
-            // ---------- SOCCER MATCH ----------
+            // ---------- FOOTBALL GAME ----------
             {
                 'tour-title'        : 'Football game',
                 'tour-card-duration': '1 night',

@@ -46,10 +46,10 @@ PASEO['uruguay'] = {
                     'tour-meeting-spot' : 'Terminal de ferry o hotel en Uruguay',
                     'tour-duration'     : '4 horas por el tour de Colonia<br>\
                                             7 horas para los de más',
-                    'tour-prices'       : 'Wine road Colonia : 169 USD<br>\
-                                            Colonia y Carmelo : 169 USD<br>\
-                                            Colonia : 99 USD<br>\
-                                            Montevideo : 179 USD',
+                    'tour-prices'       : 'Wine road Colonia : <strong>169 USD</strong><br>\
+                                            Colonia y Carmelo : <strong>169 USD</strong><br>\
+                                            Colonia : <strong>99 USD</strong><br>\
+                                            Montevideo : <strong>179 USD</strong>',
                     'tour-languages'    : 'Español/inglés',
                     'tour-include'      : 'Degustación de vino y tapas en cada bodega. Guía bilingüe, visita guiada de Colonia (excepto tour en Montevideo), \
                                             transporte ida y vuelta desde el ferry o hotel en Uruguay.<br>\
@@ -90,23 +90,23 @@ PASEO['uruguay'] = {
                                     ],
                 'video'             : '',
                 'tour-info'   : {
-                    'tour-description'  : '<p><strong>Wine road Colonia : 7 horas</strong><br>\
+                    'tour-description'  : '<p><strong>Wine road Colonia : 7 hours</strong><br>\
                                             Walking tour of the historical Colonia town + visiting 3 wineries (including one of the oldest ones and one of most important ones) with wine tasting of 3 wines in each one.</p>\
-                                            <p><strong>Colonia y Carmelo : 7 horas</strong><br>\
+                                            <p><strong>Colonia and Carmelo : 7 hours</strong><br>\
                                             Real de San Carlos area, drive along the beach in Carmelo, visit 3 wineries (including an award-winning one, one of the oldest ones and one of the most important ones) with wine tasting of 3 wines in each one + Walking tour of the historical Colonia town.</p>\
-                                            <p><strong>Colonia : 4 horas</strong><br>\
+                                            <p><strong>Colonia : 4 hours</strong><br>\
                                             Guided tour of the historical Colonia town and visit a wine shop with tasting of wines and grapes.</p>\
-                                            <p><strong>Montevideo : 7 horas</strong><br>\
+                                            <p><strong>Montevideo : 7 hours</strong><br>\
                                             Visit 2 wineries, chatting with the owners during the degustation of wines paired with tapas. Montevideo-Canelones.</p>',
                     'tour-frequency'    : 'Daily',
                     'tour-schedule'     : 'Depends on the arrival of the ferry',
                     'tour-meeting-spot' : 'Ferry terminal or hotel in Uruguay',
                     'tour-duration'     : '4 hours for Colonia tour<br>\
                                             7 hours for the others tours',
-                    'tour-prices'       : 'Wine road Colonia : 169 USD<br>\
-                                            Colonia and Carmelo : 169 USD<br>\
-                                            Colonia : 99 USD<br>\
-                                            Montevideo : 179 USD',
+                    'tour-prices'       : 'Wine road Colonia : <strong>169 USD</strong><br>\
+                                            Colonia and Carmelo : <strong>169 USD</strong><br>\
+                                            Colonia : <strong>99 USD</strong><br>\
+                                            Montevideo : <strong>179 USD</strong>',
                     'tour-languages'    : 'Spanish, English',
                     'tour-include'      : 'Wine tasting paired with tapas in each winery. Bilingual guide, guided tour of Colonia (except from the tour in Montevideo)<br>\
                                             Lunch in a fancy restaurant (except from the 4 hour tour to Colonia)',

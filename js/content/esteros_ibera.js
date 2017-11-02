@@ -262,7 +262,8 @@ PASEO['esteros_ibera'] = {
                                             - Night guided walking tour in the paranaense forest area.</p>\
                                             <p><strong>In option : Gaucho day</strong>.<br>\
                                             - Itinerary  : 2 hour launch boat trip stopping at a floating island, followed by 3 hours horse riding through the estancia (farm) with a chance of seeing gauchos working with cows.<br>\
-                                            - Lunch  : typical barbecue served with wine, beer, water, and desert.</p>',
+                                            - Lunch  : typical barbecue served with wine, beer, water, and desert.\
+                                            *Trip back to Colonia Carlos Pellegrini in car.</p>',
                     'tour-frequency'    : 'Daily',
                     'tour-schedule'     : 'Gaucho day : 9am - 3pm<br>\
                                             Other activities : Check on the options below.',
@@ -410,13 +411,6 @@ PASEO['esteros_ibera'] = {
                                                 'values': ['$ 18700']
                                             }
                                     ]
-                                }
-                            },
-                            {
-                                'description': '<p><<strong>*Trip back to Colonia Carlos Pellegrini in car.</strong></small></p>',
-                                'price_table':  {
-                                        'header'  : [],
-                                        'rows'    : []
                                 }
                             }, 
                         ]

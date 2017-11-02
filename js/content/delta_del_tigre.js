@@ -245,7 +245,7 @@ PASEO['delta_del_tigre'] = {
                     'tour-duration'     : 'Between 3 and 6 hours depending of the option',
                     'tour-prices'       : '<p><strong>Economic option:</strong> (The price will be divided between all the passengers (5pers max))</p>\
                                             <p>30km itinerary   : 225 USD total<br>\
-                                            Inhabited areas and the first section at sunset with possibility to swim and have a beer or enjoy dinner at an Island Bar.r</p>\
+                                            Inhabited areas and the first section at sunset with possibility to swim and have a beer or enjoy dinner at an Island Bar.</p>\
                                             <br>\
                                             <p><strong>Private tours</strong> (price per person)</p>\
                                             <p>30km itinerary: 75 USD pe person<br>\

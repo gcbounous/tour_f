@@ -244,7 +244,7 @@ PASEO['countryside'] = {
                                             'rows'    : [
                                                     {
                                                         'title' : 'Length',
-                                                        'values': ['1 hora','2 horas','3 horas']
+                                                        'values': ['1 hour','2 hours','3 hours']
                                                     },
                                                     {
                                                         'title' : 'Price',
@@ -258,8 +258,7 @@ PASEO['countryside'] = {
                                         }
                                 },
                                 {
-                                    'description': '<p><strong>Option 2 :</strong> Caminata por los campos o hasta pueblos \
-                                                    coloniales:</p>',
+                                    'description': '<p><strong>Option 2 :</strong> Walking trek in the fields or to a colonial town</p>',
                                     'price_table': { 
                                             'header'  : [],
                                             'rows'    : [
@@ -276,6 +275,13 @@ PASEO['countryside'] = {
                                                         'values': ['2 pers*','2 pers*','2 pers*']
                                                     }
                                             ]
+                                        }
+                                },
+                                {
+                                    'description': '<p><small><strong>*</strong> If you are only one you can still take the tours but have to pay the full price of 2 people.</small></p>',
+                                    'price_table':  {
+                                            'header'  : [],
+                                            'rows'    : []
                                         }
                                 },
                                 {

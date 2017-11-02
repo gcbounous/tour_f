@@ -1,4 +1,6 @@
 PASEO['empanadas'] = {
+
+    //****** CASTELLANO ******
     'es' : {
         'category_title'        : 'Taller de empanadas',
         'category_description'  : '',
@@ -40,11 +42,12 @@ PASEO['empanadas'] = {
         ]
     },
 
+    //****** ENGLISH ******
     'en' : {
         'category_title'        : 'Empanadas workshop',
         'category_description'  : '',
         'tours' : [
-            // ---------- TALLER DE EMPANADAS ----------
+            // ---------- EMPANADAS WORKSHOP ----------
             {
                 'tour-title'        : 'Empanadas workshop',
                 'tour-card-duration': '4 hours',
@@ -63,7 +66,7 @@ PASEO['empanadas'] = {
                                     ],
                 'video'             : 'https://www.youtube.com/embed/1phmONaAxyw?rel=0',
                 'tour-info'   : {
-                    'tour-description'  : 'Under the instruction of an Argentinian señora you will learn how to make empanadas. From rolling the dough for the base through to enjoying your final product with a fine wine. The empanada should taste great also.',
+                    'tour-description'  : 'Under the instruction of an Argentinian señora you will learn how to make empanadas. From rolling the dough for the base through to enjoying your final product with a fine wine. The empanada should taste great also. :)',
                     'tour-frequency'    : 'Sunday<br>\
                                             <small>* Other days available for private groups enquire within</small>',
                     'tour-schedule'     : '6pm',

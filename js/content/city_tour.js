@@ -1,4 +1,6 @@
 PASEO['city_tour'] = {
+
+    //****** CASTELLANO ******
     'es': {
         'category_title': 'City Tour',
         'category_description'  : '',
@@ -99,6 +101,7 @@ PASEO['city_tour'] = {
         ]        
     },
 
+    //****** ENGLISH ******
     'en': {
         'category_title': 'City Tour',
         'category_description'  : '',
@@ -116,7 +119,7 @@ PASEO['city_tour'] = {
                 'tour-info'   : {
                     'tour-description'  : '<p>Recommended for those who have already seen a part of the city and want a personalized itinerary including explanations about the story of Argentina, anecdotes and tips about where to eat and go out. Recommended also for those who don’t speak Spanish or English.</p>\
                                             <p>Itineraries that you can personalize: </p>\
-                                            <p>THistorical tour (Obelisco, Microcentro, Plaza de Mayo, Casa Rosada, tango history, historical center, San Telmo market, etc...)</p>\
+                                            <p>Historical tour (Obelisco, Microcentro, Plaza de Mayo, Casa Rosada, tango history, historical center, San Telmo market, etc...)</p>\
                                             <p>Recoleta (Plaza San Martin, Retiro area and Recoleta, local architecture, full tour of Recoleta´s cemetery, etc...)</p>',
                     'tour-frequency'    : 'Every day',
                     'tour-schedule'     : 'Flexible',
@@ -173,9 +176,9 @@ PASEO['city_tour'] = {
                                         ],
                 'video'             : '',
                 'tour-info'   : {
-                    'tour-description'  : '<p>Recommended for those who don´t have much time or do not feel like walking. Along with a guide and photograph, you´ll visit the city in a car following an itinerary that you can customize. </p>\
+                    'tour-description'  : '<p>Recommended for those who don\'t have much time or do not feel like walking. Along with a guide and photograph, you\'ll visit the city in a car following an itinerary that you can customize. </p>\
                                             <p>In a car or a van of 7 to 21 passengers we’ll pick you up in the central hotels.</p>\
-                                            <p>During the tour we stop at Plaza de Mayo and the Casa Rosada, the well-known Caminito street in la Boca, the Flor Generica and Puerto Madero. You’ll also visit the neighborhoods of San Telmo, La Boca, Palermo and Recoleta, The Obelisk, and the Congress area.</p>',
+                                            <p>During the tour we stop at Plaza de Mayo and the Casa Rosada, the well-known Caminito street in la Boca, the Flor Generica and Puerto Madero. You\'ll also visit the neighborhoods of San Telmo, La Boca, Palermo and Recoleta, The Obelisk, and the Congress area.</p>',
                     'tour-frequency'    : 'Every day',
                     'tour-schedule'     : 'Flexible',
                     'tour-meeting-spot' : 'Pick up at the hotel',

@@ -1,4 +1,6 @@
 var INDEX = {
+
+    //****** CASTELLANO ******
 	'es': {
 		'cover_slogan': '¡Viví lo mejor <br/> de la ciudad!',
 		'menu':{
@@ -62,6 +64,7 @@ var INDEX = {
         }
 	},
 
+    //****** ENGLISH ******
 	'en': {
         'cover_slogan': 'Live the best <br/> the city can offer!',
         'menu':{
@@ -95,12 +98,12 @@ var INDEX = {
             'city_tour'         : 'City Tour',
             'countryside'       : 'Gaucho day trip',
             'delta_del_tigre'   : 'Delta del Tigre',
-            'cocina'            : 'Empanadas',
+            'cocina'            : 'Empanadas Workshop',
             'tango_class'       : 'Tango Classes',
             'tango_show'        : 'Tango Show',
             'uruguay'           : 'Uruguay',
             'esteros_ibera'     : 'Esteros del Iberá',
-            'soccer'            : 'Soccer Match',
+            'soccer'            : 'Football Game',
             'beer_wine'         : 'Beer / Wine Tasting',
         },
         'presentation': {
