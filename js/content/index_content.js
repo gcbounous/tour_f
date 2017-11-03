@@ -27,7 +27,7 @@ var INDEX = {
                                         Ir al concierto de Fuerza Bruta,<br>\
                                         Observar los ejecutivos atravesar puerto madero en taxi lancha al final del día,<br>\
                                         Probar un vino argentino acompañado de tapas, etc… <br>\
-                                        Buenos Aires le encantará.</p>'
+                                        Buenos Aires te encantará.</p>'
 		},
         'tours': {
             'tours_title'       : 'Nuestros tours y paseos',

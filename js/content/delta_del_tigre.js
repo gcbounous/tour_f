@@ -188,7 +188,7 @@ PASEO['delta_del_tigre'] = {
                                         '../imagens/paseos/Delta del Tigre/Un dia en la casa azul/20.jpeg',
                                         '../imagens/paseos/Delta del Tigre/Un dia en la casa azul/21.jpg',
                                     ],
-                'video'             : '',
+                'video'             : 'https://www.youtube.com/embed/sJzopuqovm4',
                 'tour-info'   : {
                     'tour-description'  : '<p>Hugo, bandoneonista nos abre las puertas de su casa de fin de semana en una <strong>isla del Tigre</strong>. Vengan a aprovechar la oportunidad de descubrir el Tigre como un porteño. Llegaran en lancha taxi y una vez allá, pasearan a lo largo de las casas de fin de semana, bosque de bambú, arroyos, y almorzaran un típico <strong>asado</strong>.</p>\
                                             <p>También, podrán disfrutar de una representación de <strong>bandoneón</strong>, nadar, remar, jugar futbol, juegos de mesa, etc...</p>\
@@ -381,7 +381,7 @@ PASEO['delta_del_tigre'] = {
                                         '../imagens/paseos/Delta del Tigre/Un dia en la casa azul/20.jpeg',
                                         '../imagens/paseos/Delta del Tigre/Un dia en la casa azul/21.jpg',
                                     ],
-                'video'             : '',
+                'video'             : 'https://www.youtube.com/embed/sJzopuqovm4',
                 'tour-info'   : {
                     'tour-description'  : '<p>Hugo the bandoneonist, opens up the doors of his weekend house on an island in Delta Tigre to us. Experience El Tigre like a true “porteño” (inhabitant of Buenos Aires) with this amazing opportunity. Arriving by taxi boat you relish in amazing river views before landing on the island. Once here you can walk along the river side, enjoying bamboo forests, luxurious vegetation and discovering different kinds of typical Delta homes. Take a swim or go kayaking and even learn to bake bread and make a delicious chocotorta if you would like.  An amazing Argentinian Asado (barbecue) is served for lunch followed by a bandeneon performance by Hugo afterwards. If you chose to stay the night you can do it all over again the next day, this is a great weekend escape from the city and an experience not to be missed for those looking to know Buenos Aires culture.</p>',
                     'tour-frequency'    : 'Check event on the <a href="https://www.facebook.com/TourF/">Facebook</a> page.',

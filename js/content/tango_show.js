@@ -28,9 +28,9 @@ PASEO['tango_show'] = {
                                             Show: 22h',
                     'tour-meeting-spot' : 'Pick up desde zona céntrica (Recoleta, San Telmo, Palermo, microcentro, etc...)',
                     'tour-duration'     : 'Show : 1h30',
-                    'tour-prices'       : '<p><strong>900 pesos</strong></p>\
-                                            <p><strong>Opción solo show</strong>    : 460 pesos<br>\
-                                            <strong>Solo show con pick up</strong>  : 560 pesos</p>\
+                    'tour-prices'       : '<p>Cena - show<strong>900 pesos</strong><br>\
+                                            Opción solo show    : <strong>460 pesos</strong><br>\
+                                            Solo show con pick up  : <strong>560 pesos</strong></p>\
                                             <p><strong>Política niños:</strong><br>\
                                             Hasta 3 años : 95 pesos <br>\
                                             Entre 4 años y 10 años*   : 550 pesos</p>\
@@ -73,10 +73,10 @@ PASEO['tango_show'] = {
                                             Show: 22h',
                     'tour-meeting-spot' : 'Pick up en hoteles céntricos (hoteles de Palermo tendrán un recargo de 100 pesos)',
                     'tour-duration'     : 'Show : 1h20',
-                    'tour-prices'       : '<p><strong>1 400 pesos</strong></p>\
-                                            <p><strong>Opción solo show:</strong><br>\
-                                            sin pick up  : 500 pesos<br>\
-                                            con pick up + 2 copas de bebidas (1 con, 1 sin alcohol): 850 pesos</p>\
+                    'tour-prices'       : '<p>Cena-show : <strong>1 400 pesos</strong><br>\
+                                            <strong>Opción solo show:</strong><br>\
+                                            sin pick up  : <strong>500 pesos</strong><br>\
+                                            con pick up + 2 copas de bebidas (1 con, 1 sin alcohol):<strong> 850 pesos</strong></p>\
                                             <p><strong>Política niños:</strong><br>\
                                             Hasta 3 años : gratuito<br>\
                                             Entre 4 años y 11 años* : 700 pesos</p>\
@@ -115,9 +115,9 @@ PASEO['tango_show'] = {
                                             Show: 21h45',
                     'tour-meeting-spot' : 'Pick up en en todos los hoteles de BsA',
                     'tour-duration'     : 'Show : 1h20',
-                    'tour-prices'       : '<p><strong>Cena-show ejecutiva</strong> 900 pesos<br>\
-                                            <strong>Cena-show VIP</strong> 1250 pesos<br>\
-                                            <strong>Cena-show premium</strong> 1600 pesos</p>\
+                    'tour-prices'       : '<p>Cena-show ejecutiva : <strong>900 pesos</strong><br>\
+                                            Cena-show VIP : <strong>1250 pesos</strong><br>\
+                                            Cena-show premium : <strong>1600 pesos</strong></p>\
                                             <p><strong>Política niños:</strong><br>\
                                             Hasta 3 años : gratuito<br>\
                                             Entre 4 años y 12 años* : -50%</p>\
@@ -164,8 +164,8 @@ PASEO['tango_show'] = {
                                             Show: 22h',
                     'tour-meeting-spot' : 'Pick up en en todos los hoteles de BsA',
                     'tour-duration'     : 'Show : 1h40',
-                    'tour-prices'       : '<strong>Solo show con transfer</strong> : 58 USD<br>\
-                                            <strong>Solo show con transfer y empanadas</strong> : 64 USD</p>\
+                    'tour-prices'       : '<p>Solo show con transfer : <strong>58 USD</strong><br>\
+                                            Solo show con transfer y empanadas : <strong>64 USD</strong></p>\
                                             <p><strong>Política niños:</strong><br>\
                                             Hasta 3 años : gratuito<br>\
                                             Entre 4 años y 12 años* : -50%</p>\
@@ -207,9 +207,9 @@ PASEO['tango_show'] = {
                                             Show: 22h15',
                     'tour-meeting-spot' : 'Pick up en en todos los hoteles de BsA',
                     'tour-duration'     : 'Show : 1h20',
-                    'tour-prices'       : '<p><strong>Cena-show platea</strong> : 85 USD<br>\
-                                            <strong>Cena-show VIP </strong> : 190 USD<br>\
-                                            <strong>Solo show con transfer</strong> : 58 USD </p>\
+                    'tour-prices'       : '<p>Cena-show platea : <strong>85 USD</strong><br>\
+                                            Cena-show VIP  : <strong>190 USD</strong><br>\
+                                            Solo show con transfer : <strong>58 USD</strong> </p>\
                                             <p><strong>Política niños:</strong><br>\
                                             Hasta 3 años : gratuito<br>\
                                             Entre 4 años y 12 años* : -50%</p>\
@@ -249,9 +249,9 @@ PASEO['tango_show'] = {
                                             Show: 22h',
                     'tour-meeting-spot' : 'Pick up en en todos los hoteles de BsA',
                     'tour-duration'     : 'Show : 1h30',
-                    'tour-prices'       : '<p><strong>Cena-show platea</strong> 120 USD<br>\
-                                            <strong>Cena-show VIP</strong> 240 USD<br>\
-                                            <strong>Solo show platea con transfer</strong> 80 USD</p>\
+                    'tour-prices'       : '<p>Cena-show platea : <strong>120 USD</strong><br>\
+                                            Cena-show VIP : <strong>240 USD</strong><br>\
+                                            Solo show platea con transfer : <strong>80 USD</strong></p>\
                                             <p><strong>Política niños:</strong><br>\
                                             Hasta 3 años : gratuito<br>\
                                             Entre 4 años y 12 años* : -50%</p>\
@@ -297,8 +297,8 @@ PASEO['tango_show'] = {
                                             Show: 22h',
                     'tour-meeting-spot' : 'Pick up en en todos los hoteles de BsA',
                     'tour-duration'     : 'Show : 1h25',
-                    'tour-prices'       : '<strong>Cena-show VIP</strong> : 270 USD<br>\
-                                            <strong>Solo show con transfer</strong> : 200 USD</p>\
+                    'tour-prices'       : '<p>Cena-show VIP : <strong>270 USD</strong><br>\
+                                            Solo show con transfer : <strong>200 USD</strong></p>\
                                             <small><strong>Pago:</strong></small> efectivo o tarjeta',
                     'tour-languages'    : '',
                     'tour-include'      : '<p><stong>Cena-show: </strong><br>\
@@ -341,9 +341,9 @@ PASEO['tango_show'] = {
                                             Show: 10pm',
                     'tour-meeting-spot' : 'Pick up in central area (Recoleta, San Telmo, Palermo, microcentro, etc...)',
                     'tour-duration'     : 'Show : 1h30',
-                    'tour-prices'       : '<p><strong>900 pesos</strong></p>\
-                                            <p><strong>Option show only</strong> : 460 pesos<br>\
-                                            <strong>Only show with pick up</strong>   : 560 pesos</p>\
+                    'tour-prices'       : '<p>Dinner - show :<strong>900 pesos</strong><br>\
+                                            Option show only : <strong>460 pesos</strong><br>\
+                                            Only show with pick up   : <strong>560 pesos</strong></p>\
                                             <p><strong>Kids policy:</strong><br>\
                                             Until 3 years old : 95 pesos<br>\
                                             Between 4 and y 10 years* : 550 pesos</p>\
@@ -385,10 +385,10 @@ PASEO['tango_show'] = {
                                             Show: 10pm',
                     'tour-meeting-spot' : 'Pick up and drop off at/to central hotels (for Palermo hotel : 100 pesos extra))',
                     'tour-duration'     : 'Show : 1h20',
-                    'tour-prices'       : '<p><strong>1 400 pesos</strong></p>\
-                                            <p><strong>Option show only:</strong><br>\
-                                            without pick up  : 500 pesos<br>\
-                                            with pick up* + 2  drinks (1 with + 1 without alcohol): 850 pesos</p>\
+                    'tour-prices'       : '<p>Dinner-show : <strong>1 400 pesos</strong><br>\
+                                            <strong>Option show only:</strong><br>\
+                                            without pick up  : <strong>500 pesos</strong><br>\
+                                            with pick up* + 2  drinks (1 with + 1 without alcohol): <strong>850 pesos</strong></p>\
                                             <p><strong>Kids policy:</strong><br>\
                                             Until 3 years old  : free<br>\
                                             Between 4 and 11 years* : 700 pesos</p>\
@@ -427,9 +427,9 @@ PASEO['tango_show'] = {
                                             Show: 9.45pm',
                     'tour-meeting-spot' : 'Pick up en at/to every hotel in Buenos Aires',
                     'tour-duration'     : 'Show : 1h20',
-                    'tour-prices'       : '<p><strong>Executive dinner & show</strong> 900 pesos<br>\
-                                            <strong>Dinner & show VIP</strong> 1250 pesos<br>\
-                                            <strong>Dinner & show premium</strong> 1600 pesos</p>\
+                    'tour-prices'       : '<p>Executive dinner & show : <strong>900 pesos</strong><br>\
+                                            Dinner & show VIP : <strong>1250 pesos</strong><br>\
+                                            Dinner & show premium : <strong>1600 pesos</strong></p>\
                                             <p><strong>Kids policy:</strong><br>\
                                             Until 3 years old  : free<br>\
                                             Between 4 and y 12 years* : -50%</p>\
@@ -476,8 +476,8 @@ PASEO['tango_show'] = {
                                             Show: 10pm',
                     'tour-meeting-spot' : 'Pick up en at/to every hotel in Buenos Aires',
                     'tour-duration'     : 'Show : 1h40',
-                    'tour-prices'       : '<strong>Only show with transfer</strong> : 58 USD<br>\
-                                            <strong>Only show with transfer and empanadas</strong> : 64 USD</p>\
+                    'tour-prices'       : '<p>Only show with transfer : <strong>58 USD</strong><br>\
+                                            Only show with transfer and empanadas : <strong>64 USD</strong></p>\
                                             <p><strong>Kids policy:</strong><br>\
                                             Until 3 years old  : free<br>\
                                             Between 4 and y 12 years* : -50%</p>\
@@ -519,9 +519,9 @@ PASEO['tango_show'] = {
                                             Show: 10.15pm',
                     'tour-meeting-spot' : 'Pick up en at/to every hotel in Buenos Aires',
                     'tour-duration'     : 'Show : 1h20',
-                    'tour-prices'       : '<p><strong>Dinner & show platea</strong> : 85 USD<br>\
-                                            <strong>Dinner & show VIP</strong> : 190 USD<br>\
-                                            <strong>Only show with transfer</strong> : 58 USD</p>\
+                    'tour-prices'       : '<p>Dinner & show platea : <strong>85 USD</strong><br>\
+                                            Dinner & show VIP : <strong>190 USD</strong><br>\
+                                            Only show with transfer : <strong>58 USD</strong></p>\
                                             <p><strong>Kids policy:</strong><br>\
                                             Until 3 years old  : free<br>\
                                             Between 4 and y 12 years* : -50%</p>\
@@ -562,9 +562,9 @@ PASEO['tango_show'] = {
                                             Show: 10pm',
                     'tour-meeting-spot' : 'Pick up en at/to every hotel in Buenos Aires',
                     'tour-duration'     : 'Show : 1h30',
-                    'tour-prices'       : '<p><strong>Dinner & show platea</strong> 120 USD<br>\
-                                            <strong>Dinner & show VIP</strong> 240 USD<br>\
-                                            <strong>Only show platea con transfer</strong> 80 USD</p>\
+                    'tour-prices'       : '<p>Dinner & show platea : <strong>120 USD</strong><br>\
+                                            Dinner & show VIP : <strong>240 USD</strong><br>\
+                                            Only show platea con transfer : <strong>80 USD</strong></p>\
                                             <p><strong>Kids policy:</strong><br>\
                                             Until 3 years old  : free<br>\
                                             Between 4 and y 12 years* : -50%</p>\
@@ -608,8 +608,8 @@ PASEO['tango_show'] = {
                                             Show: 10pm',
                     'tour-meeting-spot' : 'Pick up en at/to every hotel in Buenos Aires',
                     'tour-duration'     : 'Show : 1h25',
-                    'tour-prices'       : '<strong>Dinner-show VIP</strong> : 270 USD<br>\
-                                            <strong>Only show with transfer</strong> : 200 USD</p>\
+                    'tour-prices'       : '<p>Dinner-show VIP : <strong>270 USD</strong><br>\
+                                            Only show with transfer : <strong>200 USD</strong></p>\
                                             <small><strong>Payment:</strong></small> cash or credit card',
                     'tour-languages'    : '',
                     'tour-include'      : '<p><stong>Dinner-show: </strong><br>\
